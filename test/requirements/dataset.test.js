@@ -57,7 +57,12 @@ describe('Published enemy data', () => {
     assert.equal(pageOf('Suhiseva lammas'), 'Lammas');
     assert.equal(pageOf('Kokkihiisi'), 'Tappurahiisi#Chef');
     assert.equal(pageOf('Crystal'), 'Houre');
-    assert.ok(enemies.every((enemy) => enemy.wikiPage === null || enemy.wikiPage.length > 0));
+    assert.equal(pageOf('Wall Eye'), 'Meat Realm');
+  });
+
+  it("links every enemy's sprite to a Noita wiki page", () => {
+    const unlinked = enemies.filter((enemy) => !enemy.wikiPage).map((enemy) => enemy.name);
+    assert.deepEqual(unlinked, []);
   });
 
   it('shows wiki notes only on the categories where the wiki disagrees', () => {

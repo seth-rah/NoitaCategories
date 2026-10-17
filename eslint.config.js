@@ -1,7 +1,10 @@
+import { fileURLToPath } from 'node:url';
 import js from '@eslint/js';
+import { defineConfig, includeIgnoreFile } from 'eslint/config';
 import globals from 'globals';
 
-export default [
+export default defineConfig([
+  includeIgnoreFile(fileURLToPath(new URL('.gitignore', import.meta.url))),
   js.configs.recommended,
   {
     files: ['site/**/*.js'],
@@ -21,4 +24,4 @@ export default [
       'object-shorthand': 'error',
     },
   },
-];
+]);
