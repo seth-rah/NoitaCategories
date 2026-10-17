@@ -1,0 +1,27 @@
+{
+  "name": "noita-categories",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Filter assistant for noitadle: every enemy with its definitive category values.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test \"test/**/*.test.js\"",
+    "check": "npm run lint && npm run format:check && npm run typecheck && npm test",
+    "serve": "python -m http.server 8000 -d site"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.5",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  }
+}

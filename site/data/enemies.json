@@ -1,0 +1,8893 @@
+[
+  {
+    "name": "Minä",
+    "aliases": [
+      "Mina",
+      "Me"
+    ],
+    "order": 0,
+    "images": [
+      "assets/enemies/mina.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 14,
+        "max": 16
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Forest"
+      ],
+      "faction": [
+        "player"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Minä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Lammas",
+    "aliases": [
+      "Sheep"
+    ],
+    "order": 1,
+    "images": [
+      "assets/enemies/lammas.gif"
+    ],
+    "values": {
+      "hp": 2.5,
+      "height": {
+        "min": 10,
+        "max": 13
+      },
+      "attacks": [],
+      "spawn": [
+        "Lake",
+        "Polymorph"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Lammas",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Lentolammas",
+    "aliases": [
+      "Flying Sheep"
+    ],
+    "order": 2,
+    "images": [
+      "assets/enemies/lentolammas.gif"
+    ],
+    "values": {
+      "hp": 7.5,
+      "height": {
+        "min": 13,
+        "max": 17
+      },
+      "attacks": [],
+      "spawn": [
+        "Polymorph"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Lammas",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Suhiseva lammas",
+    "aliases": [
+      "Buzzing Sheep"
+    ],
+    "order": 3,
+    "images": [
+      "assets/enemies/suhiseva_lammas.gif"
+    ],
+    "values": {
+      "hp": 5,
+      "height": {
+        "min": 12,
+        "max": 18
+      },
+      "attacks": [],
+      "spawn": [
+        "Polymorph"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Lammas",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Skorpioni",
+    "aliases": [
+      "Scorpion"
+    ],
+    "order": 4,
+    "images": [
+      "assets/enemies/skorpioni.png"
+    ],
+    "values": {
+      "hp": 2.5,
+      "height": {
+        "min": 4,
+        "max": 5
+      },
+      "attacks": [],
+      "spawn": [
+        "Desert",
+        "Pyramid",
+        "Temple of the Art",
+        "Watchtower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Skorpioni",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Eväkäs",
+    "aliases": [
+      "Fish",
+      "Evakas"
+    ],
+    "order": 5,
+    "images": [
+      "assets/enemies/fish.gif"
+    ],
+    "values": {
+      "hp": 2.5,
+      "height": {
+        "min": 5,
+        "max": 5
+      },
+      "attacks": [],
+      "spawn": [
+        "Forest",
+        "Hiisi Base",
+        "Holy Mountain",
+        "Lake"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "swim"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Eväkäs",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Suureväkäs",
+    "aliases": [
+      "Large Fish",
+      "Suurevakas"
+    ],
+    "order": 6,
+    "images": [
+      "assets/enemies/large_fish.gif"
+    ],
+    "values": {
+      "hp": 2.5,
+      "height": {
+        "min": 6,
+        "max": 7
+      },
+      "attacks": [],
+      "spawn": [
+        "Lake",
+        "Snowy Depths"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "swim"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Suureväkäs",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Ankka",
+    "aliases": [
+      "Duck"
+    ],
+    "order": 7,
+    "images": [
+      "assets/enemies/ankka.gif"
+    ],
+    "values": {
+      "hp": 3,
+      "height": {
+        "min": 11,
+        "max": 11
+      },
+      "attacks": [],
+      "spawn": [
+        "Lake"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Ankka",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Susi",
+    "aliases": [
+      "Wolf"
+    ],
+    "order": 8,
+    "images": [
+      "assets/enemies/susi.gif"
+    ],
+    "values": {
+      "hp": 15,
+      "height": {
+        "min": 6,
+        "max": 17
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Lake",
+        "The Tower"
+      ],
+      "faction": [
+        "wolf"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Susi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Nelikoipi",
+    "aliases": [
+      "Deer"
+    ],
+    "order": 9,
+    "images": [
+      "assets/enemies/nelikoipi.gif"
+    ],
+    "values": {
+      "hp": 20,
+      "height": {
+        "min": 9,
+        "max": 20
+      },
+      "attacks": [],
+      "spawn": [
+        "Lake"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Nelikoipi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Poro",
+    "aliases": [
+      "Reindeer"
+    ],
+    "order": 10,
+    "images": [
+      "assets/enemies/poro.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 28,
+        "max": 30
+      },
+      "attacks": [],
+      "spawn": [
+        "Lake"
+      ],
+      "faction": [
+        "helpless"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Poro",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Nahkiainen",
+    "aliases": [
+      "Lamprey"
+    ],
+    "order": 11,
+    "images": [
+      "assets/enemies/nahkiainen.png"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 17,
+        "max": 17
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Lake"
+      ],
+      "faction": [
+        "eel"
+      ],
+      "movement": [
+        "swim"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "worm blood"
+      ],
+      "corpse": [
+        "worm meat"
+      ]
+    },
+    "wikiPage": "Nahkiainen",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Heikkohurtta",
+    "aliases": [
+      "Weak Hound"
+    ],
+    "order": 12,
+    "images": [
+      "assets/enemies/heikkohurtta.gif"
+    ],
+    "values": {
+      "hp": 5,
+      "height": {
+        "min": 7,
+        "max": 15
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Mines"
+      ],
+      "faction": [
+        "zombie"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Hurtta",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hurtta",
+    "aliases": [
+      "Hound"
+    ],
+    "order": 13,
+    "images": [
+      "assets/enemies/hurtta.gif"
+    ],
+    "values": {
+      "hp": 12.5,
+      "height": {
+        "min": 7,
+        "max": 15
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Desert",
+        "Forest",
+        "Fungal Caverns",
+        "Snowy Wasteland",
+        "The Tower"
+      ],
+      "faction": [
+        "zombie"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Hurtta",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Tappurahiisiläinen",
+    "aliases": [
+      "Weak Miner Hiisi",
+      "Tappurahiisilainen",
+      "Weak TNT thrower"
+    ],
+    "order": 14,
+    "images": [
+      "assets/enemies/weak_hiisi_miner.gif"
+    ],
+    "values": {
+      "hp": 11,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Mines"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Tappurahiisi#Tappurahiisiläinen",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Tappurahiisi",
+    "aliases": [
+      "Miner Hiisi",
+      "TNT thrower"
+    ],
+    "order": 15,
+    "images": [
+      "assets/enemies/tappurahiisi.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Desert",
+        "Forest",
+        "Hiisi Base",
+        "Snowy Wasteland",
+        "The Tower"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Tappurahiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Tulihiisi",
+    "aliases": [
+      "Fire Hiisi",
+      "Molotov Hiisi"
+    ],
+    "order": 16,
+    "images": [
+      "assets/enemies/tulihiisi.gif"
+    ],
+    "values": {
+      "hp": 50,
+      "height": {
+        "min": 13,
+        "max": 16
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "The Tower"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 20,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Tulihiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Jouluhiisi",
+    "aliases": [
+      "Christmas Hiisi"
+    ],
+    "order": 17,
+    "images": [
+      "assets/enemies/jouluhiisi.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Mines"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 40,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Jouluhiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kokkihiisi",
+    "aliases": [
+      "Hiisi Chef",
+      "Sausage Thrower"
+    ],
+    "order": 18,
+    "images": [
+      "assets/enemies/kokkihiisi.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Hiisi Base"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Tappurahiisi#Chef",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Sähikäismenninkäinen",
+    "aliases": [
+      "Firecracker Goblin",
+      "Sahikaismenninkainen"
+    ],
+    "order": 19,
+    "images": [
+      "assets/enemies/firecracker_goblin.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 11,
+        "max": 22
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "The Tower"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Sähikäismenninkäinen",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Heikko haulikkohiisi",
+    "aliases": [
+      "Weak Shotgun Hiisi"
+    ],
+    "order": 20,
+    "images": [
+      "assets/enemies/heikko_haulikkohiisi.gif"
+    ],
+    "values": {
+      "hp": 9,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Mines"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Haulikkohiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Haulikkohiisi",
+    "aliases": [
+      "Shotgun Hiisi"
+    ],
+    "order": 21,
+    "images": [
+      "assets/enemies/haulikkohiisi.gif"
+    ],
+    "values": {
+      "hp": 22.5,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Desert",
+        "Hiisi Base",
+        "Mines",
+        "Snowy Depths",
+        "Snowy Wasteland",
+        "The Tower"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Haulikkohiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Rynkkyhiisi",
+    "aliases": [
+      "Hiisi Gunner"
+    ],
+    "order": 22,
+    "images": [
+      "assets/enemies/rynkkyhiisi.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 15,
+        "max": 17
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Desert",
+        "Desert Chasm",
+        "Frozen Vault",
+        "Hiisi Base",
+        "Sandcave",
+        "Snowy Chasm",
+        "Snowy Depths",
+        "Snowy Wasteland",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Rynkkyhiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kranuhiisi",
+    "aliases": [
+      "Hiisi Grenadier"
+    ],
+    "order": 23,
+    "images": [
+      "assets/enemies/kranuhiisi.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 15,
+        "max": 17
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Desert Chasm",
+        "Frozen Vault",
+        "Hiisi Base",
+        "Sandcave",
+        "Snowy Chasm",
+        "Snowy Depths",
+        "Snowy Wasteland",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Kranuhiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Miinankylväjä",
+    "aliases": [
+      "Hiisi Mine Thrower",
+      "Miinankylvaja"
+    ],
+    "order": 24,
+    "images": [
+      "assets/enemies/hiisi_mine_thrower.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 15,
+        "max": 17
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Frozen Vault",
+        "Hiisi Base",
+        "Sandcave",
+        "Snowy Depths",
+        "Snowy Wasteland",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Miinankylväjä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Parantajahiisi",
+    "aliases": [
+      "Hiisi Healer"
+    ],
+    "order": 25,
+    "images": [
+      "assets/enemies/parantajahiisi.gif"
+    ],
+    "values": {
+      "hp": 17.5,
+      "height": {
+        "min": 15,
+        "max": 17
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Hiisi Base",
+        "Sandcave",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "healer"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Parantajahiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Liimahiisi",
+    "aliases": [
+      "Glue Hiisi"
+    ],
+    "order": 26,
+    "images": [
+      "assets/enemies/liimahiisi.gif"
+    ],
+    "values": {
+      "hp": 55,
+      "height": {
+        "min": 15,
+        "max": 17
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Power Plant",
+        "Snowy Depths",
+        "The Vault"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 20,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Liimahiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Häivehiisi",
+    "aliases": [
+      "Stealth Hiisi",
+      "Haivehiisi"
+    ],
+    "order": 27,
+    "images": [
+      "assets/enemies/stealth_hiisi.gif"
+    ],
+    "values": {
+      "hp": 37.5,
+      "height": {
+        "min": 15,
+        "max": 17
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "Sandcave"
+      ],
+      "faction": [
+        "healer"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Häivehiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kilpihiisi",
+    "aliases": [
+      "Shield Hiisi"
+    ],
+    "order": 28,
+    "images": [
+      "assets/enemies/kilpihiisi.gif"
+    ],
+    "values": {
+      "hp": 45,
+      "height": {
+        "min": 15,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "healer"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Kilpihiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Myrkkyhiisi",
+    "aliases": [
+      "Hiisi Poisoner"
+    ],
+    "order": 29,
+    "images": [
+      "assets/enemies/myrkkyhiisi.gif"
+    ],
+    "values": {
+      "hp": 150,
+      "height": {
+        "min": 20,
+        "max": 22
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Sandcave",
+        "Temple of the Art",
+        "The Tower",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 60,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Myrkkyhiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Isohiisi",
+    "aliases": [
+      "Hiisi Bomber"
+    ],
+    "order": 30,
+    "images": [
+      "assets/enemies/isohiisi.gif"
+    ],
+    "values": {
+      "hp": 150,
+      "height": {
+        "min": 20,
+        "max": 22
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Hiisi Base",
+        "Sandcave",
+        "Temple of the Art",
+        "The Tower",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 60,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Isohiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Toimari",
+    "aliases": [
+      "Hiisi Leader",
+      "C.E.O.",
+      "CEO"
+    ],
+    "order": 31,
+    "images": [
+      "assets/enemies/toimari.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 22,
+        "max": 24
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Desert Chasm",
+        "Frozen Vault",
+        "Hiisi Base",
+        "Sandcave",
+        "Snowy Depths",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 40,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Toimari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Puistokemisti",
+    "aliases": [
+      "Hiisi Alchemist",
+      "Flask Thrower",
+      "Potion Thrower"
+    ],
+    "order": 32,
+    "images": [
+      "assets/enemies/puistokemisti.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 14,
+        "max": 17
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Fungal Caverns",
+        "Mines",
+        "Overgrown Cavern",
+        "Pyramid",
+        "The Tower"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Puistokemisti",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Snipuhiisi",
+    "aliases": [
+      "Hiisi Sniper"
+    ],
+    "order": 33,
+    "images": [
+      "assets/enemies/snipuhiisi.gif"
+    ],
+    "values": {
+      "hp": 45,
+      "height": {
+        "min": 14,
+        "max": 16
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Hiisi Base",
+        "Snowy Depths",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Snipuhiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Märkiäinen",
+    "aliases": [
+      "Swampling",
+      "Markiainen"
+    ],
+    "order": 34,
+    "images": [
+      "assets/enemies/swampling.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 10,
+        "max": 17
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Ancient Laboratory",
+        "Collapsed Mines",
+        "Mines",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "swamp"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Märkiäinen",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Raukka",
+    "aliases": [
+      "Coward"
+    ],
+    "order": 35,
+    "images": [
+      "assets/enemies/raukka.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Hiisi Base",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "healer"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 20,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Raukka",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Liekkari",
+    "aliases": [
+      "Flamer",
+      "Flamethrower"
+    ],
+    "order": 36,
+    "images": [
+      "assets/enemies/liekkari.gif"
+    ],
+    "values": {
+      "hp": 50,
+      "height": {
+        "min": 15,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 20,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Liekkari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Jäähdytyslaite",
+    "aliases": [
+      "Icer"
+    ],
+    "order": 37,
+    "images": [
+      "assets/enemies/icer.gif"
+    ],
+    "values": {
+      "hp": 50,
+      "height": {
+        "min": 15,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 20,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Jäähdytyslaite",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Mätänevä ruumis",
+    "aliases": [
+      "Rotting Corpse",
+      "Mataneva ruumis"
+    ],
+    "order": 38,
+    "images": [
+      "assets/enemies/rotting_corpse.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 12,
+        "max": 21
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "zombie"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "cursed meat"
+      ]
+    },
+    "wikiPage": "Mätänevä ruumis",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Mätänevä kroppa",
+    "aliases": [
+      "Rotting Body",
+      "Mataneva kroppa"
+    ],
+    "order": 39,
+    "images": [
+      "assets/enemies/rotting_body.gif"
+    ],
+    "values": {
+      "hp": 150,
+      "height": {
+        "min": 12,
+        "max": 21
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "zombie"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 60,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "cursed meat"
+      ]
+    },
+    "wikiPage": "Mätänevä ruumis",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Mätänevä pää",
+    "aliases": [
+      "Rotting Head",
+      "Mataneva paa"
+    ],
+    "order": 40,
+    "images": [
+      "assets/enemies/rotting_head.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 11,
+        "max": 11
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "zombie"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 40,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "cursed meat"
+      ]
+    },
+    "wikiPage": "Mätänevä ruumis",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Heikko limanuljaska",
+    "aliases": [
+      "Weak Toxic Slime"
+    ],
+    "order": 41,
+    "images": [
+      "assets/enemies/heikko_limanuljaska.gif"
+    ],
+    "values": {
+      "hp": 7.5,
+      "height": {
+        "min": 12,
+        "max": 13
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Mines"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "toxic"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "toxic sludge"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Limanuljaska",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Limanuljaska",
+    "aliases": [
+      "Toxic Slime"
+    ],
+    "order": 42,
+    "images": [
+      "assets/enemies/limanuljaska.gif"
+    ],
+    "values": {
+      "hp": 18.75,
+      "height": {
+        "min": 12,
+        "max": 13
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Fungal Caverns",
+        "Snowy Depths",
+        "Spawned by Entity",
+        "The Tower"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "toxic"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "toxic sludge"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Limanuljaska",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Heikko happonuljaska",
+    "aliases": [
+      "Weak Acid Slime"
+    ],
+    "order": 43,
+    "images": [
+      "assets/enemies/heikko_happonuljaska.gif"
+    ],
+    "values": {
+      "hp": 10,
+      "height": {
+        "min": 15,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Mines"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "toxic"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Happonuljaska#Heikko happonuljaska",
+    "wikiNotes": {
+      "bleeds": "The Noita wiki says: acid"
+    }
+  },
+  {
+    "name": "Happonuljaska",
+    "aliases": [
+      "Acid Slime"
+    ],
+    "order": 44,
+    "images": [
+      "assets/enemies/happonuljaska.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 15,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Frozen Vault",
+        "Fungal Caverns",
+        "Mines",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "toxic"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Happonuljaska",
+    "wikiNotes": {
+      "bleeds": "The Noita wiki says: acid"
+    }
+  },
+  {
+    "name": "Mulkkio",
+    "aliases": [
+      "Gazer"
+    ],
+    "order": 45,
+    "images": [
+      "assets/enemies/mulkkio.gif"
+    ],
+    "values": {
+      "hp": 150,
+      "height": {
+        "min": 15,
+        "max": 16
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 60,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Mulkkio",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Heikko äitinuljaska",
+    "aliases": [
+      "Weak Mother Slime",
+      "Heikko aitinuljaska"
+    ],
+    "order": 46,
+    "images": [
+      "assets/enemies/weak_mother_slime.gif"
+    ],
+    "values": {
+      "hp": 50,
+      "height": {
+        "min": 17,
+        "max": 19
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Mines"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 20,
+      "bleeds": [
+        "acid"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Äitinuljaska",
+    "wikiNotes": {
+      "corpse": "The Noita wiki says: meat"
+    }
+  },
+  {
+    "name": "Äitinuljaska",
+    "aliases": [
+      "Mother Slime"
+    ],
+    "order": 47,
+    "images": [
+      "assets/enemies/mother_slime.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 17,
+        "max": 19
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Fungal Caverns",
+        "Mines",
+        "The Tower"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 50,
+      "bleeds": [
+        "acid"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Äitinuljaska",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Möykky",
+    "aliases": [
+      "Blob",
+      "Moykky"
+    ],
+    "order": 48,
+    "images": [
+      "assets/enemies/blob.gif"
+    ],
+    "values": {
+      "hp": 8.75,
+      "height": {
+        "min": 4,
+        "max": 4
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Overgrown Cavern",
+        "Spawned by Entity",
+        "The Vault"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 10,
+      "bleeds": [],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Möykky",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kiukkumöykky",
+    "aliases": [
+      "Angry Blob",
+      "Kiukkumoykky"
+    ],
+    "order": 49,
+    "images": [
+      "assets/enemies/angry_blob.gif"
+    ],
+    "values": {
+      "hp": 37.5,
+      "height": {
+        "min": 7,
+        "max": 12
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "Overgrown Cavern",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 10,
+      "bleeds": [],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Kiukkumöykky",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Murkku",
+    "aliases": [
+      "Ant"
+    ],
+    "order": 50,
+    "images": [
+      "assets/enemies/murkku.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 11,
+        "max": 21
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Overgrown Cavern",
+        "The Tower"
+      ],
+      "faction": [
+        "ant"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 50,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Murkku",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Rotta",
+    "aliases": [
+      "Rat"
+    ],
+    "order": 51,
+    "images": [
+      "assets/enemies/rotta.gif"
+    ],
+    "values": {
+      "hp": 5,
+      "height": {
+        "min": 5,
+        "max": 8
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Forest",
+        "Fungal Caverns",
+        "Hiisi Base",
+        "Meat Realm",
+        "Mines",
+        "Snowy Depths",
+        "Snowy Wasteland",
+        "The Tower"
+      ],
+      "faction": [
+        "rat"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Rotta",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Lepakko",
+    "aliases": [
+      "Bat"
+    ],
+    "order": 52,
+    "images": [
+      "assets/enemies/lepakko.gif"
+    ],
+    "values": {
+      "hp": 12.5,
+      "height": {
+        "min": 11,
+        "max": 13
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Spawned by Entity",
+        "The Tower"
+      ],
+      "faction": [
+        "bat"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Lepakko",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Suurlepakko",
+    "aliases": [
+      "Large Bat"
+    ],
+    "order": 53,
+    "images": [
+      "assets/enemies/suurlepakko.gif"
+    ],
+    "values": {
+      "hp": 87.5,
+      "height": {
+        "min": 17,
+        "max": 27
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "The Tower"
+      ],
+      "faction": [
+        "bat"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Suurlepakko",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Pikkutulikärpänen",
+    "aliases": [
+      "Lesser Firefly",
+      "Pikkutulikarpanen"
+    ],
+    "order": 54,
+    "images": [
+      "assets/enemies/lesser_firefly.gif"
+    ],
+    "values": {
+      "hp": 5,
+      "height": {
+        "min": 7,
+        "max": 11
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Spawned by Entity",
+        "The Tower"
+      ],
+      "faction": [
+        "fly"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "lava"
+      ],
+      "corpse": [
+        "volcanic rock"
+      ]
+    },
+    "wikiPage": "Tulikärpänen",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Suurtulikärpänen",
+    "aliases": [
+      "Greater Firefly",
+      "Suurtulikarpanen"
+    ],
+    "order": 55,
+    "images": [
+      "assets/enemies/greater_firefly.gif"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 9,
+        "max": 17
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Spawned by Entity",
+        "The Tower"
+      ],
+      "faction": [
+        "fly"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "lava"
+      ],
+      "corpse": [
+        "volcanic rock"
+      ]
+    },
+    "wikiPage": "Tulikärpänen",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Puska",
+    "aliases": [
+      "Bloom",
+      "Acid Flower"
+    ],
+    "order": 56,
+    "images": [
+      "assets/enemies/puska.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 14,
+        "max": 24
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Tower",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "flower"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 40,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Puska",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Plasmakukka",
+    "aliases": [
+      "Plasma Flower"
+    ],
+    "order": 57,
+    "images": [
+      "assets/enemies/plasmakukka.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 15,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Tower",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "flower"
+      ],
+      "movement": [],
+      "immunities": [],
+      "gold": 50,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Plasmakukka",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Amppari",
+    "aliases": [
+      "wasp"
+    ],
+    "order": 58,
+    "images": [
+      "assets/enemies/amppari.gif"
+    ],
+    "values": {
+      "hp": 37.5,
+      "height": {
+        "min": 10,
+        "max": 10
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Spawned by Entity",
+        "The Tower",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "fly"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Amppari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Konna",
+    "aliases": [
+      "Toad",
+      "Frog"
+    ],
+    "order": 59,
+    "images": [
+      "assets/enemies/konna.gif"
+    ],
+    "values": {
+      "hp": 7.5,
+      "height": {
+        "min": 6,
+        "max": 7
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Fungal Caverns",
+        "The Tower"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "frog meat"
+      ]
+    },
+    "wikiPage": "Konna",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Jättikonna",
+    "aliases": [
+      "Big Toad",
+      "Big Frog",
+      "Jattikonna",
+      "Bullfrog"
+    ],
+    "order": 60,
+    "images": [
+      "assets/enemies/big_toad.gif"
+    ],
+    "values": {
+      "hp": 50,
+      "height": {
+        "min": 7,
+        "max": 11
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Fungal Caverns",
+        "Overgrown Cavern",
+        "The Tower"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 20,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "frog meat"
+      ]
+    },
+    "wikiPage": "Jättikonna",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Laahustussieni",
+    "aliases": [
+      "Shuffling Fungus",
+      "small blue fungus",
+      "small blue mushroom"
+    ],
+    "order": 61,
+    "images": [
+      "assets/enemies/laahustussieni.gif"
+    ],
+    "values": {
+      "hp": 65,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Lukki Lair",
+        "Mines",
+        "Overgrown Cavern",
+        "The Tower",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "fungus"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 20,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "weird fungus"
+      ]
+    },
+    "wikiPage": "Laahustussieni",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Nuijamalikka",
+    "aliases": [
+      "Club-foot"
+    ],
+    "order": 62,
+    "images": [
+      "assets/enemies/nuijamalikka.gif"
+    ],
+    "values": {
+      "hp": 190,
+      "height": {
+        "min": 19,
+        "max": 21
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Lukki Lair",
+        "Mines",
+        "Overgrown Cavern",
+        "The Tower"
+      ],
+      "faction": [
+        "fungus"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 70,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "weird fungus"
+      ]
+    },
+    "wikiPage": "Nuijamalikka",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Huhtasieni",
+    "aliases": [
+      "Pollen Morel"
+    ],
+    "order": 63,
+    "images": [
+      "assets/enemies/huhtasieni.gif"
+    ],
+    "values": {
+      "hp": 415,
+      "height": {
+        "min": 35,
+        "max": 37
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Overgrown Cavern",
+        "The Tower"
+      ],
+      "faction": [
+        "fungus"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "explosion",
+        "suffocation"
+      ],
+      "gold": 160,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "weird fungus"
+      ]
+    },
+    "wikiPage": "Huhtasieni",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Varjokupla",
+    "aliases": [
+      "Shadow Bubble",
+      "Fart Cloud"
+    ],
+    "order": 64,
+    "images": [
+      "assets/enemies/varjokupla.gif"
+    ],
+    "values": {
+      "hp": 168.75,
+      "height": {
+        "min": 15,
+        "max": 16
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Lukki Lair"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "melee",
+        "slice",
+        "toxic"
+      ],
+      "gold": 60,
+      "bleeds": [
+        "ominous liquid"
+      ],
+      "corpse": [
+        "ominous liquid"
+      ]
+    },
+    "wikiPage": "Varjokupla",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Toukka",
+    "aliases": [
+      "Maggot"
+    ],
+    "order": 65,
+    "images": [
+      "assets/enemies/toukka.gif"
+    ],
+    "values": {
+      "hp": 87.5,
+      "height": {
+        "min": 15,
+        "max": 17
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Toukka",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kallorotta",
+    "aliases": [
+      "Skull Rat",
+      "Small Skull Fly"
+    ],
+    "order": 66,
+    "images": [
+      "assets/enemies/kallorotta.gif"
+    ],
+    "values": {
+      "hp": 92.5,
+      "height": {
+        "min": 9,
+        "max": 16
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Pyramid",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "cursed meat"
+      ]
+    },
+    "wikiPage": "Kallorotta",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kallokärpänen",
+    "aliases": [
+      "Skull Fly",
+      "Kallokarpanen"
+    ],
+    "order": 67,
+    "images": [
+      "assets/enemies/skull_fly.gif"
+    ],
+    "values": {
+      "hp": 105,
+      "height": {
+        "min": 22,
+        "max": 27
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Lukki Lair",
+        "Pyramid",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 40,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "slimy cursed meat"
+      ]
+    },
+    "wikiPage": "Kallokärpänen",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Pikkuturso",
+    "aliases": [
+      "Small Tentacler"
+    ],
+    "order": 68,
+    "images": [
+      "assets/enemies/pikkuturso.gif"
+    ],
+    "values": {
+      "hp": 18.75,
+      "height": {
+        "min": 12,
+        "max": 13
+      },
+      "attacks": [
+        "melee",
+        "other"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Pikkuturso",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Turso",
+    "aliases": [
+      "Tentacler",
+      "Octopus"
+    ],
+    "order": 69,
+    "images": [
+      "assets/enemies/turso.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 20,
+        "max": 27
+      },
+      "attacks": [
+        "melee",
+        "other"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 50,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Turso",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Sylkyri",
+    "aliases": [
+      "Spitter",
+      "Acid Spitter"
+    ],
+    "order": 70,
+    "images": [
+      "assets/enemies/sylkyri.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 12,
+        "max": 16
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Sylkyri",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hiidenkivi",
+    "aliases": [
+      "Rock Giant"
+    ],
+    "order": 71,
+    "images": [
+      "assets/enemies/rock_giant.gif"
+    ],
+    "values": {
+      "hp": 150,
+      "height": {
+        "min": 19,
+        "max": 26
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Snowy Depths",
+        "The Tower"
+      ],
+      "faction": [
+        "giant"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice"
+      ],
+      "gold": 60,
+      "bleeds": [
+        "freezing liquid"
+      ],
+      "corpse": [
+        "volcanic rock"
+      ]
+    },
+    "wikiPage": "Hiidenkivi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Lohkare",
+    "aliases": [
+      "Rock Spirit"
+    ],
+    "order": 72,
+    "images": [
+      "assets/enemies/lohkare.gif"
+    ],
+    "values": {
+      "hp": 2.5,
+      "height": {
+        "min": 13,
+        "max": 13
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "giant"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "melee"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "freezing liquid"
+      ],
+      "corpse": [
+        "rock"
+      ]
+    },
+    "wikiPage": "Lohkare",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hämis",
+    "aliases": [
+      "Hamis",
+      "Spidey"
+    ],
+    "order": 73,
+    "images": [
+      "assets/enemies/hamis.gif"
+    ],
+    "values": {
+      "hp": 2.75,
+      "height": {
+        "min": 8,
+        "max": 10
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Mines",
+        "Pyramid",
+        "Spawned by Entity",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "spider"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Hämis",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Pikkuhämähäkki",
+    "aliases": [
+      "Small Spider",
+      "Pikkuhamahakki"
+    ],
+    "order": 74,
+    "images": [
+      "assets/enemies/small_spider.png"
+    ],
+    "values": {
+      "hp": 87.5,
+      "height": {
+        "min": 8,
+        "max": 8
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Lukki Lair",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Hämähäkki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hämähäkki",
+    "aliases": [
+      "Spider",
+      "Hamahakki"
+    ],
+    "order": 75,
+    "images": [
+      "assets/enemies/spider.png"
+    ],
+    "values": {
+      "hp": 162.5,
+      "height": {
+        "min": 14,
+        "max": 14
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Lukki Lair",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk",
+        "burrow"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 60,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Hämähäkki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Lukki",
+    "aliases": [
+      "Daddy Longlegs",
+      "Large Spider"
+    ],
+    "order": 76,
+    "images": [
+      "assets/enemies/lukki.png"
+    ],
+    "values": {
+      "hp": 200,
+      "height": {
+        "min": 16,
+        "max": 16
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Underground Jungle"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 80,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Hämähäkki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kasvoton Lukki",
+    "aliases": [
+      "Faceless Spider"
+    ],
+    "order": 77,
+    "images": [
+      "assets/enemies/kasvoton_lukki.png"
+    ],
+    "values": {
+      "hp": 150,
+      "height": {
+        "min": 6,
+        "max": 6
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Lukki Lair"
+      ],
+      "faction": [
+        "spider"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "explosion",
+        "ice",
+        "slice",
+        "suffocation"
+      ],
+      "gold": 60,
+      "bleeds": [
+        "worm blood"
+      ],
+      "corpse": [
+        "worm meat"
+      ]
+    },
+    "wikiPage": "Kasvoton Lukki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kammolukki",
+    "aliases": [
+      "Toothy Spider",
+      "Black Lukki",
+      "Black Spider"
+    ],
+    "order": 78,
+    "images": [
+      "assets/enemies/kammolukki.gif"
+    ],
+    "values": {
+      "hp": 600,
+      "height": {
+        "min": 29,
+        "max": 29
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Lukki Lair"
+      ],
+      "faction": [
+        "spider"
+      ],
+      "movement": [
+        "walk",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "explosion",
+        "projectile",
+        "suffocation"
+      ],
+      "gold": 240,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Kammolukki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Pikkumato",
+    "aliases": [
+      "Small Worm"
+    ],
+    "order": 79,
+    "images": [
+      "assets/enemies/pikkumato.png"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 7,
+        "max": 7
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Snowy Depths"
+      ],
+      "faction": [
+        "worm"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "worm blood"
+      ],
+      "corpse": [
+        "worm meat"
+      ]
+    },
+    "wikiPage": "Pikkumato",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Mato",
+    "aliases": [
+      "Worm"
+    ],
+    "order": 80,
+    "images": [
+      "assets/enemies/mato.png"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 12,
+        "max": 12
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Meat Realm",
+        "Mines",
+        "Snowy Depths",
+        "Temple of the Art",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "worm"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "worm blood"
+      ],
+      "corpse": [
+        "worm meat"
+      ]
+    },
+    "wikiPage": "Mato",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Jättimato",
+    "aliases": [
+      "Giant Worm",
+      "Jattimato"
+    ],
+    "order": 81,
+    "images": [
+      "assets/enemies/giant_worm.png"
+    ],
+    "values": {
+      "hp": 3500,
+      "height": {
+        "min": 25,
+        "max": 25
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Fungal Caverns",
+        "Meat Realm",
+        "Mines",
+        "Snowy Depths",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "worm"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "worm blood"
+      ],
+      "corpse": [
+        "worm meat"
+      ]
+    },
+    "wikiPage": "Jättimato",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kalmamato",
+    "aliases": [
+      "Death Worm",
+      "Ghost Worm"
+    ],
+    "order": 82,
+    "images": [
+      "assets/enemies/kalmamato.png"
+    ],
+    "values": {
+      "hp": 3750,
+      "height": {
+        "min": 20,
+        "max": 20
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Temple of the Art",
+        "The Work (Sky)"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "ice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "magical liquid"
+      ]
+    },
+    "wikiPage": "Kalmamato",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Helvetinmato",
+    "aliases": [
+      "Hell Worm"
+    ],
+    "order": 83,
+    "images": [
+      "assets/enemies/hell_worm.png"
+    ],
+    "values": {
+      "hp": 6250,
+      "height": {
+        "min": 32,
+        "max": 32
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "The Work (Hell)"
+      ],
+      "faction": [
+        "worm"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "lava"
+      ],
+      "corpse": [
+        "lava"
+      ]
+    },
+    "wikiPage": "Helvetinmato",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Lennokki",
+    "aliases": [
+      "Drone"
+    ],
+    "order": 84,
+    "images": [
+      "assets/enemies/lennokki.gif"
+    ],
+    "values": {
+      "hp": 10,
+      "height": {
+        "min": 8,
+        "max": 10
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Lennokki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Jättilaser-lennokki",
+    "aliases": [
+      "Giant Laser-Drone",
+      "Jattilaser-lennokki",
+      "Toaster"
+    ],
+    "order": 85,
+    "images": [
+      "assets/enemies/giant_laser_drone.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 15,
+        "max": 20
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Hiisi Base",
+        "Power Plant",
+        "The Vault"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Jättilaser-lennokki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Turvalennokki",
+    "aliases": [
+      "Safety Drone"
+    ],
+    "order": 86,
+    "images": [
+      "assets/enemies/turvalennokki.gif"
+    ],
+    "values": {
+      "hp": 210,
+      "height": {
+        "min": 11,
+        "max": 14
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Lukki Lair",
+        "Power Plant",
+        "The Tower"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 80,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Turvalennokki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Tarkkailija",
+    "aliases": [
+      "Observer",
+      "Target Drone"
+    ],
+    "order": 87,
+    "images": [
+      "assets/enemies/tarkkailija.gif"
+    ],
+    "values": {
+      "hp": 362.5,
+      "height": {
+        "min": 14,
+        "max": 14
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Power Plant"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "projectile",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 140,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Tarkkailija",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Vakoilija",
+    "aliases": [
+      "Spy",
+      "Invisible Drone"
+    ],
+    "order": 88,
+    "images": [
+      "assets/enemies/vakoilija.gif"
+    ],
+    "values": {
+      "hp": 362.5,
+      "height": {
+        "min": 14,
+        "max": 14
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Power Plant"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice",
+        "projectile",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 140,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Vakoilija",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Pysäyttäjä",
+    "aliases": [
+      "Stopper",
+      "Slowing Drone",
+      "Pysayttaja"
+    ],
+    "order": 89,
+    "images": [
+      "assets/enemies/stopper.gif"
+    ],
+    "values": {
+      "hp": 362.5,
+      "height": {
+        "min": 12,
+        "max": 12
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Power Plant"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "projectile",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 140,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Pysäyttäjä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Teloittaja",
+    "aliases": [
+      "Executioner",
+      "Plasma Drone"
+    ],
+    "order": 90,
+    "images": [
+      "assets/enemies/teloittaja.gif"
+    ],
+    "values": {
+      "hp": 512.5,
+      "height": {
+        "min": 15,
+        "max": 15
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Power Plant"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "explosion",
+        "fire",
+        "ice",
+        "projectile",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 200,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Teloittaja",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Korjauslennokki",
+    "aliases": [
+      "Repair Drone",
+      "Healer Drone"
+    ],
+    "order": 91,
+    "images": [
+      "assets/enemies/korjauslennokki.png"
+    ],
+    "values": {
+      "hp": 13.75,
+      "height": {
+        "min": 8,
+        "max": 8
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Power Plant",
+        "Spawned by Entity",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "healer"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Korjauslennokki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Robottikyttä",
+    "aliases": [
+      "Robo-Cop",
+      "Robottikytta",
+      "Terminator"
+    ],
+    "order": 92,
+    "images": [
+      "assets/enemies/robo_cop.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 15,
+        "max": 18
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "toxic"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Robottikyttä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kyrmyniska",
+    "aliases": [
+      "Hunchback"
+    ],
+    "order": 93,
+    "images": [
+      "assets/enemies/kyrmyniska.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 17,
+        "max": 19
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Power Plant"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "projectile",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Kyrmyniska",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Salamurhaajarobotti",
+    "aliases": [
+      "Assassin Robot",
+      "Ninja Robot"
+    ],
+    "order": 94,
+    "images": [
+      "assets/enemies/salamurhaajarobotti.gif"
+    ],
+    "values": {
+      "hp": 200,
+      "height": {
+        "min": 13,
+        "max": 16
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 80,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Salamurhaajarobotti",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Peitsivartija",
+    "aliases": [
+      "Lance Sentry"
+    ],
+    "order": 95,
+    "images": [
+      "assets/enemies/peitsivartija.gif"
+    ],
+    "values": {
+      "hp": 225,
+      "height": {
+        "min": 24,
+        "max": 31
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "Frozen Vault",
+        "The Tower",
+        "The Vault",
+        "The Work (Sky)",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "explosion",
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 90,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Peitsivartija",
+    "wikiNotes": {}
+  },
+  {
+    "name": "KK-Tankki",
+    "aliases": [
+      "Tank"
+    ],
+    "order": 96,
+    "images": [
+      "assets/enemies/kk-tankki.png"
+    ],
+    "values": {
+      "hp": 112.5,
+      "height": {
+        "min": 18,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Desert Chasm",
+        "Frozen Vault",
+        "Hiisi Base",
+        "Snowy Chasm",
+        "Snowy Depths",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 40,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "KK-Tankki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "IT-Tankki",
+    "aliases": [
+      "Rocket Tank"
+    ],
+    "order": 97,
+    "images": [
+      "assets/enemies/it-tankki.png"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 18,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Hiisi Base",
+        "Sandcave",
+        "Snowy Depths",
+        "The Tower"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "IT-Tankki",
+    "wikiNotes": {
+      "spawn": "The Noita wiki also lists: The Vault"
+    }
+  },
+  {
+    "name": "Laser-Tankki",
+    "aliases": [
+      "Laser Tank"
+    ],
+    "order": 98,
+    "images": [
+      "assets/enemies/laser-tankki.png"
+    ],
+    "values": {
+      "hp": 237.5,
+      "height": {
+        "min": 18,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Desert Chasm",
+        "Frozen Vault",
+        "Hiisi Base",
+        "Power Plant",
+        "Snowy Depths",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 90,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Laser-Tankki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Torjuntalaite",
+    "aliases": [
+      "Turret"
+    ],
+    "order": 99,
+    "images": [
+      "assets/enemies/torjuntalaite.png"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 16,
+        "max": 16
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Hiisi Base",
+        "Power Plant",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Torjuntalaite",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Munkki",
+    "aliases": [
+      "Monk"
+    ],
+    "order": 101,
+    "images": [
+      "assets/enemies/munkki.gif"
+    ],
+    "values": {
+      "hp": 175,
+      "height": {
+        "min": 16,
+        "max": 20
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Snowy Depths",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "ice",
+        "suffocation"
+      ],
+      "gold": 60,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Munkki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Heinäsirkka",
+    "aliases": [
+      "Cricket",
+      "Heinasirkka",
+      "Rocket Crab"
+    ],
+    "order": 102,
+    "images": [
+      "assets/enemies/cricket.gif"
+    ],
+    "values": {
+      "hp": 187.5,
+      "height": {
+        "min": 9,
+        "max": 16
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "The Tower",
+        "The Vault"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 70,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Heinäsirkka",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Tuonelankone",
+    "aliases": [
+      "Necrobot"
+    ],
+    "order": 103,
+    "images": [
+      "assets/enemies/tuonelankone.gif"
+    ],
+    "values": {
+      "hp": 400,
+      "height": {
+        "min": 21,
+        "max": 26
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Meat Realm",
+        "Power Plant",
+        "The Tower"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "resurrection",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 160,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Tuonelankone",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Marraskone",
+    "aliases": [
+      "Super Necrobot"
+    ],
+    "order": 104,
+    "images": [
+      "assets/enemies/marraskone.gif"
+    ],
+    "values": {
+      "hp": 700,
+      "height": {
+        "min": 21,
+        "max": 26
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Meat Realm",
+        "Power Plant"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "resurrection",
+        "toxic"
+      ],
+      "gold": 280,
+      "bleeds": [
+        "oil"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Marraskone",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Liekkiö",
+    "aliases": [
+      "Fire Spirit",
+      "Liekkio",
+      "Fire Skull"
+    ],
+    "order": 105,
+    "images": [
+      "assets/enemies/fire_spirit.gif"
+    ],
+    "values": {
+      "hp": 35,
+      "height": {
+        "min": 15,
+        "max": 18
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Desert",
+        "Mines",
+        "The Tower"
+      ],
+      "faction": [
+        "fire"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 10,
+      "bleeds": [
+        "gunpowder"
+      ],
+      "corpse": [
+        "bone"
+      ]
+    },
+    "wikiPage": "Liekkiö",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Jäätiö",
+    "aliases": [
+      "Ice Spirit",
+      "Ice Skull",
+      "Jaatio"
+    ],
+    "order": 106,
+    "images": [
+      "assets/enemies/ice_spirit.gif"
+    ],
+    "values": {
+      "hp": 37.5,
+      "height": {
+        "min": 11,
+        "max": 12
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Snowy Chasm",
+        "Snowy Depths",
+        "Snowy Wasteland",
+        "The Tower"
+      ],
+      "faction": [
+        "ice"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "ice"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "freezing liquid"
+      ],
+      "corpse": [
+        "ice"
+      ]
+    },
+    "wikiPage": "Jäätiö",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Sähkiö",
+    "aliases": [
+      "Thunder Spirit",
+      "Thunder Skull",
+      "Lightning Spirit",
+      "Lightning Skull"
+    ],
+    "order": 107,
+    "images": [
+      "assets/enemies/thunder_spirit.gif"
+    ],
+    "values": {
+      "hp": 90,
+      "height": {
+        "min": 11,
+        "max": 12
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Pyramid",
+        "Snowy Chasm",
+        "Snowy Depths",
+        "The Tower",
+        "The Vault",
+        "The Work (Hell)",
+        "The Work (Sky)",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "ice"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "fire"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "freezing liquid"
+      ],
+      "corpse": [
+        "ice"
+      ]
+    },
+    "wikiPage": "Sähkiö",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Stendari",
+    "aliases": [
+      "Fire Mage",
+      "Fire Elemental"
+    ],
+    "order": 108,
+    "images": [
+      "assets/enemies/stendari.gif"
+    ],
+    "values": {
+      "hp": 80,
+      "height": {
+        "min": 19,
+        "max": 22
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Collapsed Mines",
+        "Desert",
+        "Desert Chasm",
+        "Mines"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "lava"
+      ],
+      "corpse": [
+        "volcanic rock"
+      ]
+    },
+    "wikiPage": "Stendari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Eldari",
+    "aliases": [
+      "Hellfire Mage"
+    ],
+    "order": 109,
+    "images": [
+      "assets/enemies/eldari.gif"
+    ],
+    "values": {
+      "hp": 250,
+      "height": {
+        "min": 19,
+        "max": 22
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Desert Chasm",
+        "Frozen Vault",
+        "Fungal Caverns",
+        "The Tower",
+        "The Vault",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 100,
+      "bleeds": [
+        "lava"
+      ],
+      "corpse": [
+        "volcanic rock"
+      ]
+    },
+    "wikiPage": "Eldari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Pakkasukko",
+    "aliases": [
+      "Old Man Winter",
+      "Ice Elemental"
+    ],
+    "order": 110,
+    "images": [
+      "assets/enemies/pakkasukko.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 16,
+        "max": 22
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Snowy Chasm",
+        "Snowy Depths",
+        "Snowy Wasteland",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "ice",
+        "suffocation"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "snow"
+      ],
+      "corpse": [
+        "ice"
+      ]
+    },
+    "wikiPage": "Pakkasukko",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Ukko",
+    "aliases": [
+      "Thunder Mage",
+      "Thunder Elemental"
+    ],
+    "order": 111,
+    "images": [
+      "assets/enemies/ukko.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 19,
+        "max": 22
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "Desert Chasm",
+        "Frozen Vault",
+        "Fungal Caverns",
+        "Mines",
+        "Snowy Chasm",
+        "Snowy Depths",
+        "The Tower",
+        "The Vault",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "suffocation"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "diamond"
+      ],
+      "corpse": [
+        "diamond"
+      ]
+    },
+    "wikiPage": "Ukko",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Suur-Ukko",
+    "aliases": [
+      "Great Thunder Mage",
+      "Super Ukko"
+    ],
+    "order": 112,
+    "images": [
+      "assets/enemies/suur_ukko.gif"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 26,
+        "max": 31
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "Frozen Vault",
+        "Pyramid",
+        "Snowy Chasm",
+        "The Tower",
+        "The Work (Sky)"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "explosion",
+        "fire",
+        "ice",
+        "kinetic hits",
+        "suffocation",
+        "touch of spells"
+      ],
+      "gold": 200,
+      "bleeds": [
+        "diamond"
+      ],
+      "corpse": [
+        "diamond"
+      ]
+    },
+    "wikiPage": "Suur-Ukko",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Turvonnu velho",
+    "aliases": [
+      "Bloated Wizard",
+      "Toxic Wizard"
+    ],
+    "order": 113,
+    "images": [
+      "assets/enemies/turvonnu_velho.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 15,
+        "max": 20
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Temple of the Art",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "toxic"
+      ],
+      "gold": 40,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "ambiguous meat"
+      ]
+    },
+    "wikiPage": "Turvonnu velho",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Sokaisunmestari",
+    "aliases": [
+      "Master of Blinding"
+    ],
+    "order": 114,
+    "images": [
+      "assets/enemies/sokaisunmestari.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 14,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Desert Chasm",
+        "Fungal Caverns",
+        "Lukki Lair",
+        "Snowy Depths",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 40,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "ambiguous meat"
+      ]
+    },
+    "wikiPage": "Sokaisunmestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Siirtäjämestari",
+    "aliases": [
+      "Master of Teleportation",
+      "Tele Mage",
+      "Siirtajamestari"
+    ],
+    "order": 115,
+    "images": [
+      "assets/enemies/master_of_teleportation.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 14,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "Desert Chasm",
+        "Fungal Caverns",
+        "Snowy Depths",
+        "Temple of the Art",
+        "The Tower",
+        "The Work (Sky)",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 40,
+      "bleeds": [
+        "teleportatium"
+      ],
+      "corpse": [
+        "ethereal meat"
+      ]
+    },
+    "wikiPage": "Siirtäjämestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Muodonmuutosmestari",
+    "aliases": [
+      "Master of Polymorphing",
+      "Poly Mage"
+    ],
+    "order": 116,
+    "images": [
+      "assets/enemies/muodonmuutosmestari.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 15,
+        "max": 19
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Temple of the Art",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "polymorph"
+      ],
+      "gold": 160,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "stinky meat"
+      ]
+    },
+    "wikiPage": "Muodonmuutosmestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Vaihdosmestari",
+    "aliases": [
+      "Master of Exchange",
+      "Swapper Mage"
+    ],
+    "order": 117,
+    "images": [
+      "assets/enemies/Vaihdosmestari.gif"
+    ],
+    "values": {
+      "hp": 100,
+      "height": {
+        "min": 13,
+        "max": 17
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "Fungal Caverns",
+        "Snowy Depths",
+        "Temple of the Art",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage_swapper"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 40,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "ambiguous meat"
+      ]
+    },
+    "wikiPage": "Vaihdosmestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Maadoittajamestari",
+    "aliases": [
+      "Master of Grounding"
+    ],
+    "order": 118,
+    "images": [
+      "assets/enemies/maadoittajamestari.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 14,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Ancient Laboratory",
+        "Frozen Vault",
+        "Fungal Caverns",
+        "Magical Temple",
+        "Pyramid",
+        "Snowy Depths",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "polymorph"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "ambiguous meat"
+      ]
+    },
+    "wikiPage": "Maadoittajamestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Palauttajamestari",
+    "aliases": [
+      "Master of Returning",
+      "Copy Mage"
+    ],
+    "order": 119,
+    "images": [
+      "assets/enemies/palauttajamestari.gif"
+    ],
+    "values": {
+      "hp": 175,
+      "height": {
+        "min": 13,
+        "max": 17
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Ancient Laboratory",
+        "Desert Chasm",
+        "Magical Temple",
+        "Temple of the Art",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "explosion"
+      ],
+      "gold": 70,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "ethereal meat"
+      ]
+    },
+    "wikiPage": "Palauttajamestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Haavoittajamestari",
+    "aliases": [
+      "Master of Wounding",
+      "Heart Mage"
+    ],
+    "order": 120,
+    "images": [
+      "assets/enemies/haavoittajamestari.gif"
+    ],
+    "values": {
+      "hp": 300,
+      "height": {
+        "min": 14,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Lukki Lair",
+        "Magical Temple",
+        "Meat Realm",
+        "Pyramid",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "explosion",
+        "ice"
+      ],
+      "gold": 120,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "ambiguous meat"
+      ]
+    },
+    "wikiPage": "Haavoittajamestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kohdennusmestari",
+    "aliases": [
+      "Master of Homing"
+    ],
+    "order": 121,
+    "images": [
+      "assets/enemies/kohdennusmestari.gif"
+    ],
+    "values": {
+      "hp": 300,
+      "height": {
+        "min": 15,
+        "max": 19
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Lukki Lair",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 120,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Kohdennusmestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Turvattomuusmestari",
+    "aliases": [
+      "Weakening Mage",
+      "Master of Vulnerability"
+    ],
+    "order": 122,
+    "images": [
+      "assets/enemies/turvattomuusmestari.gif"
+    ],
+    "values": {
+      "hp": 300,
+      "height": {
+        "min": 14,
+        "max": 18
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "Desert Chasm",
+        "Frozen Vault",
+        "Lukki Lair",
+        "Pyramid",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 120,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Turvattomuusmestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Sätkymestari",
+    "aliases": [
+      "Master of Twitching",
+      "Satkymestari"
+    ],
+    "order": 123,
+    "images": [
+      "assets/enemies/master_of_twitching.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 14,
+        "max": 19
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Frozen Vault",
+        "Fungal Caverns",
+        "Lukki Lair",
+        "Magical Temple",
+        "Pyramid",
+        "Temple of the Art",
+        "The Tower",
+        "The Vault",
+        "Underground Jungle",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 50,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "wobbly meat"
+      ]
+    },
+    "wikiPage": "Sätkymestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Valaistunut alkemisti",
+    "aliases": [
+      "Enlightened Alchemist"
+    ],
+    "order": 124,
+    "images": [
+      "assets/enemies/valaistunut_alkemisti.gif"
+    ],
+    "values": {
+      "hp": 200,
+      "height": {
+        "min": 31,
+        "max": 34
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Ancient Laboratory",
+        "Desert Chasm",
+        "Magical Temple",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 80,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "ambiguous meat"
+      ]
+    },
+    "wikiPage": "Valaistunut alkemisti",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kadotettu alkemisti",
+    "aliases": [
+      "Damned Alchemist"
+    ],
+    "order": 125,
+    "images": [
+      "assets/enemies/kadotettu_alkemisti.gif"
+    ],
+    "values": {
+      "hp": 200,
+      "height": {
+        "min": 23,
+        "max": 33
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Ancient Laboratory",
+        "Magical Temple",
+        "Meat Realm",
+        "Temple of the Art",
+        "The Tower",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 80,
+      "bleeds": [
+        "bone dust"
+      ],
+      "corpse": [
+        "bone"
+      ]
+    },
+    "wikiPage": "Kadotettu alkemisti",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Epäalkemisti",
+    "aliases": [
+      "Non-alchemist",
+      "Failed Alchemist",
+      "Epaalkemisti"
+    ],
+    "order": 126,
+    "images": [
+      "assets/enemies/non_alchemist.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 22,
+        "max": 23
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Ancient Laboratory",
+        "Magical Temple",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Epäalkemisti",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hyypiö",
+    "aliases": [
+      "Creep",
+      "Hyypio"
+    ],
+    "order": 127,
+    "images": [
+      "assets/enemies/creep.png"
+    ],
+    "values": {
+      "hp": 368.75,
+      "height": {
+        "min": 18,
+        "max": 20
+      },
+      "attacks": [],
+      "spawn": [
+        "Cloudscape",
+        "Temple of the Art",
+        "The Tower",
+        "The Work (Hell)",
+        "The Work (Sky)"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 140,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "magical liquid"
+      ]
+    },
+    "wikiPage": "Hyypiö",
+    "wikiNotes": {
+      "corpse": "The Noita wiki says: glowing matter"
+    }
+  },
+  {
+    "name": "Ukkoshyypiö",
+    "aliases": [
+      "Thunder Creep",
+      "Lightning Creep",
+      "Ukkoshyypio"
+    ],
+    "order": 128,
+    "images": [
+      "assets/enemies/thunder_creep.png"
+    ],
+    "values": {
+      "hp": 468.75,
+      "height": {
+        "min": 12,
+        "max": 12
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "The Tower",
+        "The Work (Sky)"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "fire"
+      ],
+      "gold": 180,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "magical liquid"
+      ]
+    },
+    "wikiPage": "Ukkoshyypiö",
+    "wikiNotes": {
+      "corpse": "The Noita wiki says: glowing matter"
+    }
+  },
+  {
+    "name": "Hohtava hyypiö",
+    "aliases": [
+      "Glowing Creep",
+      "Hohtava hyypio"
+    ],
+    "order": 129,
+    "images": [
+      "assets/enemies/glowing_creep.png"
+    ],
+    "values": {
+      "hp": 368.75,
+      "height": {
+        "min": 12,
+        "max": 12
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "Magical Temple",
+        "Temple of the Art",
+        "The Tower",
+        "The Work (Hell)",
+        "The Work (Sky)"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 140,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Hohtava hyypiö",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Patsas",
+    "aliases": [
+      "Statue"
+    ],
+    "order": 130,
+    "images": [
+      "assets/enemies/patsas.gif"
+    ],
+    "values": {
+      "hp": 175,
+      "height": {
+        "min": 14,
+        "max": 18
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Ancient Laboratory",
+        "The Tower"
+      ],
+      "faction": [
+        "giant"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "explosion",
+        "fire",
+        "ice",
+        "projectile",
+        "slice"
+      ],
+      "gold": 70,
+      "bleeds": [],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Patsas",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hohtonaamio",
+    "aliases": [
+      "Glowing Mask"
+    ],
+    "order": 131,
+    "images": [
+      "assets/enemies/hohtonaamio.png"
+    ],
+    "values": {
+      "hp": 150,
+      "height": {
+        "min": 21,
+        "max": 21
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Magical Temple",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "suffocation"
+      ],
+      "gold": 60,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "rock"
+      ]
+    },
+    "wikiPage": "Hohtonaamio",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Haamukivi",
+    "aliases": [
+      "Ghost Crystal"
+    ],
+    "order": 132,
+    "images": [
+      "assets/enemies/haamukivi.gif"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 23,
+        "max": 23
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Snowy Chasm",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [
+        "fire",
+        "ice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blue sand"
+      ],
+      "corpse": [
+        "ice"
+      ]
+    },
+    "wikiPage": "Haamukivi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Elvytyskristalli",
+    "aliases": [
+      "Recovery Crystal"
+    ],
+    "order": 133,
+    "images": [
+      "assets/enemies/elvytyskristalli.png"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 23,
+        "max": 23
+      },
+      "attacks": [],
+      "spawn": [
+        "Desert Chasm",
+        "Meat Realm",
+        "Snowy Chasm",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [
+        "electric",
+        "fire",
+        "slice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blue sand"
+      ],
+      "corpse": [
+        "ice"
+      ]
+    },
+    "wikiPage": "Elvytyskristalli",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Crystal",
+    "aliases": [
+      "Houre Crystal",
+      "Homing Ghost Crystal",
+      "Amoeba Crystal"
+    ],
+    "order": 134,
+    "images": [
+      "assets/enemies/crystal.gif"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 22,
+        "max": 24
+      },
+      "attacks": [],
+      "spawn": [
+        "Snowy Chasm",
+        "Temple of the Art",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blue sand"
+      ],
+      "corpse": [
+        "ice"
+      ]
+    },
+    "wikiPage": "Houre",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Taikasauva",
+    "aliases": [
+      "Magic Wand"
+    ],
+    "order": 135,
+    "images": [
+      "assets/enemies/taikasauva.png"
+    ],
+    "values": {
+      "hp": 37.5,
+      "height": {
+        "min": 3,
+        "max": 13
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Magical Temple",
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 10,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "crystal"
+      ]
+    },
+    "wikiPage": "Taikasauva",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Olematon",
+    "aliases": [
+      "Non-Existent",
+      "Invisible Skull"
+    ],
+    "order": 136,
+    "images": [
+      "assets/enemies/olematon.gif"
+    ],
+    "values": {
+      "hp": 387.5,
+      "height": {
+        "min": 12,
+        "max": 38
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Pyramid",
+        "Snowy Chasm",
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "kinetic hits",
+        "polymorph",
+        "projectile",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Olematon",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kummitus",
+    "aliases": [
+      "Ghost",
+      "Player Ghost"
+    ],
+    "order": 137,
+    "images": [
+      "assets/enemies/kummitus.gif"
+    ],
+    "values": {
+      "hp": 250,
+      "height": {
+        "min": 14,
+        "max": 17
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Collapsed Mines",
+        "Frozen Vault",
+        "Fungal Caverns",
+        "Lukki Lair",
+        "Mines",
+        "Overgrown Cavern",
+        "Power Plant",
+        "Snowy Depths",
+        "Temple of the Art",
+        "The Vault",
+        "Underground Jungle",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "apparition"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "ice"
+      ],
+      "gold": 500,
+      "bleeds": [],
+      "corpse": []
+    },
+    "wikiPage": "Kummitus",
+    "wikiNotes": {
+      "gold": "The Noita wiki says: 100 (500 for its 1250 HP version)"
+    }
+  },
+  {
+    "name": "Spiraalikalma",
+    "aliases": [
+      "Spiral Phantom"
+    ],
+    "order": 138,
+    "images": [
+      "assets/enemies/spiraalikalma.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 17,
+        "max": 20
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Magical Temple",
+        "Pyramid",
+        "Snowy Chasm",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Spiraalikalma",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kiukkukalma",
+    "aliases": [
+      "Angry Phantom"
+    ],
+    "order": 139,
+    "images": [
+      "assets/enemies/kiukkukalma.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 18
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Magical Temple",
+        "Pyramid",
+        "Snowy Chasm",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Kiukkukalma",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Utu-Aave",
+    "aliases": [
+      "Fog Spirit"
+    ],
+    "order": 140,
+    "images": [
+      "assets/enemies/utu_aave.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Overgrown Cavern",
+        "Pyramid"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Aave",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Viha-Aave",
+    "aliases": [
+      "Anger Spirit"
+    ],
+    "order": 141,
+    "images": [
+      "assets/enemies/viha_aave.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Overgrown Cavern",
+        "Pyramid"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Aave",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kaamo-Aave",
+    "aliases": [
+      "Depression Spirit"
+    ],
+    "order": 142,
+    "images": [
+      "assets/enemies/kaamo_aave.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Pyramid"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Aave",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Neva-Aave",
+    "aliases": [
+      "Bog Spirit"
+    ],
+    "order": 143,
+    "images": [
+      "assets/enemies/neva_aave.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Coal Pits",
+        "Fungal Caverns",
+        "Meat Realm"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "ice",
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Aave",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hahmonvaihtaja",
+    "aliases": [
+      "Shapechanger"
+    ],
+    "order": 144,
+    "images": [
+      "assets/enemies/hahmonvaihtaja.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 21,
+        "max": 27
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Magical Temple",
+        "Meat Realm",
+        "Snowy Depths",
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "polymorph",
+        "suffocation"
+      ],
+      "gold": 50,
+      "bleeds": [
+        "bone dust"
+      ],
+      "corpse": [
+        "cursed meat"
+      ]
+    },
+    "wikiPage": "Hahmonvaihtaja",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Helvetinkatse",
+    "aliases": [
+      "Hell Gazer"
+    ],
+    "order": 145,
+    "images": [
+      "assets/enemies/helvetinkatse.gif"
+    ],
+    "values": {
+      "hp": 1500,
+      "height": {
+        "min": 28,
+        "max": 28
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Tower",
+        "The Work (Hell)"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 600,
+      "bleeds": [
+        "lava"
+      ],
+      "corpse": [
+        "slimy cursed meat"
+      ]
+    },
+    "wikiPage": "Helvetinkatse",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Taivaankatse",
+    "aliases": [
+      "Sky Gazer"
+    ],
+    "order": 146,
+    "images": [
+      "assets/enemies/taivaankatse.gif"
+    ],
+    "values": {
+      "hp": 250,
+      "height": {
+        "min": 28,
+        "max": 28
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Work (Sky)"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "polymorph"
+      ],
+      "gold": 100,
+      "bleeds": [
+        "chaotic polymorphine"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Taivaankatse",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Helvetin sylkijä",
+    "aliases": [
+      "Hell Spitter",
+      "Helvetin sylkija"
+    ],
+    "order": 147,
+    "images": [
+      "assets/enemies/hell_spitter.gif"
+    ],
+    "values": {
+      "hp": 1500,
+      "height": {
+        "min": 19,
+        "max": 23
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Tower",
+        "The Work (Hell)"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 600,
+      "bleeds": [
+        "hell slime"
+      ],
+      "corpse": [
+        "slimy cursed meat"
+      ]
+    },
+    "wikiPage": "Helvetin sylkijä",
+    "wikiNotes": {
+      "corpse": "The Noita wiki says: slime"
+    }
+  },
+  {
+    "name": "Kirottu kristalli",
+    "aliases": [
+      "Cursed Crystal"
+    ],
+    "order": 148,
+    "images": [
+      "assets/enemies/kirottu_kristalli.gif"
+    ],
+    "values": {
+      "hp": 200,
+      "height": {
+        "min": 16,
+        "max": 16
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Temple of the Art",
+        "The Tower"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 80,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "purple crystal"
+      ]
+    },
+    "wikiPage": "Kirottu kristalli",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Verikristalli",
+    "aliases": [
+      "Blood Crystal"
+    ],
+    "order": 149,
+    "images": [
+      "assets/enemies/verikristalli.png"
+    ],
+    "values": {
+      "hp": 1000,
+      "height": {
+        "min": 20,
+        "max": 20
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Meat Realm",
+        "The Tower",
+        "The Work (Hell)"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 400,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "purple crystal"
+      ]
+    },
+    "wikiPage": "Verikristalli",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Taivaskristalli",
+    "aliases": [
+      "Celestial Crystal"
+    ],
+    "order": 150,
+    "images": [
+      "assets/enemies/taivaskristalli.png"
+    ],
+    "values": {
+      "hp": 400,
+      "height": {
+        "min": 14,
+        "max": 14
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Cloudscape",
+        "The Tower",
+        "The Work (Sky)"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 160,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "gem"
+      ]
+    },
+    "wikiPage": "Taivaskristalli",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Matkija",
+    "aliases": [
+      "Mimic"
+    ],
+    "order": 151,
+    "images": [
+      "assets/enemies/matkija.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 12,
+        "max": 18
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Chest Spawns"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [],
+      "corpse": [
+        "wood"
+      ]
+    },
+    "wikiPage": "Matkija",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Jalkamatkatavara",
+    "aliases": [
+      "Leggy Mimic"
+    ],
+    "order": 152,
+    "images": [
+      "assets/enemies/jalkamatkatavara.png"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 13
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Chest Spawns"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [],
+      "corpse": [
+        "wood"
+      ]
+    },
+    "wikiPage": "Matkija",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hornantappurahiisi",
+    "aliases": [
+      "Hell Miner Hiisi",
+      "Hell TNT thrower"
+    ],
+    "order": 153,
+    "images": [
+      "assets/enemies/hornantappurahiisi.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Meat Realm"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "liquid fire"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Tappurahiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hornahiisi",
+    "aliases": [
+      "Hell Shotgun Hiisi"
+    ],
+    "order": 154,
+    "images": [
+      "assets/enemies/hornahiisi.gif"
+    ],
+    "values": {
+      "hp": 72.5,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Meat Realm"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice"
+      ],
+      "gold": 20,
+      "bleeds": [
+        "liquid fire"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Haulikkohiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hornasnipuhiisi",
+    "aliases": [
+      "Hell Hiisi Sniper"
+    ],
+    "order": 155,
+    "images": [
+      "assets/enemies/hornasnipuhiisi.gif"
+    ],
+    "values": {
+      "hp": 120,
+      "height": {
+        "min": 14,
+        "max": 16
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Meat Realm"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "fire",
+        "ice"
+      ],
+      "gold": 40,
+      "bleeds": [
+        "liquid fire"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Snipuhiisi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Pahan muisto",
+    "aliases": [
+      "Memory of Evil",
+      "Heart Mimic"
+    ],
+    "order": 156,
+    "images": [
+      "assets/enemies/pahan_muisto.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 14,
+        "max": 19
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Chest Drop",
+        "Extra Max HP Spawns"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [],
+      "corpse": [
+        "wood"
+      ]
+    },
+    "wikiPage": "Pahan muisto",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Valhe",
+    "aliases": [
+      "Lie",
+      "Spell Refresh Mimic"
+    ],
+    "order": 157,
+    "images": [
+      "assets/enemies/valhe.gif"
+    ],
+    "values": {
+      "hp": 75,
+      "height": {
+        "min": 15,
+        "max": 20
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Chest Drop",
+        "Spell Refresh Spawns"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [],
+      "gold": 30,
+      "bleeds": [],
+      "corpse": [
+        "wood"
+      ]
+    },
+    "wikiPage": "Valhe",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Stevari",
+    "aliases": [
+      "Guard",
+      "Steve"
+    ],
+    "order": 158,
+    "images": [
+      "assets/enemies/stevari.gif"
+    ],
+    "values": {
+      "hp": 600,
+      "height": {
+        "min": 22,
+        "max": 25
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Holy Mountain"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 240,
+      "bleeds": [
+        "bone dust"
+      ],
+      "corpse": [
+        "cursed meat"
+      ]
+    },
+    "wikiPage": "Stevari",
+    "wikiNotes": {
+      "spawn": "The Noita wiki also lists: The Tower"
+    }
+  },
+  {
+    "name": "Skoude",
+    "aliases": [
+      "Cop",
+      "Scott",
+      "Big Steve"
+    ],
+    "order": 159,
+    "images": [
+      "assets/enemies/skoude.gif"
+    ],
+    "values": {
+      "hp": 900,
+      "height": {
+        "min": 35,
+        "max": 47
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Holy Mountain",
+        "The Tower"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "holy",
+        "ice",
+        "polymorph",
+        "suffocation"
+      ],
+      "gold": 360,
+      "bleeds": [
+        "bone dust"
+      ],
+      "corpse": [
+        "cursed meat"
+      ]
+    },
+    "wikiPage": "Skoude",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Suomuhauki",
+    "aliases": [
+      "Dragon"
+    ],
+    "order": 160,
+    "images": [
+      "assets/enemies/suomuhauki.png"
+    ],
+    "values": {
+      "hp": 3000,
+      "height": {
+        "min": 26,
+        "max": 26
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Dragon Cave"
+      ],
+      "faction": [
+        "boss_dragon"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "kinetic hits",
+        "polymorph",
+        "resurrection",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Suomuhauki",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kolmisilmän Koipi",
+    "aliases": [
+      "Three-Eye's Legs",
+      "Kolmisilman Koipi",
+      "Pyramid Boss"
+    ],
+    "order": 161,
+    "images": [
+      "assets/enemies/kolmisilman_koipi.gif"
+    ],
+    "values": {
+      "hp": 750,
+      "height": {
+        "min": 38,
+        "max": 38
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Pyramid"
+      ],
+      "faction": [
+        "boss_limbs"
+      ],
+      "movement": [
+        "walk",
+        "burrow"
+      ],
+      "immunities": [
+        "drill",
+        "fire",
+        "kinetic hits",
+        "polymorph",
+        "resurrection",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Kolmisilmän koipi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kolmisilmän sydän",
+    "aliases": [
+      "Three-Eye's Heart",
+      "Kolmisilman sydan",
+      "Meatball Boss"
+    ],
+    "order": 162,
+    "images": [
+      "assets/enemies/kolmisilman_sydan.gif"
+    ],
+    "values": {
+      "hp": 1000,
+      "height": {
+        "min": 44,
+        "max": 44
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Meat Realm"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "kinetic hits",
+        "polymorph",
+        "resurrection"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat"
+      ]
+    },
+    "wikiPage": "Kolmisilmän sydän",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Ylialkemisti",
+    "aliases": [
+      "High Alchemist"
+    ],
+    "order": 163,
+    "images": [
+      "assets/enemies/ylialkemisti.gif"
+    ],
+    "values": {
+      "hp": 1000,
+      "height": {
+        "min": 65,
+        "max": 68
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Abandoned Alchemy Lab"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "kinetic hits",
+        "polymorph",
+        "resurrection",
+        "slice",
+        "suffocation",
+        "touch of spells",
+        "venomous curse"
+      ],
+      "gold": 400,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Ylialkemisti",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Alkemistin Varjo",
+    "aliases": [
+      "Alchemist's Shadow",
+      "Parallel World Alchemist"
+    ],
+    "order": 164,
+    "images": [
+      "assets/enemies/alkemistin_varjo.gif"
+    ],
+    "values": {
+      "hp": 1000,
+      "height": {
+        "min": 65,
+        "max": 68
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Parallel Worlds"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "ice",
+        "kinetic hits",
+        "polymorph",
+        "suffocation",
+        "touch of spells"
+      ],
+      "gold": 800,
+      "bleeds": [
+        "slime"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Ylialkemisti",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Unohdettu",
+    "aliases": [
+      "The Forgotten",
+      "Ghost Boss"
+    ],
+    "order": 165,
+    "images": [
+      "assets/enemies/unohdettu.png"
+    ],
+    "values": {
+      "hp": 1012,
+      "height": {
+        "min": 62,
+        "max": 62
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Forgotten Cave"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "ice",
+        "kinetic hits",
+        "polymorph",
+        "projectile",
+        "resurrection",
+        "touch of spells",
+        "venomous curse"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Unohdettu",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Häive",
+    "aliases": [
+      "Fade",
+      "The Forgotten Minion",
+      "Ghost Boss Minion",
+      "Haive"
+    ],
+    "order": 166,
+    "images": [
+      "assets/enemies/fade.png"
+    ],
+    "values": {
+      "hp": 37.5,
+      "height": {
+        "min": 16,
+        "max": 16
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "acid"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Unohdettu#Häive",
+    "wikiNotes": {
+      "spawn": "The Noita wiki also lists: Forgotten Cave"
+    }
+  },
+  {
+    "name": "Tapion vasalli",
+    "aliases": [
+      "Deer Boss",
+      "Island Boss"
+    ],
+    "order": 167,
+    "images": [
+      "assets/enemies/tapion_vasalli.gif"
+    ],
+    "values": {
+      "hp": 600,
+      "height": {
+        "min": 28,
+        "max": 30
+      },
+      "attacks": [
+        "melee",
+        "ranged",
+        "other"
+      ],
+      "spawn": [
+        "Lake"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "holy",
+        "kinetic hits",
+        "polymorph",
+        "projectile",
+        "resurrection",
+        "slice",
+        "suffocation",
+        "touch of spells",
+        "venomous curse"
+      ],
+      "gold": 600,
+      "bleeds": [
+        "spark"
+      ],
+      "corpse": [
+        "spark"
+      ]
+    },
+    "wikiPage": "Tapion vasalli",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Sauvojen tuntija",
+    "aliases": [
+      "Connoisseur of Wands",
+      "Bridge Boss"
+    ],
+    "order": 168,
+    "images": [
+      "assets/enemies/sauvojen_tuntija.png"
+    ],
+    "values": {
+      "hp": 800,
+      "height": {
+        "min": 36,
+        "max": 36
+      },
+      "attacks": [
+        "ranged",
+        "other"
+      ],
+      "spawn": [
+        "Lava Lake"
+      ],
+      "faction": [
+        "boss_limbs"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "drill",
+        "fire",
+        "kinetic hits",
+        "polymorph",
+        "resurrection",
+        "suffocation",
+        "touch of spells",
+        "venomous curse"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Sauvojen tuntija",
+    "wikiNotes": {
+      "corpse": "The Noita wiki says: green slimy meat"
+    }
+  },
+  {
+    "name": "Kolmisilmän silmä",
+    "aliases": [
+      "Three-Eye's Eye",
+      "Kolmisilman silma",
+      "Mecha Kolmisilma"
+    ],
+    "order": 169,
+    "images": [
+      "assets/enemies/kolmisilman_silma.png"
+    ],
+    "values": {
+      "hp": 1250,
+      "height": {
+        "min": 37,
+        "max": 37
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Power Plant"
+      ],
+      "faction": [
+        "robot"
+      ],
+      "movement": [
+        "walk",
+        "burrow"
+      ],
+      "immunities": [
+        "explosion",
+        "fire",
+        "kinetic hits",
+        "melee",
+        "polymorph",
+        "projectile",
+        "resurrection",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "liquid fire"
+      ],
+      "corpse": [
+        "steel"
+      ]
+    },
+    "wikiPage": "Kolmisilmän silmä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Syväolento",
+    "aliases": [
+      "Creature of the Deep",
+      "Leviathan",
+      "Syvaolento"
+    ],
+    "order": 170,
+    "images": [
+      "assets/enemies/leviathan.gif"
+    ],
+    "values": {
+      "hp": 7500,
+      "height": {
+        "min": 343,
+        "max": 343
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Lake"
+      ],
+      "faction": [
+        "eel"
+      ],
+      "movement": [],
+      "immunities": [
+        "drill",
+        "electric",
+        "fire",
+        "ice",
+        "kinetic hits",
+        "polymorph",
+        "projectile",
+        "resurrection",
+        "suffocation",
+        "touch of spells",
+        "toxic",
+        "venomous curse"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": []
+    },
+    "wikiPage": "Syväolento",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Limatoukka",
+    "aliases": [
+      "Slime Maggot",
+      "Tiny"
+    ],
+    "order": 171,
+    "images": [
+      "assets/enemies/limatoukka.png"
+    ],
+    "values": {
+      "hp": 6000,
+      "height": {
+        "min": 84,
+        "max": 84
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Buried Skull"
+      ],
+      "faction": [
+        "boss_dragon"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "kinetic hits",
+        "polymorph",
+        "projectile",
+        "resurrection",
+        "suffocation",
+        "touch of spells"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "ominous liquid"
+      ],
+      "corpse": [
+        "ominous liquid"
+      ]
+    },
+    "wikiPage": "Limatoukka",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kolmisilmän Kätyri",
+    "aliases": [
+      "Three-Eye's Minion",
+      "Parallel World Bridge Boss",
+      "Kolmisilman Katyri"
+    ],
+    "order": 172,
+    "images": [
+      "assets/enemies/parallel_world_bridge_boss.png"
+    ],
+    "values": {
+      "hp": 800,
+      "height": {
+        "min": 36,
+        "max": 36
+      },
+      "attacks": [
+        "ranged",
+        "other"
+      ],
+      "spawn": [
+        "Parallel Worlds"
+      ],
+      "faction": [
+        "boss_limbs"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "drill",
+        "electric",
+        "fire",
+        "ice",
+        "kinetic hits",
+        "polymorph",
+        "suffocation",
+        "touch of spells"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "glowing matter"
+      ]
+    },
+    "wikiPage": "Sauvojen tuntija",
+    "wikiNotes": {
+      "bleeds": "The Noita wiki says: smoke",
+      "corpse": "The Noita wiki says: green slimy meat"
+    }
+  },
+  {
+    "name": "Pienkätyri",
+    "aliases": [
+      "Tiny Minion",
+      "Super Necrobot Minion",
+      "Pienkatyri"
+    ],
+    "order": 173,
+    "images": [
+      "assets/enemies/tiny_minion.png"
+    ],
+    "values": {
+      "hp": 400,
+      "height": {
+        "min": 14,
+        "max": 14
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "fire"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Marraskone",
+    "wikiNotes": {
+      "gold": "The Noita wiki says: 160"
+    }
+  },
+  {
+    "name": "Veska",
+    "aliases": [
+      "Goalkeeper (Middle)",
+      "Door Boss (Middle)"
+    ],
+    "order": 174,
+    "images": [
+      "assets/enemies/veska.png"
+    ],
+    "values": {
+      "hp": 2000,
+      "height": {
+        "min": 64,
+        "max": 64
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Temple of the Art"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice",
+        "kinetic hits",
+        "resurrection",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 800,
+      "bleeds": [
+        "spark"
+      ],
+      "corpse": [
+        "dense rock"
+      ]
+    },
+    "wikiPage": "Gate Guardian",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Molari",
+    "aliases": [
+      "Goalkeeper (Left)",
+      "Door Boss (Left)"
+    ],
+    "order": 175,
+    "images": [
+      "assets/enemies/molari.png",
+      "assets/enemies/mokke.png"
+    ],
+    "values": {
+      "hp": 2000,
+      "height": {
+        "min": 69,
+        "max": 69
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Temple of the Art"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice",
+        "kinetic hits",
+        "resurrection",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 800,
+      "bleeds": [
+        "spark"
+      ],
+      "corpse": [
+        "dense rock"
+      ]
+    },
+    "wikiPage": "Gate Guardian",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Mokke",
+    "aliases": [
+      "Goalkeeper (Right)",
+      "Door Boss (Right)"
+    ],
+    "order": 176,
+    "images": [
+      "assets/enemies/molari.png",
+      "assets/enemies/mokke.png"
+    ],
+    "values": {
+      "hp": 2000,
+      "height": {
+        "min": 69,
+        "max": 69
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Temple of the Art"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice",
+        "kinetic hits",
+        "resurrection",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 800,
+      "bleeds": [
+        "spark"
+      ],
+      "corpse": [
+        "dense rock"
+      ]
+    },
+    "wikiPage": "Gate Guardian",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Seula",
+    "aliases": [
+      "Sieve",
+      "Door Boss (Tip)"
+    ],
+    "order": 177,
+    "images": [
+      "assets/enemies/seula.png"
+    ],
+    "values": {
+      "hp": 2000,
+      "height": {
+        "min": 53,
+        "max": 53
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Temple of the Art"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice",
+        "kinetic hits",
+        "resurrection",
+        "suffocation",
+        "toxic"
+      ],
+      "gold": 800,
+      "bleeds": [
+        "spark"
+      ],
+      "corpse": [
+        "dense rock"
+      ]
+    },
+    "wikiPage": "Gate Guardian",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Mestarien mestari",
+    "aliases": [
+      "Master of Masters"
+    ],
+    "order": 178,
+    "images": [
+      "assets/enemies/mestarien_mestari.gif"
+    ],
+    "values": {
+      "hp": 1500,
+      "height": {
+        "min": 43,
+        "max": 53
+      },
+      "attacks": [
+        "melee",
+        "ranged",
+        "other"
+      ],
+      "spawn": [
+        "Throne Room"
+      ],
+      "faction": [
+        "mage"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "kinetic hits",
+        "polymorph",
+        "resurrection",
+        "touch of spells"
+      ],
+      "gold": 600,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "blood"
+      ]
+    },
+    "wikiPage": "Mestarien mestari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kolmisilmä",
+    "aliases": [
+      "Three-Eye",
+      "Kolmisilma"
+    ],
+    "order": 179,
+    "images": [
+      "assets/enemies/three_eye.gif"
+    ],
+    "values": {
+      "hp": 1211,
+      "height": {
+        "min": 80,
+        "max": 80
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "The Laboratory"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "walk",
+        "burrow"
+      ],
+      "immunities": [
+        "kinetic hits",
+        "polymorph",
+        "resurrection",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "green slime"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Kolmisilmä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kauhuhirviö",
+    "aliases": [
+      "Horror Monster",
+      "Small Friend",
+      "Kauhuhirvio",
+      "Lil Bro"
+    ],
+    "order": 180,
+    "images": [
+      "assets/enemies/horror_monster.gif"
+    ],
+    "values": {
+      "hp": 87.5,
+      "height": {
+        "min": 6,
+        "max": 8
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Friend Room",
+        "Frozen Vault"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [
+        "holy",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Kauhuhirviö",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Toveri",
+    "aliases": [
+      "Friend"
+    ],
+    "order": 181,
+    "images": [
+      "assets/enemies/toveri.gif"
+    ],
+    "values": {
+      "hp": 762.5,
+      "height": {
+        "min": 17,
+        "max": 25
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Friend Room"
+      ],
+      "faction": [
+        "orcs"
+      ],
+      "movement": [
+        "walk",
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": [
+        "meat of an innocent creature"
+      ]
+    },
+    "wikiPage": "Toveri",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kivi",
+    "aliases": [
+      "Stone"
+    ],
+    "order": 182,
+    "images": [
+      "assets/enemies/kivi.png"
+    ],
+    "values": {
+      "hp": null,
+      "height": {
+        "min": 11,
+        "max": 11
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Kivi Temple"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "kinetic hits",
+        "polymorph",
+        "resurrection",
+        "suffocation",
+        "touch of spells"
+      ],
+      "gold": 0,
+      "bleeds": [],
+      "corpse": [
+        "rock"
+      ]
+    },
+    "wikiPage": "Kivi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Mätäryömijä",
+    "aliases": [
+      "Putrid Crawler",
+      "Mataryomija"
+    ],
+    "order": 183,
+    "images": [
+      "assets/enemies/putrid_crawler.png"
+    ],
+    "values": {
+      "hp": 87.5,
+      "height": {
+        "min": 9,
+        "max": 9
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Meat Realm"
+      ],
+      "faction": [
+        "worm"
+      ],
+      "movement": [
+        "burrow"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 30,
+      "bleeds": [
+        "worm blood"
+      ],
+      "corpse": [
+        "worm meat"
+      ]
+    },
+    "wikiPage": "Mätäryömijä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Henkevä potu",
+    "aliases": [
+      "Potion Mimic",
+      "Henkeva potu"
+    ],
+    "order": 184,
+    "images": [
+      "assets/enemies/potion_mimic.png"
+    ],
+    "values": {
+      "hp": 25,
+      "height": {
+        "min": 8,
+        "max": 8
+      },
+      "attacks": [],
+      "spawn": [
+        "Barren Temple",
+        "Pedestals"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [],
+      "corpse": []
+    },
+    "wikiPage": "Henkevä potu",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Arrow Trap",
+    "aliases": [],
+    "order": 185,
+    "images": [
+      "assets/enemies/arrow_trap.png"
+    ],
+    "values": {
+      "hp": 37.5,
+      "height": {
+        "min": 10,
+        "max": 10
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Pyramid",
+        "Temple of the Art",
+        "The Work (Hell)",
+        "The Work (Sky)",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "trap"
+      ],
+      "movement": [],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "sand"
+      ],
+      "corpse": [
+        "plastic"
+      ]
+    },
+    "wikiPage": "Traps#Wall Traps",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Fire Trap",
+    "aliases": [],
+    "order": 186,
+    "images": [
+      "assets/enemies/fire_trap.png"
+    ],
+    "values": {
+      "hp": 112.5,
+      "height": {
+        "min": 10,
+        "max": 10
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Temple of the Art",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "trap"
+      ],
+      "movement": [],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "sand"
+      ],
+      "corpse": [
+        "plastic"
+      ]
+    },
+    "wikiPage": "Traps#Wall Traps",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Thunder Trap",
+    "aliases": [
+      "Lightning Trap"
+    ],
+    "order": 187,
+    "images": [
+      "assets/enemies/thunder_trap.png"
+    ],
+    "values": {
+      "hp": 137.5,
+      "height": {
+        "min": 10,
+        "max": 10
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Temple of the Art",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "trap"
+      ],
+      "movement": [],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "sand"
+      ],
+      "corpse": [
+        "plastic"
+      ]
+    },
+    "wikiPage": "Traps#Wall Traps",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Acid Trap",
+    "aliases": [],
+    "order": 188,
+    "images": [
+      "assets/enemies/acid_trap.png"
+    ],
+    "values": {
+      "hp": 87.5,
+      "height": {
+        "min": 10,
+        "max": 10
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Temple of the Art",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "trap"
+      ],
+      "movement": [],
+      "immunities": [
+        "electric",
+        "fire",
+        "ice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "sand"
+      ],
+      "corpse": [
+        "plastic"
+      ]
+    },
+    "wikiPage": "Traps#Wall Traps",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Hämis Nest",
+    "aliases": [
+      "Hamis Nest"
+    ],
+    "order": 189,
+    "images": [
+      "assets/enemies/hamis_nest.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 19,
+        "max": 21
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "nest"
+      ],
+      "movement": [],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [],
+      "corpse": [
+        "nest"
+      ]
+    },
+    "wikiPage": null,
+    "wikiNotes": {}
+  },
+  {
+    "name": "Amppari Nest",
+    "aliases": [
+      "Amppari Hive"
+    ],
+    "order": 190,
+    "images": [
+      "assets/enemies/amppari_hive.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 20,
+        "max": 23
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Fungal Caverns",
+        "The Tower",
+        "Underground Jungle"
+      ],
+      "faction": [
+        "nest"
+      ],
+      "movement": [],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [],
+      "corpse": [
+        "nest"
+      ]
+    },
+    "wikiPage": "Amppari",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Firefly Nest",
+    "aliases": [
+      "Firefly Hive"
+    ],
+    "order": 191,
+    "images": [
+      "assets/enemies/firefly_hive.gif"
+    ],
+    "values": {
+      "hp": 125,
+      "height": {
+        "min": 28,
+        "max": 30
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Coal Pits"
+      ],
+      "faction": [
+        "nest"
+      ],
+      "movement": [],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "lava"
+      ],
+      "corpse": [
+        "nest"
+      ]
+    },
+    "wikiPage": null,
+    "wikiNotes": {}
+  },
+  {
+    "name": "Kolmisilmän apuri",
+    "aliases": [
+      "Three-Eye's Helper",
+      "Kolmisilma Minion",
+      "Kolmisilman apuri"
+    ],
+    "order": 192,
+    "images": [
+      "assets/enemies/kolmisilman_apuri.gif"
+    ],
+    "values": {
+      "hp": 200,
+      "height": {
+        "min": 9,
+        "max": 12
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "slimes"
+      ],
+      "movement": [
+        "fly"
+      ],
+      "immunities": [
+        "fire",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "slimy meat"
+      ]
+    },
+    "wikiPage": "Kolmisilmä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Äitilimanuljaska",
+    "aliases": [
+      "Guardian Slime",
+      "Aitilimanuljaska",
+      "Pyramid Boss Minion"
+    ],
+    "order": 193,
+    "images": [
+      "assets/enemies/guardian_slime.gif"
+    ],
+    "values": {
+      "hp": 142.5,
+      "height": {
+        "min": 13,
+        "max": 15
+      },
+      "attacks": [
+        "melee",
+        "ranged"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [
+        "boss_limbs"
+      ],
+      "movement": [
+        "walk",
+        "fly"
+      ],
+      "immunities": [],
+      "gold": 50,
+      "bleeds": [
+        "toxic sludge"
+      ],
+      "corpse": [
+        "green slimy meat"
+      ]
+    },
+    "wikiPage": "Kolmisilmän koipi",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Innocent Spirit",
+    "aliases": [
+      "Deer Boss ghost"
+    ],
+    "order": 194,
+    "images": [
+      "assets/enemies/innocent_spirit.gif"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 8,
+        "max": 8
+      },
+      "attacks": [
+        "other"
+      ],
+      "spawn": [
+        "Spawned by Entity"
+      ],
+      "faction": [],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "electric",
+        "explosion",
+        "fire",
+        "holy",
+        "ice",
+        "melee",
+        "projectile",
+        "resurrection",
+        "slice",
+        "suffocation",
+        "venomous curse"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "magical liquid"
+      ],
+      "corpse": [
+        "spark"
+      ]
+    },
+    "wikiPage": null,
+    "wikiNotes": {}
+  },
+  {
+    "name": "Myrkkynääpikkä",
+    "aliases": [
+      "Funeral Bell",
+      "Myrkkynaapikka",
+      "small yellow fungus",
+      "small yellow mushroom"
+    ],
+    "order": 195,
+    "images": [
+      "assets/enemies/funeral_bell.gif"
+    ],
+    "values": {
+      "hp": 40,
+      "height": {
+        "min": 10,
+        "max": 12
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Overgrown Cavern"
+      ],
+      "faction": [
+        "fungus"
+      ],
+      "movement": [
+        "walk"
+      ],
+      "immunities": [],
+      "gold": 0,
+      "bleeds": [
+        "fungus blood"
+      ],
+      "corpse": [
+        "weird fungus"
+      ]
+    },
+    "wikiPage": "Myrkkynääpikkä",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Houre",
+    "aliases": [
+      "Homing Ghost",
+      "Amoeba",
+      "Tick"
+    ],
+    "order": 196,
+    "images": [
+      "assets/enemies/houre.gif"
+    ],
+    "values": {
+      "hp": 500,
+      "height": {
+        "min": 38,
+        "max": 39
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Snowy Chasm",
+        "Temple of the Art",
+        "Wizards' Den"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [
+        "fly",
+        "burrow"
+      ],
+      "immunities": [
+        "drill",
+        "electric",
+        "explosion",
+        "fire",
+        "holy",
+        "ice",
+        "melee",
+        "projectile",
+        "slice"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "worm blood"
+      ],
+      "corpse": [
+        "worm meat"
+      ]
+    },
+    "wikiPage": "Houre",
+    "wikiNotes": {}
+  },
+  {
+    "name": "Wall Eye",
+    "aliases": [
+      "Meat Realm Eye"
+    ],
+    "order": 197,
+    "images": [
+      "assets/enemies/wall_eye.gif"
+    ],
+    "values": {
+      "hp": 12.5,
+      "height": {
+        "min": 5,
+        "max": 13
+      },
+      "attacks": [
+        "ranged"
+      ],
+      "spawn": [
+        "Meat Realm"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [
+        "polymorph",
+        "projectile",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": []
+    },
+    "wikiPage": null,
+    "wikiNotes": {}
+  },
+  {
+    "name": "Wall Mouth",
+    "aliases": [
+      "Meat Realm Mouth"
+    ],
+    "order": 198,
+    "images": [
+      "assets/enemies/wall_mouth.gif"
+    ],
+    "values": {
+      "hp": 12.5,
+      "height": {
+        "min": 6,
+        "max": 13
+      },
+      "attacks": [
+        "melee"
+      ],
+      "spawn": [
+        "Meat Realm"
+      ],
+      "faction": [
+        "ghost"
+      ],
+      "movement": [],
+      "immunities": [
+        "polymorph",
+        "projectile",
+        "suffocation"
+      ],
+      "gold": 0,
+      "bleeds": [
+        "blood"
+      ],
+      "corpse": []
+    },
+    "wikiPage": null,
+    "wikiNotes": {}
+  }
+]
