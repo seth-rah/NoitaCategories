@@ -3,7 +3,7 @@ import { optionsFor } from '../domain/filter.js';
 import { formatItem } from '../domain/format.js';
 import { sanitizeNumber, toNumber } from '../domain/sanitize.js';
 import { h, replaceChildren } from './dom.js';
-/** @import { BlockFilter, Category, Enemy, Filter, NumberFilter, RangeFilter } from '../domain/types.js' */
+/** @import { BlockFilter, Category, Enemy, Filter, NumberFilter } from '../domain/types.js' */
 
 /**
  * @typedef {object} EditorContext
@@ -19,23 +19,21 @@ import { h, replaceChildren } from './dom.js';
  * @typedef {{ value: T, label: string }} Choice
  */
 
-/** @type {readonly Choice<NumberFilter['op']>[]} */
-const OPERATORS = Object.freeze([
-  { value: '=', label: 'Exactly' },
-  { value: '>', label: 'More than' },
-  { value: '<', label: 'Less than' },
-]);
-
-/** @type {readonly Choice<RangeFilter['mode']>[]} */
-const HEIGHT_MODES = Object.freeze([
-  { value: 'exact', label: 'Exact' },
+/** @type {readonly Choice<NumberFilter['mode']>[]} */
+const NUMBER_MODES = Object.freeze([
+  { value: 'exact', label: 'Exactly' },
   { value: 'range', label: 'Range' },
+  { value: 'above', label: 'More than' },
+  { value: 'below', label: 'Less than' },
 ]);
 
-/** @type {Readonly<Record<RangeFilter['mode'], string>>} */
-const HEIGHT_HINTS = Object.freeze({
-  exact: 'Whole pixels. Green is an exact height; yellow means it falls within the enemy’s range.',
-  range: 'Shows enemies whose whole height fits between lowest and highest, inclusive.',
+/** @type {Readonly<Record<NumberFilter['mode'], string>>} */
+const NUMBER_HINTS = Object.freeze({
+  exact: 'Matches enemies whose value can be this. Green only when it is exactly this.',
+  range:
+    'Matches enemies whose whole value fits between lowest and highest, inclusive. Green only for that exact range.',
+  above: 'Matches enemies whose value can be higher. Always yellow, as it is never exact.',
+  below: 'Matches enemies whose value can be lower. Always yellow, as it is never exact.',
 });
 
 /**
@@ -49,8 +47,6 @@ export function createEditor(context) {
     case KIND.DECIMAL:
     case KIND.INTEGER:
       return numberEditor(context);
-    case KIND.RANGE:
-      return heightEditor(context);
     case KIND.ALL_OF:
     case KIND.ONE_OF:
       return blockEditor(context);
@@ -58,110 +54,74 @@ export function createEditor(context) {
 }
 
 /**
- * Comparison buttons plus a number input masked to the category's precision.
+ * Exactly, more than or less than a value, or a lowest-highest range, with inputs
+ * masked to the category's precision. Typed numbers survive switching between modes.
  * @param {EditorContext} context
  * @returns {HTMLElement}
  */
 function numberEditor({ category, filter, setFilter }) {
   const current = /** @type {NumberFilter | undefined} */ (filter);
   const decimals = category.kind === KIND.DECIMAL ? 1 : 0;
-  let op = current?.op ?? '=';
+  let mode = current?.mode ?? 'exact';
 
-  const input = numberInput({
+  const value = numberInput({
     decimals,
-    value: current?.value,
+    value: current && current.mode !== 'range' ? current.value : undefined,
     label: `${category.label} value`,
     placeholder: decimals > 0 ? 'e.g. 2.5' : 'e.g. 10',
     onChange: commit,
   });
-
-  function commit() {
-    const value = toNumber(input.value);
-    setFilter(value === undefined ? undefined : { op, value });
-  }
-
-  return h(
-    'div',
-    { class: 'editor' },
-    segmented('Comparison', OPERATORS, op, (value) => {
-      op = value;
-      commit();
-    }),
-    input,
-    h(
-      'p',
-      { class: 'hint' },
-      decimals > 0 ? '0 or higher, one decimal place' : 'Whole number, 0 or higher',
-    ),
-  );
-}
-
-/**
- * An exact height, or the lowest and highest heights an enemy may span; both inclusive.
- * @param {EditorContext} context
- * @returns {HTMLElement}
- */
-function heightEditor({ category, filter, setFilter }) {
-  const current = /** @type {RangeFilter | undefined} */ (filter);
-  let mode = current?.mode ?? 'exact';
-
-  const exact = numberInput({
-    decimals: 0,
-    value: current?.mode === 'exact' ? current.value : undefined,
-    label: `Exact ${category.label}`,
-    placeholder: 'e.g. 12',
-    onChange: commit,
-  });
-  const from = numberInput({
-    decimals: 0,
+  const lowest = numberInput({
+    decimals,
     value: current?.mode === 'range' ? current.from : undefined,
-    label: 'Lowest',
+    label: `Lowest ${category.label}`,
     placeholder: 'Lowest',
     onChange: commit,
   });
-  const to = numberInput({
-    decimals: 0,
+  const highest = numberInput({
+    decimals,
     value: current?.mode === 'range' ? current.to : undefined,
-    label: 'Highest',
+    label: `Highest ${category.label}`,
     placeholder: 'Highest',
     onChange: commit,
   });
-  const exactRow = h('div', { class: 'field-row' }, exact);
-  const rangeRow = h('div', { class: 'field-row' }, from, h('span', { class: 'dash' }, '–'), to);
-
+  const valueRow = h('div', { class: 'field-row' }, value);
+  const rangeRow = h(
+    'div',
+    { class: 'field-row' },
+    lowest,
+    h('span', { class: 'dash' }, '–'),
+    highest,
+  );
   const hint = h('p', { class: 'hint' });
 
   function render() {
-    exactRow.hidden = mode !== 'exact';
+    valueRow.hidden = mode === 'range';
     rangeRow.hidden = mode !== 'range';
-    replaceChildren(hint, HEIGHT_HINTS[mode]);
+    replaceChildren(hint, NUMBER_HINTS[mode]);
   }
 
   function commit() {
-    if (mode === 'exact') {
-      const value = toNumber(exact.value);
-      setFilter(value === undefined ? undefined : { mode, value });
+    if (mode !== 'range') {
+      const number = toNumber(value.value);
+      setFilter(number === undefined ? undefined : { mode, value: number });
       return;
     }
-    const lowest = toNumber(from.value);
-    const highest = toNumber(to.value);
-    setFilter(
-      lowest === undefined || highest === undefined
-        ? undefined
-        : { mode, from: lowest, to: highest },
-    );
+    const from = toNumber(lowest.value);
+    const to = toNumber(highest.value);
+    setFilter(from === undefined || to === undefined ? undefined : { mode, from, to });
   }
 
   render();
   return h(
     'div',
     { class: 'editor' },
-    segmented('Height mode', HEIGHT_MODES, mode, (value) => {
-      mode = value;
+    segmented('Comparison', NUMBER_MODES, mode, (selected) => {
+      mode = selected;
       render();
       commit();
     }),
-    exactRow,
+    valueRow,
     rangeRow,
     hint,
   );

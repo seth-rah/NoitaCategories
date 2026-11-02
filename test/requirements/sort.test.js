@@ -8,7 +8,7 @@ import {
   setFilter,
   toggleBlockValue,
 } from '../../site/src/state/actions.js';
-import { ENEMIES, PIKKUMATO, names } from './fixtures.js';
+import { ENEMIES, HAULIKKOHIISI, HORNAHIISI, PIKKUMATO, RYNKKYHIISI, names } from './fixtures.js';
 /** @import { AppState } from '../../site/src/domain/types.js' */
 
 /**
@@ -74,6 +74,13 @@ describe('Sorting', () => {
     assert.deepEqual(order, ['Pikkumato', 'Ranged Pikkumato']);
   });
 
+  it('HP and Gold sort by their lowest value, then their highest', () => {
+    const order = names(
+      sortEnemies([HORNAHIISI, RYNKKYHIISI, HAULIKKOHIISI], { key: 'hp', direction: 'asc' }),
+    );
+    assert.deepEqual(order, ['Haulikkohiisi', 'Rynkkyhiisi', 'Hornahiisi']);
+  });
+
   it('height sorts by its first (lowest) value', () => {
     assert.deepEqual(sortedBy('height', 1), [
       'Pikkumato',
@@ -121,7 +128,7 @@ describe('Sorting', () => {
   });
 
   it('sorting keeps the active filters and the filters keep the sort', () => {
-    let state = setFilter(INITIAL_STATE, 'gold', { op: '=', value: 10 });
+    let state = setFilter(INITIAL_STATE, 'gold', { mode: 'exact', value: 10 });
     state = cycleSort(cycleSort(state, 'hp'), 'hp');
     state = toggleBlockValue(state, 'attacks', 'melee');
 

@@ -1,5 +1,10 @@
 const STORAGE_KEY = 'noita-categories:disclaimer-accepted';
-const ACCEPTED = '1';
+
+/**
+ * The disclaimer visitors last confirmed. Change it whenever the disclaimer or the site
+ * changes meaningfully, so every visitor confirms again.
+ */
+export const DISCLAIMER_VERSION = '2026-11-02';
 
 /** @typedef {Pick<Storage, 'getItem' | 'setItem'>} DisclaimerStorage */
 
@@ -16,13 +21,14 @@ export function browserStorage() {
 }
 
 /**
- * Whether this visitor has already confirmed they will use the site for learning.
+ * Whether this visitor has confirmed the current disclaimer.
  * @param {DisclaimerStorage | null} storage
- * @returns {boolean} `false` for first-time visitors and whenever storage is unavailable.
+ * @returns {boolean} `false` for first-time visitors, visitors who confirmed an earlier
+ *   version, and whenever storage is unavailable.
  */
 export function hasAcceptedDisclaimer(storage) {
   try {
-    return storage?.getItem(STORAGE_KEY) === ACCEPTED;
+    return storage?.getItem(STORAGE_KEY) === DISCLAIMER_VERSION;
   } catch {
     return false;
   }
@@ -39,7 +45,7 @@ export function recordDisclaimerAcceptance(storage) {
     return false;
   }
   try {
-    storage.setItem(STORAGE_KEY, ACCEPTED);
+    storage.setItem(STORAGE_KEY, DISCLAIMER_VERSION);
     return true;
   } catch {
     return false;

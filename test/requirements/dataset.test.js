@@ -65,16 +65,9 @@ describe('Published enemy data', () => {
     assert.deepEqual(unlinked, []);
   });
 
-  it('shows wiki notes only on the categories where the wiki disagrees', () => {
-    const categoryKeys = new Set(CATEGORIES.map((category) => category.key));
-    for (const enemy of enemies) {
-      for (const key of Object.keys(enemy.wikiNotes)) {
-        assert.ok(categoryKeys.has(key), `${enemy.name}: unknown category ${key}`);
-      }
-    }
-    /** @param {string} name */
-    const notesOf = (name) => enemies.find((enemy) => enemy.name === name)?.wikiNotes;
-    assert.deepEqual(notesOf('Pienkätyri'), { gold: 'The Noita wiki says: 160' });
-    assert.deepEqual(notesOf('Suhiseva lammas'), {});
+  it('keeps the HP and Gold ranges noitadle gives', () => {
+    const rynkkyhiisi = enemies.find((enemy) => enemy.name === 'Rynkkyhiisi');
+    assert.deepEqual(rynkkyhiisi?.values.hp, { min: 25, max: 50 });
+    assert.deepEqual(rynkkyhiisi?.values.gold, { min: 10, max: 20 });
   });
 });

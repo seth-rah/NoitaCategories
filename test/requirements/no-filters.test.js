@@ -16,7 +16,7 @@ describe('Unfiltered list', () => {
   });
 
   it('shows every enemy again after "clear all"', () => {
-    let state = setFilter(INITIAL_STATE, 'gold', { op: '>', value: 10 });
+    let state = setFilter(INITIAL_STATE, 'gold', { mode: 'above', value: 10 });
     state = toggleBlockValue(state, 'faction', 'orcs');
     state = clearAll(state);
 
@@ -24,7 +24,7 @@ describe('Unfiltered list', () => {
   });
 
   it('clearing one category removes only that filter', () => {
-    let state = setFilter(INITIAL_STATE, 'gold', { op: '=', value: 10 });
+    let state = setFilter(INITIAL_STATE, 'gold', { mode: 'exact', value: 10 });
     state = toggleBlockValue(state, 'faction', 'orcs');
     state = clearFilter(state, 'gold');
 

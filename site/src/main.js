@@ -11,7 +11,6 @@ import { mountSidebar } from './ui/sidebar.js';
 import { mountSortControl } from './ui/sort-control.js';
 import { createStore } from './ui/store.js';
 import { mountTable } from './ui/table.js';
-import { mountTooltips } from './ui/tooltip.js';
 /** @import { Enemy } from './domain/types.js' */
 
 const DATA_URL = 'data/enemies.json';
@@ -37,24 +36,32 @@ async function loadEnemies() {
   return response.json();
 }
 
-const storage = browserStorage();
-if (!hasAcceptedDisclaimer(storage)) {
-  mountDisclaimer(/** @type {HTMLDialogElement} */ (element('disclaimer')), () =>
-    recordDisclaimerAcceptance(storage),
-  );
+/**
+ * Loads the enemy data and builds the interface. Runs only once the visitor has
+ * confirmed the disclaimer, so nothing is usable before then.
+ */
+async function startApp() {
+  try {
+    const enemies = await loadEnemies();
+    const store = createStore(INITIAL_STATE);
+    mountSidebar(element('sidebar'), store);
+    mountPanel(element('panel'), store, enemies);
+    mountSortControl(element('sort-control'), store);
+    mountTable(element('table'), element('result-count'), store, enemies);
+  } catch (error) {
+    replaceChildren(
+      element('table'),
+      h('p', { class: 'empty', role: 'alert' }, `Something went wrong: ${String(error)}`),
+    );
+  }
 }
 
-try {
-  const enemies = await loadEnemies();
-  const store = createStore(INITIAL_STATE);
-  mountSidebar(element('sidebar'), store);
-  mountPanel(element('panel'), store, enemies);
-  mountSortControl(element('sort-control'), store);
-  mountTable(element('table'), element('result-count'), store, enemies);
-  mountTooltips(document.body);
-} catch (error) {
-  replaceChildren(
-    element('table'),
-    h('p', { class: 'empty', role: 'alert' }, `Something went wrong: ${String(error)}`),
-  );
+const storage = browserStorage();
+if (hasAcceptedDisclaimer(storage)) {
+  await startApp();
+} else {
+  mountDisclaimer(/** @type {HTMLDialogElement} */ (element('disclaimer')), () => {
+    recordDisclaimerAcceptance(storage);
+    void startApp();
+  });
 }

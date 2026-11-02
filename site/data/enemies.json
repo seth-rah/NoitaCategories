@@ -5,12 +5,16 @@
       "Mina",
       "Me"
     ],
+    "wikiPage": "Minä",
     "order": 0,
     "images": [
       "assets/enemies/mina.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 100
+      },
       "height": {
         "min": 14,
         "max": 16
@@ -28,32 +32,40 @@
         "walk",
         "fly"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits",
+        "resurrection"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Minä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Lammas",
     "aliases": [
       "Sheep"
     ],
+    "wikiPage": "Lammas",
     "order": 1,
     "images": [
       "assets/enemies/lammas.gif"
     ],
     "values": {
-      "hp": 2.5,
+      "hp": {
+        "min": 2.5,
+        "max": 2.5
+      },
       "height": {
         "min": 10,
-        "max": 13
+        "max": 11
       },
       "attacks": [],
       "spawn": [
@@ -66,32 +78,39 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Lammas",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Lentolammas",
     "aliases": [
       "Flying Sheep"
     ],
+    "wikiPage": "Lammas",
     "order": 2,
     "images": [
       "assets/enemies/lentolammas.gif"
     ],
     "values": {
-      "hp": 7.5,
+      "hp": {
+        "min": 7.5,
+        "max": 7.5
+      },
       "height": {
-        "min": 13,
-        "max": 17
+        "min": 15,
+        "max": 16
       },
       "attacks": [],
       "spawn": [
@@ -104,32 +123,39 @@
         "walk",
         "fly"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Lammas",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Suhiseva lammas",
     "aliases": [
       "Buzzing Sheep"
     ],
+    "wikiPage": "Lammas",
     "order": 3,
     "images": [
       "assets/enemies/suhiseva_lammas.gif"
     ],
     "values": {
-      "hp": 5,
+      "hp": {
+        "min": 5,
+        "max": 5
+      },
       "height": {
         "min": 12,
-        "max": 18
+        "max": 13
       },
       "attacks": [],
       "spawn": [
@@ -142,31 +168,38 @@
         "walk",
         "fly"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Lammas",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Skorpioni",
     "aliases": [
       "Scorpion"
     ],
+    "wikiPage": "Skorpioni",
     "order": 4,
     "images": [
       "assets/enemies/skorpioni.png"
     ],
     "values": {
-      "hp": 2.5,
+      "hp": {
+        "min": 2.5,
+        "max": 2.5
+      },
       "height": {
-        "min": 4,
+        "min": 5,
         "max": 5
       },
       "attacks": [],
@@ -183,17 +216,20 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Skorpioni",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Eväkäs",
@@ -201,12 +237,16 @@
       "Fish",
       "Evakas"
     ],
+    "wikiPage": "Eväkäs",
     "order": 5,
     "images": [
       "assets/enemies/fish.gif"
     ],
     "values": {
-      "hp": 2.5,
+      "hp": {
+        "min": 2.5,
+        "max": 2.5
+      },
       "height": {
         "min": 5,
         "max": 5
@@ -225,18 +265,20 @@
         "swim"
       ],
       "immunities": [
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Eväkäs",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Suureväkäs",
@@ -244,12 +286,16 @@
       "Large Fish",
       "Suurevakas"
     ],
+    "wikiPage": "Suureväkäs",
     "order": 6,
     "images": [
       "assets/enemies/large_fish.gif"
     ],
     "values": {
-      "hp": 2.5,
+      "hp": {
+        "min": 2.5,
+        "max": 2.5
+      },
       "height": {
         "min": 6,
         "max": 7
@@ -265,31 +311,39 @@
       "movement": [
         "swim"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Suureväkäs",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Ankka",
     "aliases": [
       "Duck"
     ],
+    "wikiPage": "Ankka",
     "order": 7,
     "images": [
       "assets/enemies/ankka.gif"
     ],
     "values": {
-      "hp": 3,
+      "hp": {
+        "min": 3,
+        "max": 3
+      },
       "height": {
-        "min": 11,
+        "min": 10,
         "max": 11
       },
       "attacks": [],
@@ -302,32 +356,39 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Ankka",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Susi",
     "aliases": [
       "Wolf"
     ],
+    "wikiPage": "Susi",
     "order": 8,
     "images": [
       "assets/enemies/susi.gif"
     ],
     "values": {
-      "hp": 15,
+      "hp": {
+        "min": 15,
+        "max": 15
+      },
       "height": {
-        "min": 6,
-        "max": 17
+        "min": 11,
+        "max": 13
       },
       "attacks": [
         "melee"
@@ -343,30 +404,35 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Susi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Nelikoipi",
     "aliases": [
       "Deer"
     ],
+    "wikiPage": "Nelikoipi",
     "order": 9,
     "images": [
       "assets/enemies/nelikoipi.gif"
     ],
     "values": {
-      "hp": 20,
+      "hp": {
+        "min": 20,
+        "max": 20
+      },
       "height": {
-        "min": 9,
+        "min": 20,
         "max": 20
       },
       "attacks": [],
@@ -379,32 +445,39 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Nelikoipi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Poro",
     "aliases": [
       "Reindeer"
     ],
+    "wikiPage": "Poro",
     "order": 10,
     "images": [
       "assets/enemies/poro.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 25
+      },
       "height": {
-        "min": 28,
-        "max": 30
+        "min": 29,
+        "max": 29
       },
       "attacks": [],
       "spawn": [
@@ -416,29 +489,36 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Poro",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Nahkiainen",
     "aliases": [
       "Lamprey"
     ],
+    "wikiPage": "Nahkiainen",
     "order": 11,
     "images": [
       "assets/enemies/nahkiainen.png"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 500
+      },
       "height": {
         "min": 17,
         "max": 17
@@ -456,33 +536,40 @@
         "swim"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "worm blood"
       ],
       "corpse": [
         "worm meat"
       ]
-    },
-    "wikiPage": "Nahkiainen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Heikkohurtta",
     "aliases": [
       "Weak Hound"
     ],
+    "wikiPage": "Hurtta",
     "order": 12,
     "images": [
       "assets/enemies/heikkohurtta.gif"
     ],
     "values": {
-      "hp": 5,
+      "hp": {
+        "min": 5,
+        "max": 5
+      },
       "height": {
-        "min": 7,
-        "max": 15
+        "min": 9,
+        "max": 11
       },
       "attacks": [
         "melee"
@@ -497,31 +584,36 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Hurtta",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hurtta",
     "aliases": [
       "Hound"
     ],
+    "wikiPage": "Hurtta",
     "order": 13,
     "images": [
       "assets/enemies/hurtta.gif"
     ],
     "values": {
-      "hp": 12.5,
+      "hp": {
+        "min": 12.5,
+        "max": 12.5
+      },
       "height": {
-        "min": 7,
-        "max": 15
+        "min": 9,
+        "max": 11
       },
       "attacks": [
         "melee"
@@ -541,16 +633,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Hurtta",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Tappurahiisiläinen",
@@ -559,12 +652,16 @@
       "Tappurahiisilainen",
       "Weak TNT thrower"
     ],
+    "wikiPage": "Tappurahiisi#Tappurahiisiläinen",
     "order": 14,
     "images": [
       "assets/enemies/weak_hiisi_miner.gif"
     ],
     "values": {
-      "hp": 11,
+      "hp": {
+        "min": 11,
+        "max": 11
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -585,16 +682,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Tappurahiisi#Tappurahiisiläinen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Tappurahiisi",
@@ -602,12 +700,16 @@
       "Miner Hiisi",
       "TNT thrower"
     ],
+    "wikiPage": "Tappurahiisi",
     "order": 15,
     "images": [
       "assets/enemies/tappurahiisi.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 25
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -632,16 +734,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Tappurahiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Tulihiisi",
@@ -649,14 +752,18 @@
       "Fire Hiisi",
       "Molotov Hiisi"
     ],
+    "wikiPage": "Tulihiisi",
     "order": 16,
     "images": [
       "assets/enemies/tulihiisi.gif"
     ],
     "values": {
-      "hp": 50,
+      "hp": {
+        "min": 50,
+        "max": 50
+      },
       "height": {
-        "min": 13,
+        "min": 14,
         "max": 16
       },
       "attacks": [
@@ -674,30 +781,35 @@
         "walk"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 20,
+      "gold": {
+        "min": 20,
+        "max": 20
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Tulihiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Jouluhiisi",
     "aliases": [
       "Christmas Hiisi"
     ],
+    "wikiPage": "Jouluhiisi",
     "order": 17,
     "images": [
       "assets/enemies/jouluhiisi.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 100
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -718,16 +830,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 40
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Jouluhiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kokkihiisi",
@@ -735,12 +848,16 @@
       "Hiisi Chef",
       "Sausage Thrower"
     ],
+    "wikiPage": "Tappurahiisi#Chef",
     "order": 18,
     "images": [
       "assets/enemies/kokkihiisi.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 25
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -759,16 +876,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Tappurahiisi#Chef",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Sähikäismenninkäinen",
@@ -776,15 +894,19 @@
       "Firecracker Goblin",
       "Sahikaismenninkainen"
     ],
+    "wikiPage": "Sähikäismenninkäinen",
     "order": 19,
     "images": [
       "assets/enemies/firecracker_goblin.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 25
+      },
       "height": {
-        "min": 11,
-        "max": 22
+        "min": 19,
+        "max": 20
       },
       "attacks": [
         "melee",
@@ -800,31 +922,38 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 10,
+      "immunities": [
+        "ignition"
+      ],
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Sähikäismenninkäinen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Heikko haulikkohiisi",
     "aliases": [
       "Weak Shotgun Hiisi"
     ],
+    "wikiPage": "Haulikkohiisi",
     "order": 20,
     "images": [
       "assets/enemies/heikko_haulikkohiisi.gif"
     ],
     "values": {
-      "hp": 9,
+      "hp": {
+        "min": 9,
+        "max": 9
+      },
       "height": {
-        "min": 13,
+        "min": 14,
         "max": 15
       },
       "attacks": [
@@ -841,30 +970,35 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Haulikkohiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Haulikkohiisi",
     "aliases": [
       "Shotgun Hiisi"
     ],
+    "wikiPage": "Haulikkohiisi",
     "order": 21,
     "images": [
       "assets/enemies/haulikkohiisi.gif"
     ],
     "values": {
-      "hp": 22.5,
+      "hp": {
+        "min": 22.5,
+        "max": 22.5
+      },
       "height": {
-        "min": 13,
+        "min": 14,
         "max": 15
       },
       "attacks": [
@@ -888,28 +1022,33 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Haulikkohiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Rynkkyhiisi",
     "aliases": [
       "Hiisi Gunner"
     ],
+    "wikiPage": "Rynkkyhiisi",
     "order": 22,
     "images": [
       "assets/enemies/rynkkyhiisi.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 50
+      },
       "height": {
         "min": 15,
         "max": 17
@@ -940,28 +1079,33 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 20
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Rynkkyhiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kranuhiisi",
     "aliases": [
       "Hiisi Grenadier"
     ],
+    "wikiPage": "Kranuhiisi",
     "order": 23,
     "images": [
       "assets/enemies/kranuhiisi.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 50
+      },
       "height": {
         "min": 15,
         "max": 17
@@ -991,16 +1135,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 20
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Kranuhiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Miinankylväjä",
@@ -1008,12 +1153,16 @@
       "Hiisi Mine Thrower",
       "Miinankylvaja"
     ],
+    "wikiPage": "Miinankylväjä",
     "order": 24,
     "images": [
       "assets/enemies/hiisi_mine_thrower.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 175
+      },
       "height": {
         "min": 15,
         "max": 17
@@ -1041,28 +1190,33 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 70
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Miinankylväjä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Parantajahiisi",
     "aliases": [
       "Hiisi Healer"
     ],
+    "wikiPage": "Parantajahiisi",
     "order": 25,
     "images": [
       "assets/enemies/parantajahiisi.gif"
     ],
     "values": {
-      "hp": 17.5,
+      "hp": {
+        "min": 17.5,
+        "max": 50
+      },
       "height": {
         "min": 15,
         "max": 17
@@ -1086,28 +1240,33 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 20
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Parantajahiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Liimahiisi",
     "aliases": [
       "Glue Hiisi"
     ],
+    "wikiPage": "Liimahiisi",
     "order": 26,
     "images": [
       "assets/enemies/liimahiisi.gif"
     ],
     "values": {
-      "hp": 55,
+      "hp": {
+        "min": 55,
+        "max": 162.5
+      },
       "height": {
         "min": 15,
         "max": 17
@@ -1130,16 +1289,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 20,
+      "gold": {
+        "min": 20,
+        "max": 60
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Liimahiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Häivehiisi",
@@ -1147,12 +1307,16 @@
       "Stealth Hiisi",
       "Haivehiisi"
     ],
+    "wikiPage": "Häivehiisi",
     "order": 27,
     "images": [
       "assets/enemies/stealth_hiisi.gif"
     ],
     "values": {
-      "hp": 37.5,
+      "hp": {
+        "min": 37.5,
+        "max": 37.5
+      },
       "height": {
         "min": 15,
         "max": 17
@@ -1173,31 +1337,36 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Häivehiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kilpihiisi",
     "aliases": [
       "Shield Hiisi"
     ],
+    "wikiPage": "Kilpihiisi",
     "order": 28,
     "images": [
       "assets/enemies/kilpihiisi.gif"
     ],
     "values": {
-      "hp": 45,
+      "hp": {
+        "min": 45,
+        "max": 45
+      },
       "height": {
         "min": 15,
-        "max": 18
+        "max": 17
       },
       "attacks": [
         "ranged"
@@ -1216,28 +1385,33 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Kilpihiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Myrkkyhiisi",
     "aliases": [
       "Hiisi Poisoner"
     ],
+    "wikiPage": "Myrkkyhiisi",
     "order": 29,
     "images": [
       "assets/enemies/myrkkyhiisi.gif"
     ],
     "values": {
-      "hp": 150,
+      "hp": {
+        "min": 150,
+        "max": 300
+      },
       "height": {
         "min": 20,
         "max": 22
@@ -1260,28 +1434,33 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 120
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Myrkkyhiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Isohiisi",
     "aliases": [
       "Hiisi Bomber"
     ],
+    "wikiPage": "Isohiisi",
     "order": 30,
     "images": [
       "assets/enemies/isohiisi.gif"
     ],
     "values": {
-      "hp": 150,
+      "hp": {
+        "min": 150,
+        "max": 300
+      },
       "height": {
         "min": 20,
         "max": 22
@@ -1305,16 +1484,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 120
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Isohiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Toimari",
@@ -1323,12 +1503,16 @@
       "C.E.O.",
       "CEO"
     ],
+    "wikiPage": "Toimari",
     "order": 31,
     "images": [
       "assets/enemies/toimari.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 300
+      },
       "height": {
         "min": 22,
         "max": 24
@@ -1355,16 +1539,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 120
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Toimari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Puistokemisti",
@@ -1373,14 +1558,18 @@
       "Flask Thrower",
       "Potion Thrower"
     ],
+    "wikiPage": "Puistokemisti",
     "order": 32,
     "images": [
       "assets/enemies/puistokemisti.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
-        "min": 14,
+        "min": 15,
         "max": 17
       },
       "attacks": [
@@ -1400,29 +1589,36 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 30,
+      "immunities": [
+        "ignition"
+      ],
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Puistokemisti",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Snipuhiisi",
     "aliases": [
       "Hiisi Sniper"
     ],
+    "wikiPage": "Snipuhiisi",
     "order": 33,
     "images": [
       "assets/enemies/snipuhiisi.gif"
     ],
     "values": {
-      "hp": 45,
+      "hp": {
+        "min": 45,
+        "max": 155
+      },
       "height": {
         "min": 14,
         "max": 16
@@ -1444,16 +1640,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 60
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Snipuhiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Märkiäinen",
@@ -1461,15 +1658,19 @@
       "Swampling",
       "Markiainen"
     ],
+    "wikiPage": "Märkiäinen",
     "order": 34,
     "images": [
       "assets/enemies/swampling.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
-        "min": 10,
-        "max": 17
+        "min": 12,
+        "max": 15
       },
       "attacks": [
         "ranged"
@@ -1487,30 +1688,35 @@
         "walk"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "swamp"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Märkiäinen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Raukka",
     "aliases": [
       "Coward"
     ],
+    "wikiPage": "Raukka",
     "order": 35,
     "images": [
       "assets/enemies/raukka.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 250
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -1533,16 +1739,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 20,
+      "gold": {
+        "min": 30,
+        "max": 100
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Raukka",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Liekkari",
@@ -1550,14 +1757,18 @@
       "Flamer",
       "Flamethrower"
     ],
+    "wikiPage": "Liekkari",
     "order": 36,
     "images": [
       "assets/enemies/liekkari.gif"
     ],
     "values": {
-      "hp": 50,
+      "hp": {
+        "min": 50,
+        "max": 150
+      },
       "height": {
-        "min": 15,
+        "min": 16,
         "max": 18
       },
       "attacks": [
@@ -1577,33 +1788,39 @@
       ],
       "immunities": [
         "fire",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 20,
+      "gold": {
+        "min": 20,
+        "max": 60
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Liekkari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Jäähdytyslaite",
     "aliases": [
       "Icer"
     ],
+    "wikiPage": "Jäähdytyslaite",
     "order": 37,
     "images": [
       "assets/enemies/icer.gif"
     ],
     "values": {
-      "hp": 50,
+      "hp": {
+        "min": 150,
+        "max": 150
+      },
       "height": {
-        "min": 15,
+        "min": 16,
         "max": 18
       },
       "attacks": [
@@ -1624,19 +1841,21 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 20,
+      "gold": {
+        "min": 60,
+        "max": 60
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Jäähdytyslaite",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Mätänevä ruumis",
@@ -1644,15 +1863,19 @@
       "Rotting Corpse",
       "Mataneva ruumis"
     ],
+    "wikiPage": "Mätänevä ruumis",
     "order": 38,
     "images": [
       "assets/enemies/rotting_corpse.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 250
+      },
       "height": {
-        "min": 12,
-        "max": 21
+        "min": 16,
+        "max": 18
       },
       "attacks": [
         "melee",
@@ -1671,16 +1894,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 0,
+      "gold": {
+        "min": 40,
+        "max": 100
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "cursed meat"
       ]
-    },
-    "wikiPage": "Mätänevä ruumis",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Mätänevä kroppa",
@@ -1688,15 +1912,19 @@
       "Rotting Body",
       "Mataneva kroppa"
     ],
+    "wikiPage": "Mätänevä ruumis",
     "order": 39,
     "images": [
       "assets/enemies/rotting_body.gif"
     ],
     "values": {
-      "hp": 150,
+      "hp": {
+        "min": 150,
+        "max": 150
+      },
       "height": {
-        "min": 12,
-        "max": 21
+        "min": 13,
+        "max": 15
       },
       "attacks": [
         "melee",
@@ -1712,16 +1940,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 60
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "cursed meat"
       ]
-    },
-    "wikiPage": "Mätänevä ruumis",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Mätänevä pää",
@@ -1729,12 +1958,16 @@
       "Rotting Head",
       "Mataneva paa"
     ],
+    "wikiPage": "Mätänevä ruumis",
     "order": 40,
     "images": [
       "assets/enemies/rotting_head.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 100
+      },
       "height": {
         "min": 11,
         "max": 11
@@ -1752,30 +1985,35 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 40
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "cursed meat"
       ]
-    },
-    "wikiPage": "Mätänevä ruumis",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Heikko limanuljaska",
     "aliases": [
       "Weak Toxic Slime"
     ],
+    "wikiPage": "Limanuljaska",
     "order": 41,
     "images": [
       "assets/enemies/heikko_limanuljaska.gif"
     ],
     "values": {
-      "hp": 7.5,
+      "hp": {
+        "min": 7.5,
+        "max": 7.5
+      },
       "height": {
         "min": 12,
         "max": 13
@@ -1796,28 +2034,33 @@
       "immunities": [
         "toxic"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "toxic sludge"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Limanuljaska",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Limanuljaska",
     "aliases": [
       "Toxic Slime"
     ],
+    "wikiPage": "Limanuljaska",
     "order": 42,
     "images": [
       "assets/enemies/limanuljaska.gif"
     ],
     "values": {
-      "hp": 18.75,
+      "hp": {
+        "min": 18.75,
+        "max": 18.75
+      },
       "height": {
         "min": 12,
         "max": 13
@@ -1843,28 +2086,33 @@
       "immunities": [
         "toxic"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "toxic sludge"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Limanuljaska",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Heikko happonuljaska",
     "aliases": [
       "Weak Acid Slime"
     ],
+    "wikiPage": "Happonuljaska#Heikko happonuljaska",
     "order": 43,
     "images": [
       "assets/enemies/heikko_happonuljaska.gif"
     ],
     "values": {
-      "hp": 10,
+      "hp": {
+        "min": 10,
+        "max": 10
+      },
       "height": {
         "min": 15,
         "max": 15
@@ -1885,17 +2133,16 @@
       "immunities": [
         "toxic"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Happonuljaska#Heikko happonuljaska",
-    "wikiNotes": {
-      "bleeds": "The Noita wiki says: acid"
     }
   },
   {
@@ -1903,12 +2150,16 @@
     "aliases": [
       "Acid Slime"
     ],
+    "wikiPage": "Happonuljaska",
     "order": 44,
     "images": [
       "assets/enemies/happonuljaska.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 150
+      },
       "height": {
         "min": 15,
         "max": 15
@@ -1935,17 +2186,16 @@
       "immunities": [
         "toxic"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 60
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Happonuljaska",
-    "wikiNotes": {
-      "bleeds": "The Noita wiki says: acid"
     }
   },
   {
@@ -1953,15 +2203,19 @@
     "aliases": [
       "Gazer"
     ],
+    "wikiPage": "Mulkkio",
     "order": 45,
     "images": [
       "assets/enemies/mulkkio.gif"
     ],
     "values": {
-      "hp": 150,
+      "hp": {
+        "min": 150,
+        "max": 400
+      },
       "height": {
         "min": 15,
-        "max": 16
+        "max": 15
       },
       "attacks": [
         "ranged"
@@ -1979,16 +2233,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 160
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Mulkkio",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Heikko äitinuljaska",
@@ -1996,14 +2251,18 @@
       "Weak Mother Slime",
       "Heikko aitinuljaska"
     ],
+    "wikiPage": "Äitinuljaska",
     "order": 46,
     "images": [
       "assets/enemies/weak_mother_slime.gif"
     ],
     "values": {
-      "hp": 50,
+      "hp": {
+        "min": 50,
+        "max": 50
+      },
       "height": {
-        "min": 17,
+        "min": 18,
         "max": 19
       },
       "attacks": [
@@ -2019,17 +2278,16 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 20,
+      "gold": {
+        "min": 20,
+        "max": 20
+      },
       "bleeds": [
         "acid"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Äitinuljaska",
-    "wikiNotes": {
-      "corpse": "The Noita wiki says: meat"
     }
   },
   {
@@ -2037,14 +2295,18 @@
     "aliases": [
       "Mother Slime"
     ],
+    "wikiPage": "Äitinuljaska",
     "order": 47,
     "images": [
       "assets/enemies/mother_slime.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
-        "min": 17,
+        "min": 18,
         "max": 19
       },
       "attacks": [
@@ -2063,16 +2325,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "acid"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Äitinuljaska",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Möykky",
@@ -2080,15 +2343,19 @@
       "Blob",
       "Moykky"
     ],
+    "wikiPage": "Möykky",
     "order": 48,
     "images": [
       "assets/enemies/blob.gif"
     ],
     "values": {
-      "hp": 8.75,
+      "hp": {
+        "min": 8.75,
+        "max": 8.75
+      },
       "height": {
-        "min": 4,
-        "max": 4
+        "min": 5,
+        "max": 5
       },
       "attacks": [
         "melee"
@@ -2107,16 +2374,17 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Möykky",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kiukkumöykky",
@@ -2124,15 +2392,19 @@
       "Angry Blob",
       "Kiukkumoykky"
     ],
+    "wikiPage": "Kiukkumöykky",
     "order": 49,
     "images": [
       "assets/enemies/angry_blob.gif"
     ],
     "values": {
-      "hp": 37.5,
+      "hp": {
+        "min": 37.5,
+        "max": 112.5
+      },
       "height": {
-        "min": 7,
-        "max": 12
+        "min": 8,
+        "max": 9
       },
       "attacks": [
         "melee"
@@ -2151,31 +2423,36 @@
         "walk"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 40
+      },
       "bleeds": [],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Kiukkumöykky",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Murkku",
     "aliases": [
       "Ant"
     ],
+    "wikiPage": "Murkku",
     "order": 50,
     "images": [
       "assets/enemies/murkku.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
-        "min": 11,
-        "max": 21
+        "min": 16,
+        "max": 18
       },
       "attacks": [
         "melee",
@@ -2193,31 +2470,36 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Murkku",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Rotta",
     "aliases": [
       "Rat"
     ],
+    "wikiPage": "Rotta",
     "order": 51,
     "images": [
       "assets/enemies/rotta.gif"
     ],
     "values": {
-      "hp": 5,
+      "hp": {
+        "min": 5,
+        "max": 5
+      },
       "height": {
         "min": 5,
-        "max": 8
+        "max": 6
       },
       "attacks": [
         "melee"
@@ -2240,28 +2522,33 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Rotta",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Lepakko",
     "aliases": [
       "Bat"
     ],
+    "wikiPage": "Lepakko",
     "order": 52,
     "images": [
       "assets/enemies/lepakko.gif"
     ],
     "values": {
-      "hp": 12.5,
+      "hp": {
+        "min": 12.5,
+        "max": 12.5
+      },
       "height": {
         "min": 11,
         "max": 13
@@ -2281,30 +2568,35 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Lepakko",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Suurlepakko",
     "aliases": [
       "Large Bat"
     ],
+    "wikiPage": "Suurlepakko",
     "order": 53,
     "images": [
       "assets/enemies/suurlepakko.gif"
     ],
     "values": {
-      "hp": 87.5,
+      "hp": {
+        "min": 87.5,
+        "max": 87.5
+      },
       "height": {
-        "min": 17,
+        "min": 20,
         "max": 27
       },
       "attacks": [
@@ -2322,16 +2614,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Suurlepakko",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Pikkutulikärpänen",
@@ -2339,15 +2632,19 @@
       "Lesser Firefly",
       "Pikkutulikarpanen"
     ],
+    "wikiPage": "Tulikärpänen",
     "order": 54,
     "images": [
       "assets/enemies/lesser_firefly.gif"
     ],
     "values": {
-      "hp": 5,
+      "hp": {
+        "min": 5,
+        "max": 5
+      },
       "height": {
         "min": 7,
-        "max": 11
+        "max": 8
       },
       "attacks": [
         "melee",
@@ -2366,18 +2663,19 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "lava"
       ],
       "corpse": [
         "volcanic rock"
       ]
-    },
-    "wikiPage": "Tulikärpänen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Suurtulikärpänen",
@@ -2385,15 +2683,19 @@
       "Greater Firefly",
       "Suurtulikarpanen"
     ],
+    "wikiPage": "Tulikärpänen",
     "order": 55,
     "images": [
       "assets/enemies/greater_firefly.gif"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 25
+      },
       "height": {
         "min": 9,
-        "max": 17
+        "max": 10
       },
       "attacks": [
         "melee",
@@ -2412,18 +2714,19 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "lava"
       ],
       "corpse": [
         "volcanic rock"
       ]
-    },
-    "wikiPage": "Tulikärpänen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Puska",
@@ -2431,15 +2734,19 @@
       "Bloom",
       "Acid Flower"
     ],
+    "wikiPage": "Puska",
     "order": 56,
     "images": [
       "assets/enemies/puska.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 200
+      },
       "height": {
-        "min": 14,
-        "max": 24
+        "min": 19,
+        "max": 20
       },
       "attacks": [
         "ranged"
@@ -2455,30 +2762,35 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 80
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Puska",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Plasmakukka",
     "aliases": [
       "Plasma Flower"
     ],
+    "wikiPage": "Plasmakukka",
     "order": 57,
     "images": [
       "assets/enemies/plasmakukka.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 250
+      },
       "height": {
-        "min": 15,
+        "min": 17,
         "max": 18
       },
       "attacks": [
@@ -2492,31 +2804,38 @@
         "flower"
       ],
       "movement": [],
-      "immunities": [],
-      "gold": 50,
+      "immunities": [
+        "kinetic hits"
+      ],
+      "gold": {
+        "min": 50,
+        "max": 100
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Plasmakukka",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Amppari",
     "aliases": [
       "wasp"
     ],
+    "wikiPage": "Amppari",
     "order": 58,
     "images": [
       "assets/enemies/amppari.gif"
     ],
     "values": {
-      "hp": 37.5,
+      "hp": {
+        "min": 37.5,
+        "max": 75
+      },
       "height": {
-        "min": 10,
+        "min": 9,
         "max": 10
       },
       "attacks": [
@@ -2536,18 +2855,19 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 30
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Amppari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Konna",
@@ -2555,12 +2875,16 @@
       "Toad",
       "Frog"
     ],
+    "wikiPage": "Konna",
     "order": 59,
     "images": [
       "assets/enemies/konna.gif"
     ],
     "values": {
-      "hp": 7.5,
+      "hp": {
+        "min": 7.5,
+        "max": 7.5
+      },
       "height": {
         "min": 6,
         "max": 7
@@ -2580,16 +2904,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "frog meat"
       ]
-    },
-    "wikiPage": "Konna",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Jättikonna",
@@ -2599,15 +2924,19 @@
       "Jattikonna",
       "Bullfrog"
     ],
+    "wikiPage": "Jättikonna",
     "order": 60,
     "images": [
       "assets/enemies/big_toad.gif"
     ],
     "values": {
-      "hp": 50,
+      "hp": {
+        "min": 50,
+        "max": 50
+      },
       "height": {
         "min": 7,
-        "max": 11
+        "max": 9
       },
       "attacks": [
         "melee"
@@ -2625,16 +2954,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 20,
+      "gold": {
+        "min": 20,
+        "max": 20
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "frog meat"
       ]
-    },
-    "wikiPage": "Jättikonna",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Laahustussieni",
@@ -2643,12 +2973,16 @@
       "small blue fungus",
       "small blue mushroom"
     ],
+    "wikiPage": "Laahustussieni",
     "order": 61,
     "images": [
       "assets/enemies/laahustussieni.gif"
     ],
     "values": {
-      "hp": 65,
+      "hp": {
+        "min": 65,
+        "max": 130
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -2670,29 +3004,36 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 20,
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": {
+        "min": 20,
+        "max": 50
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "weird fungus"
       ]
-    },
-    "wikiPage": "Laahustussieni",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Nuijamalikka",
     "aliases": [
       "Club-foot"
     ],
+    "wikiPage": "Nuijamalikka",
     "order": 62,
     "images": [
       "assets/enemies/nuijamalikka.gif"
     ],
     "values": {
-      "hp": 190,
+      "hp": {
+        "min": 190,
+        "max": 190
+      },
       "height": {
         "min": 19,
         "max": 21
@@ -2713,29 +3054,36 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 70,
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": {
+        "min": 70,
+        "max": 70
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "weird fungus"
       ]
-    },
-    "wikiPage": "Nuijamalikka",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Huhtasieni",
     "aliases": [
       "Pollen Morel"
     ],
+    "wikiPage": "Huhtasieni",
     "order": 63,
     "images": [
       "assets/enemies/huhtasieni.gif"
     ],
     "values": {
-      "hp": 415,
+      "hp": {
+        "min": 415,
+        "max": 415
+      },
       "height": {
         "min": 35,
         "max": 37
@@ -2757,16 +3105,17 @@
         "explosion",
         "suffocation"
       ],
-      "gold": 160,
+      "gold": {
+        "min": 160,
+        "max": 160
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "weird fungus"
       ]
-    },
-    "wikiPage": "Huhtasieni",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Varjokupla",
@@ -2774,12 +3123,16 @@
       "Shadow Bubble",
       "Fart Cloud"
     ],
+    "wikiPage": "Varjokupla",
     "order": 64,
     "images": [
       "assets/enemies/varjokupla.gif"
     ],
     "values": {
-      "hp": 168.75,
+      "hp": {
+        "min": 168.75,
+        "max": 168.75
+      },
       "height": {
         "min": 15,
         "max": 16
@@ -2797,36 +3150,41 @@
         "fly"
       ],
       "immunities": [
-        "fire",
+        "ignition",
         "melee",
         "slice",
         "toxic"
       ],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 60
+      },
       "bleeds": [
         "ominous liquid"
       ],
       "corpse": [
         "ominous liquid"
       ]
-    },
-    "wikiPage": "Varjokupla",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Toukka",
     "aliases": [
       "Maggot"
     ],
+    "wikiPage": "Toukka",
     "order": 65,
     "images": [
       "assets/enemies/toukka.gif"
     ],
     "values": {
-      "hp": 87.5,
+      "hp": {
+        "min": 87.5,
+        "max": 337.5
+      },
       "height": {
         "min": 15,
-        "max": 17
+        "max": 16
       },
       "attacks": [
         "melee",
@@ -2846,16 +3204,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 130
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Toukka",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kallorotta",
@@ -2863,15 +3222,19 @@
       "Skull Rat",
       "Small Skull Fly"
     ],
+    "wikiPage": "Kallorotta",
     "order": 66,
     "images": [
       "assets/enemies/kallorotta.gif"
     ],
     "values": {
-      "hp": 92.5,
+      "hp": {
+        "min": 92.5,
+        "max": 330
+      },
       "height": {
-        "min": 9,
-        "max": 16
+        "min": 10,
+        "max": 11
       },
       "attacks": [
         "melee"
@@ -2889,16 +3252,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 130
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "cursed meat"
       ]
-    },
-    "wikiPage": "Kallorotta",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kallokärpänen",
@@ -2906,12 +3270,16 @@
       "Skull Fly",
       "Kallokarpanen"
     ],
+    "wikiPage": "Kallokärpänen",
     "order": 67,
     "images": [
       "assets/enemies/skull_fly.gif"
     ],
     "values": {
-      "hp": 105,
+      "hp": {
+        "min": 105,
+        "max": 365
+      },
       "height": {
         "min": 22,
         "max": 27
@@ -2933,30 +3301,35 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 140
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "slimy cursed meat"
       ]
-    },
-    "wikiPage": "Kallokärpänen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Pikkuturso",
     "aliases": [
       "Small Tentacler"
     ],
+    "wikiPage": "Pikkuturso",
     "order": 68,
     "images": [
       "assets/enemies/pikkuturso.gif"
     ],
     "values": {
-      "hp": 18.75,
+      "hp": {
+        "min": 18.75,
+        "max": 112.5
+      },
       "height": {
-        "min": 12,
+        "min": 13,
         "max": 13
       },
       "attacks": [
@@ -2976,16 +3349,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 40
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Pikkuturso",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Turso",
@@ -2993,15 +3367,19 @@
       "Tentacler",
       "Octopus"
     ],
+    "wikiPage": "Turso",
     "order": 69,
     "images": [
       "assets/enemies/turso.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 425
+      },
       "height": {
         "min": 20,
-        "max": 27
+        "max": 23
       },
       "attacks": [
         "melee",
@@ -3020,16 +3398,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 170
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Turso",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Sylkyri",
@@ -3037,15 +3416,19 @@
       "Spitter",
       "Acid Spitter"
     ],
+    "wikiPage": "Sylkyri",
     "order": 70,
     "images": [
       "assets/enemies/sylkyri.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 12,
-        "max": 16
+        "max": 15
       },
       "attacks": [
         "ranged"
@@ -3060,31 +3443,36 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Sylkyri",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hiidenkivi",
     "aliases": [
       "Rock Giant"
     ],
+    "wikiPage": "Hiidenkivi",
     "order": 71,
     "images": [
       "assets/enemies/rock_giant.gif"
     ],
     "values": {
-      "hp": 150,
+      "hp": {
+        "min": 150,
+        "max": 150
+      },
       "height": {
-        "min": 19,
-        "max": 26
+        "min": 21,
+        "max": 23
       },
       "attacks": [
         "melee",
@@ -3102,30 +3490,36 @@
       ],
       "immunities": [
         "fire",
-        "ice"
+        "ice",
+        "ignition"
       ],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 60
+      },
       "bleeds": [
         "freezing liquid"
       ],
       "corpse": [
         "volcanic rock"
       ]
-    },
-    "wikiPage": "Hiidenkivi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Lohkare",
     "aliases": [
       "Rock Spirit"
     ],
+    "wikiPage": "Lohkare",
     "order": 72,
     "images": [
       "assets/enemies/lohkare.gif"
     ],
     "values": {
-      "hp": 2.5,
+      "hp": {
+        "min": 2.5,
+        "max": 2.5
+      },
       "height": {
         "min": 13,
         "max": 13
@@ -3144,19 +3538,22 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "melee"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "freezing liquid"
       ],
       "corpse": [
         "rock"
       ]
-    },
-    "wikiPage": "Lohkare",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hämis",
@@ -3164,12 +3561,16 @@
       "Hamis",
       "Spidey"
     ],
+    "wikiPage": "Hämis",
     "order": 73,
     "images": [
       "assets/enemies/hamis.gif"
     ],
     "values": {
-      "hp": 2.75,
+      "hp": {
+        "min": 2.75,
+        "max": 2.75
+      },
       "height": {
         "min": 8,
         "max": 10
@@ -3192,16 +3593,17 @@
         "walk"
       ],
       "immunities": [],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Hämis",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Pikkuhämähäkki",
@@ -3209,12 +3611,16 @@
       "Small Spider",
       "Pikkuhamahakki"
     ],
+    "wikiPage": "Hämähäkki",
     "order": 74,
     "images": [
       "assets/enemies/small_spider.png"
     ],
     "values": {
-      "hp": 87.5,
+      "hp": {
+        "min": 87.5,
+        "max": 87.5
+      },
       "height": {
         "min": 8,
         "max": 8
@@ -3233,18 +3639,21 @@
         "walk"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Hämähäkki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hämähäkki",
@@ -3252,12 +3661,16 @@
       "Spider",
       "Hamahakki"
     ],
+    "wikiPage": "Hämähäkki",
     "order": 75,
     "images": [
       "assets/enemies/spider.png"
     ],
     "values": {
-      "hp": 162.5,
+      "hp": {
+        "min": 162.5,
+        "max": 162.5
+      },
       "height": {
         "min": 14,
         "max": 14
@@ -3277,18 +3690,21 @@
         "burrow"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 60
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Hämähäkki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Lukki",
@@ -3296,12 +3712,16 @@
       "Daddy Longlegs",
       "Large Spider"
     ],
+    "wikiPage": "Hämähäkki",
     "order": 76,
     "images": [
       "assets/enemies/lukki.png"
     ],
     "values": {
-      "hp": 200,
+      "hp": {
+        "min": 200,
+        "max": 200
+      },
       "height": {
         "min": 16,
         "max": 16
@@ -3319,30 +3739,37 @@
         "walk"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 80,
+      "gold": {
+        "min": 80,
+        "max": 80
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Hämähäkki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kasvoton Lukki",
     "aliases": [
       "Faceless Spider"
     ],
+    "wikiPage": "Kasvoton Lukki",
     "order": 77,
     "images": [
       "assets/enemies/kasvoton_lukki.png"
     ],
     "values": {
-      "hp": 150,
+      "hp": {
+        "min": 150,
+        "max": 150
+      },
       "height": {
         "min": 6,
         "max": 6
@@ -3361,20 +3788,23 @@
       ],
       "immunities": [
         "explosion",
+        "glue",
         "ice",
+        "kinetic hits",
         "slice",
         "suffocation"
       ],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 60
+      },
       "bleeds": [
         "worm blood"
       ],
       "corpse": [
         "worm meat"
       ]
-    },
-    "wikiPage": "Kasvoton Lukki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kammolukki",
@@ -3383,12 +3813,16 @@
       "Black Lukki",
       "Black Spider"
     ],
+    "wikiPage": "Kammolukki",
     "order": 78,
     "images": [
       "assets/enemies/kammolukki.gif"
     ],
     "values": {
-      "hp": 600,
+      "hp": {
+        "min": 600,
+        "max": 600
+      },
       "height": {
         "min": 29,
         "max": 29
@@ -3409,31 +3843,39 @@
       "immunities": [
         "electric",
         "explosion",
+        "glue",
+        "ignition",
+        "kinetic hits",
         "projectile",
         "suffocation"
       ],
-      "gold": 240,
+      "gold": {
+        "min": 240,
+        "max": 240
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Kammolukki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Pikkumato",
     "aliases": [
       "Small Worm"
     ],
+    "wikiPage": "Pikkumato",
     "order": 79,
     "images": [
       "assets/enemies/pikkumato.png"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 7,
         "max": 7
@@ -3451,30 +3893,37 @@
         "burrow"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "worm blood"
       ],
       "corpse": [
         "worm meat"
       ]
-    },
-    "wikiPage": "Pikkumato",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Mato",
     "aliases": [
       "Worm"
     ],
+    "wikiPage": "Mato",
     "order": 80,
     "images": [
       "assets/enemies/mato.png"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 3000
+      },
       "height": {
         "min": 12,
         "max": 12
@@ -3497,18 +3946,21 @@
         "burrow"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "worm blood"
       ],
       "corpse": [
         "worm meat"
       ]
-    },
-    "wikiPage": "Mato",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Jättimato",
@@ -3516,14 +3968,18 @@
       "Giant Worm",
       "Jattimato"
     ],
+    "wikiPage": "Jättimato",
     "order": 81,
     "images": [
       "assets/enemies/giant_worm.png"
     ],
     "values": {
-      "hp": 3500,
+      "hp": {
+        "min": 3500,
+        "max": 3500
+      },
       "height": {
-        "min": 25,
+        "min": 23,
         "max": 25
       },
       "attacks": [
@@ -3545,18 +4001,21 @@
         "burrow"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "worm blood"
       ],
       "corpse": [
         "worm meat"
       ]
-    },
-    "wikiPage": "Jättimato",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kalmamato",
@@ -3564,12 +4023,16 @@
       "Death Worm",
       "Ghost Worm"
     ],
+    "wikiPage": "Kalmamato",
     "order": 82,
     "images": [
       "assets/enemies/kalmamato.png"
     ],
     "values": {
-      "hp": 3750,
+      "hp": {
+        "min": 3750,
+        "max": 6250
+      },
       "height": {
         "min": 20,
         "max": 20
@@ -3588,30 +4051,38 @@
         "burrow"
       ],
       "immunities": [
-        "ice"
+        "glue",
+        "ice",
+        "kinetic hits",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "magical liquid"
       ]
-    },
-    "wikiPage": "Kalmamato",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Helvetinmato",
     "aliases": [
       "Hell Worm"
     ],
+    "wikiPage": "Helvetinmato",
     "order": 83,
     "images": [
       "assets/enemies/hell_worm.png"
     ],
     "values": {
-      "hp": 6250,
+      "hp": {
+        "min": 6250,
+        "max": 6250
+      },
       "height": {
         "min": 32,
         "max": 32
@@ -3629,31 +4100,38 @@
         "burrow"
       ],
       "immunities": [
-        "fire",
+        "glue",
+        "ignition",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "lava"
       ],
       "corpse": [
         "lava"
       ]
-    },
-    "wikiPage": "Helvetinmato",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Lennokki",
     "aliases": [
       "Drone"
     ],
+    "wikiPage": "Lennokki",
     "order": 84,
     "images": [
       "assets/enemies/lennokki.gif"
     ],
     "values": {
-      "hp": 10,
+      "hp": {
+        "min": 10,
+        "max": 90
+      },
       "height": {
         "min": 8,
         "max": 10
@@ -3676,17 +4154,19 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 30
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": []
-    },
-    "wikiPage": "Lennokki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Jättilaser-lennokki",
@@ -3695,15 +4175,19 @@
       "Jattilaser-lennokki",
       "Toaster"
     ],
+    "wikiPage": "Jättilaser-lennokki",
     "order": 85,
     "images": [
       "assets/enemies/giant_laser_drone.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 137.5,
+        "max": 137.5
+      },
       "height": {
-        "min": 15,
-        "max": 20
+        "min": 18,
+        "max": 19
       },
       "attacks": [
         "ranged"
@@ -3723,31 +4207,37 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Jättilaser-lennokki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Turvalennokki",
     "aliases": [
       "Safety Drone"
     ],
+    "wikiPage": "Turvalennokki",
     "order": 86,
     "images": [
       "assets/enemies/turvalennokki.gif"
     ],
     "values": {
-      "hp": 210,
+      "hp": {
+        "min": 210,
+        "max": 400
+      },
       "height": {
         "min": 11,
         "max": 14
@@ -3770,19 +4260,21 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 80,
+      "gold": {
+        "min": 80,
+        "max": 160
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Turvalennokki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Tarkkailija",
@@ -3790,12 +4282,16 @@
       "Observer",
       "Target Drone"
     ],
+    "wikiPage": "Tarkkailija",
     "order": 87,
     "images": [
       "assets/enemies/tarkkailija.gif"
     ],
     "values": {
-      "hp": 362.5,
+      "hp": {
+        "min": 362.5,
+        "max": 362.5
+      },
       "height": {
         "min": 14,
         "max": 14
@@ -3815,20 +4311,22 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "projectile",
         "suffocation",
         "toxic"
       ],
-      "gold": 140,
+      "gold": {
+        "min": 140,
+        "max": 140
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Tarkkailija",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Vakoilija",
@@ -3836,12 +4334,16 @@
       "Spy",
       "Invisible Drone"
     ],
+    "wikiPage": "Vakoilija",
     "order": 88,
     "images": [
       "assets/enemies/vakoilija.gif"
     ],
     "values": {
-      "hp": 362.5,
+      "hp": {
+        "min": 362.5,
+        "max": 362.5
+      },
       "height": {
         "min": 14,
         "max": 14
@@ -3862,20 +4364,22 @@
         "electric",
         "fire",
         "ice",
+        "ignition",
         "projectile",
         "suffocation",
         "toxic"
       ],
-      "gold": 140,
+      "gold": {
+        "min": 140,
+        "max": 140
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Vakoilija",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Pysäyttäjä",
@@ -3884,12 +4388,16 @@
       "Slowing Drone",
       "Pysayttaja"
     ],
+    "wikiPage": "Pysäyttäjä",
     "order": 89,
     "images": [
       "assets/enemies/stopper.gif"
     ],
     "values": {
-      "hp": 362.5,
+      "hp": {
+        "min": 362.5,
+        "max": 362.5
+      },
       "height": {
         "min": 12,
         "max": 12
@@ -3909,20 +4417,22 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "projectile",
         "suffocation",
         "toxic"
       ],
-      "gold": 140,
+      "gold": {
+        "min": 140,
+        "max": 140
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Pysäyttäjä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Teloittaja",
@@ -3930,12 +4440,16 @@
       "Executioner",
       "Plasma Drone"
     ],
+    "wikiPage": "Teloittaja",
     "order": 90,
     "images": [
       "assets/enemies/teloittaja.gif"
     ],
     "values": {
-      "hp": 512.5,
+      "hp": {
+        "min": 512.5,
+        "max": 512.5
+      },
       "height": {
         "min": 15,
         "max": 15
@@ -3956,20 +4470,22 @@
         "explosion",
         "fire",
         "ice",
+        "ignition",
         "projectile",
         "suffocation",
         "toxic"
       ],
-      "gold": 200,
+      "gold": {
+        "min": 200,
+        "max": 200
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Teloittaja",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Korjauslennokki",
@@ -3977,12 +4493,16 @@
       "Repair Drone",
       "Healer Drone"
     ],
+    "wikiPage": "Korjauslennokki",
     "order": 91,
     "images": [
       "assets/enemies/korjauslennokki.png"
     ],
     "values": {
-      "hp": 13.75,
+      "hp": {
+        "min": 13.75,
+        "max": 18.75
+      },
       "height": {
         "min": 8,
         "max": 8
@@ -4005,18 +4525,21 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": []
-    },
-    "wikiPage": "Korjauslennokki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Robottikyttä",
@@ -4025,15 +4548,19 @@
       "Robottikytta",
       "Terminator"
     ],
+    "wikiPage": "Robottikyttä",
     "order": 92,
     "images": [
       "assets/enemies/robo_cop.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 325
+      },
       "height": {
         "min": 15,
-        "max": 18
+        "max": 17
       },
       "attacks": [
         "melee",
@@ -4054,30 +4581,37 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
+        "suffocation",
         "toxic"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 130
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Robottikyttä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kyrmyniska",
     "aliases": [
       "Hunchback"
     ],
+    "wikiPage": "Kyrmyniska",
     "order": 93,
     "images": [
       "assets/enemies/kyrmyniska.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
         "min": 17,
         "max": 19
@@ -4098,20 +4632,22 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "projectile",
         "suffocation",
         "toxic"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Kyrmyniska",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Salamurhaajarobotti",
@@ -4119,14 +4655,18 @@
       "Assassin Robot",
       "Ninja Robot"
     ],
+    "wikiPage": "Salamurhaajarobotti",
     "order": 94,
     "images": [
       "assets/enemies/salamurhaajarobotti.gif"
     ],
     "values": {
-      "hp": 200,
+      "hp": {
+        "min": 200,
+        "max": 450
+      },
       "height": {
-        "min": 13,
+        "min": 15,
         "max": 16
       },
       "attacks": [
@@ -4148,33 +4688,39 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 80,
+      "gold": {
+        "min": 80,
+        "max": 180
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Salamurhaajarobotti",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Peitsivartija",
     "aliases": [
       "Lance Sentry"
     ],
+    "wikiPage": "Peitsivartija",
     "order": 95,
     "images": [
       "assets/enemies/peitsivartija.gif"
     ],
     "values": {
-      "hp": 225,
+      "hp": {
+        "min": 225,
+        "max": 1250
+      },
       "height": {
-        "min": 24,
+        "min": 28,
         "max": 31
       },
       "attacks": [
@@ -4199,31 +4745,37 @@
         "explosion",
         "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 90,
+      "gold": {
+        "min": 90,
+        "max": 500
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Peitsivartija",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "KK-Tankki",
     "aliases": [
       "Tank"
     ],
+    "wikiPage": "KK-Tankki",
     "order": 96,
     "images": [
       "assets/enemies/kk-tankki.png"
     ],
     "values": {
-      "hp": 112.5,
+      "hp": {
+        "min": 112.5,
+        "max": 337.5
+      },
       "height": {
         "min": 18,
         "max": 18
@@ -4247,33 +4799,38 @@
         "walk"
       ],
       "immunities": [
-        "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 130
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "KK-Tankki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "IT-Tankki",
     "aliases": [
       "Rocket Tank"
     ],
+    "wikiPage": "IT-Tankki",
     "order": 97,
     "images": [
       "assets/enemies/it-tankki.png"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 375
+      },
       "height": {
         "min": 18,
         "max": 18
@@ -4295,22 +4852,21 @@
         "walk"
       ],
       "immunities": [
-        "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 150
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "IT-Tankki",
-    "wikiNotes": {
-      "spawn": "The Noita wiki also lists: The Vault"
     }
   },
   {
@@ -4318,12 +4874,16 @@
     "aliases": [
       "Laser Tank"
     ],
+    "wikiPage": "Laser-Tankki",
     "order": 98,
     "images": [
       "assets/enemies/laser-tankki.png"
     ],
     "values": {
-      "hp": 237.5,
+      "hp": {
+        "min": 237.5,
+        "max": 637.5
+      },
       "height": {
         "min": 18,
         "max": 18
@@ -4347,33 +4907,38 @@
         "walk"
       ],
       "immunities": [
-        "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 90,
+      "gold": {
+        "min": 90,
+        "max": 250
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Laser-Tankki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Torjuntalaite",
     "aliases": [
       "Turret"
     ],
+    "wikiPage": "Torjuntalaite",
     "order": 99,
     "images": [
       "assets/enemies/torjuntalaite.png"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 225
+      },
       "height": {
         "min": 16,
         "max": 16
@@ -4393,36 +4958,41 @@
       ],
       "movement": [],
       "immunities": [
-        "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 90
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Torjuntalaite",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Munkki",
     "aliases": [
       "Monk"
     ],
+    "wikiPage": "Munkki",
     "order": 101,
     "images": [
       "assets/enemies/munkki.gif"
     ],
     "values": {
-      "hp": 175,
+      "hp": {
+        "min": 175,
+        "max": 175
+      },
       "height": {
         "min": 16,
-        "max": 20
+        "max": 18
       },
       "attacks": [
         "ranged"
@@ -4441,18 +5011,20 @@
       ],
       "immunities": [
         "ice",
+        "ignition",
         "suffocation"
       ],
-      "gold": 60,
+      "gold": {
+        "min": 70,
+        "max": 70
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Munkki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Heinäsirkka",
@@ -4461,15 +5033,19 @@
       "Heinasirkka",
       "Rocket Crab"
     ],
+    "wikiPage": "Heinäsirkka",
     "order": 102,
     "images": [
       "assets/enemies/cricket.gif"
     ],
     "values": {
-      "hp": 187.5,
+      "hp": {
+        "min": 562.5,
+        "max": 562.5
+      },
       "height": {
-        "min": 9,
-        "max": 16
+        "min": 10,
+        "max": 11
       },
       "attacks": [
         "ranged"
@@ -4488,34 +5064,40 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "suffocation",
         "toxic"
       ],
-      "gold": 70,
+      "gold": {
+        "min": 220,
+        "max": 220
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Heinäsirkka",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Tuonelankone",
     "aliases": [
       "Necrobot"
     ],
+    "wikiPage": "Tuonelankone",
     "order": 103,
     "images": [
       "assets/enemies/tuonelankone.gif"
     ],
     "values": {
-      "hp": 400,
+      "hp": {
+        "min": 400,
+        "max": 400
+      },
       "height": {
-        "min": 21,
-        "max": 26
+        "min": 23,
+        "max": 24
       },
       "attacks": [
         "ranged"
@@ -4536,35 +5118,41 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "resurrection",
         "suffocation",
         "toxic"
       ],
-      "gold": 160,
+      "gold": {
+        "min": 160,
+        "max": 160
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Tuonelankone",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Marraskone",
     "aliases": [
       "Super Necrobot"
     ],
+    "wikiPage": "Marraskone",
     "order": 104,
     "images": [
       "assets/enemies/marraskone.gif"
     ],
     "values": {
-      "hp": 700,
+      "hp": {
+        "min": 700,
+        "max": 700
+      },
       "height": {
-        "min": 21,
-        "max": 26
+        "min": 23,
+        "max": 24
       },
       "attacks": [
         "ranged"
@@ -4584,19 +5172,22 @@
       "immunities": [
         "fire",
         "ice",
+        "ignition",
         "resurrection",
+        "suffocation",
         "toxic"
       ],
-      "gold": 280,
+      "gold": {
+        "min": 280,
+        "max": 280
+      },
       "bleeds": [
         "oil"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Marraskone",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Liekkiö",
@@ -4605,15 +5196,19 @@
       "Liekkio",
       "Fire Skull"
     ],
+    "wikiPage": "Liekkiö",
     "order": 105,
     "images": [
       "assets/enemies/fire_spirit.gif"
     ],
     "values": {
-      "hp": 35,
+      "hp": {
+        "min": 35,
+        "max": 35
+      },
       "height": {
-        "min": 15,
-        "max": 18
+        "min": 16,
+        "max": 17
       },
       "attacks": [
         "melee"
@@ -4631,17 +5226,20 @@
       "movement": [
         "fly"
       ],
-      "immunities": [],
-      "gold": 10,
+      "immunities": [
+        "ignition"
+      ],
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "gunpowder"
       ],
       "corpse": [
         "bone"
       ]
-    },
-    "wikiPage": "Liekkiö",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Jäätiö",
@@ -4650,12 +5248,16 @@
       "Ice Skull",
       "Jaatio"
     ],
+    "wikiPage": "Jäätiö",
     "order": 106,
     "images": [
       "assets/enemies/ice_spirit.gif"
     ],
     "values": {
-      "hp": 37.5,
+      "hp": {
+        "min": 37.5,
+        "max": 37.5
+      },
       "height": {
         "min": 11,
         "max": 12
@@ -4677,18 +5279,20 @@
         "fly"
       ],
       "immunities": [
-        "ice"
+        "ice",
+        "ignition"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "freezing liquid"
       ],
       "corpse": [
         "ice"
       ]
-    },
-    "wikiPage": "Jäätiö",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Sähkiö",
@@ -4698,12 +5302,16 @@
       "Lightning Spirit",
       "Lightning Skull"
     ],
+    "wikiPage": "Sähkiö",
     "order": 107,
     "images": [
       "assets/enemies/thunder_spirit.gif"
     ],
     "values": {
-      "hp": 90,
+      "hp": {
+        "min": 112.5,
+        "max": 150
+      },
       "height": {
         "min": 11,
         "max": 12
@@ -4731,18 +5339,20 @@
       ],
       "immunities": [
         "electric",
-        "fire"
+        "fire",
+        "ignition"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 40,
+        "max": 60
+      },
       "bleeds": [
         "freezing liquid"
       ],
       "corpse": [
         "ice"
       ]
-    },
-    "wikiPage": "Sähkiö",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Stendari",
@@ -4750,12 +5360,16 @@
       "Fire Mage",
       "Fire Elemental"
     ],
+    "wikiPage": "Stendari",
     "order": 108,
     "images": [
       "assets/enemies/stendari.gif"
     ],
     "values": {
-      "hp": 80,
+      "hp": {
+        "min": 80,
+        "max": 80
+      },
       "height": {
         "min": 19,
         "max": 22
@@ -4777,30 +5391,36 @@
         "walk"
       ],
       "immunities": [
-        "fire"
+        "fire",
+        "ignition"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "lava"
       ],
       "corpse": [
         "volcanic rock"
       ]
-    },
-    "wikiPage": "Stendari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Eldari",
     "aliases": [
       "Hellfire Mage"
     ],
+    "wikiPage": "Eldari",
     "order": 109,
     "images": [
       "assets/enemies/eldari.gif"
     ],
     "values": {
-      "hp": 250,
+      "hp": {
+        "min": 125,
+        "max": 375
+      },
       "height": {
         "min": 19,
         "max": 22
@@ -4824,18 +5444,20 @@
         "walk"
       ],
       "immunities": [
-        "fire"
+        "fire",
+        "ignition"
       ],
-      "gold": 100,
+      "gold": {
+        "min": 50,
+        "max": 150
+      },
       "bleeds": [
         "lava"
       ],
       "corpse": [
         "volcanic rock"
       ]
-    },
-    "wikiPage": "Eldari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Pakkasukko",
@@ -4843,15 +5465,19 @@
       "Old Man Winter",
       "Ice Elemental"
     ],
+    "wikiPage": "Pakkasukko",
     "order": 110,
     "images": [
       "assets/enemies/pakkasukko.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
         "min": 16,
-        "max": 22
+        "max": 18
       },
       "attacks": [
         "melee",
@@ -4874,18 +5500,20 @@
       ],
       "immunities": [
         "ice",
+        "ignition",
         "suffocation"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "snow"
       ],
       "corpse": [
         "ice"
       ]
-    },
-    "wikiPage": "Pakkasukko",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Ukko",
@@ -4893,12 +5521,16 @@
       "Thunder Mage",
       "Thunder Elemental"
     ],
+    "wikiPage": "Ukko",
     "order": 111,
     "images": [
       "assets/enemies/ukko.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 425
+      },
       "height": {
         "min": 19,
         "max": 22
@@ -4928,19 +5560,20 @@
       ],
       "immunities": [
         "electric",
-        "fire",
+        "ignition",
         "suffocation"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 170
+      },
       "bleeds": [
         "diamond"
       ],
       "corpse": [
         "diamond"
       ]
-    },
-    "wikiPage": "Ukko",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Suur-Ukko",
@@ -4948,12 +5581,16 @@
       "Great Thunder Mage",
       "Super Ukko"
     ],
+    "wikiPage": "Suur-Ukko",
     "order": 112,
     "images": [
       "assets/enemies/suur_ukko.gif"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 500
+      },
       "height": {
         "min": 26,
         "max": 31
@@ -4980,22 +5617,23 @@
       "immunities": [
         "electric",
         "explosion",
-        "fire",
         "ice",
+        "ignition",
         "kinetic hits",
         "suffocation",
         "touch of spells"
       ],
-      "gold": 200,
+      "gold": {
+        "min": 200,
+        "max": 200
+      },
       "bleeds": [
         "diamond"
       ],
       "corpse": [
         "diamond"
       ]
-    },
-    "wikiPage": "Suur-Ukko",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Turvonnu velho",
@@ -5003,15 +5641,19 @@
       "Bloated Wizard",
       "Toxic Wizard"
     ],
+    "wikiPage": "Turvonnu velho",
     "order": 113,
     "images": [
       "assets/enemies/turvonnu_velho.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 350
+      },
       "height": {
         "min": 15,
-        "max": 20
+        "max": 17
       },
       "attacks": [
         "ranged"
@@ -5031,31 +5673,36 @@
       "immunities": [
         "toxic"
       ],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 140
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "ambiguous meat"
       ]
-    },
-    "wikiPage": "Turvonnu velho",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Sokaisunmestari",
     "aliases": [
       "Master of Blinding"
     ],
+    "wikiPage": "Sokaisunmestari",
     "order": 114,
     "images": [
       "assets/enemies/sokaisunmestari.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 350
+      },
       "height": {
         "min": 14,
-        "max": 18
+        "max": 16
       },
       "attacks": [
         "ranged"
@@ -5078,16 +5725,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 140
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "ambiguous meat"
       ]
-    },
-    "wikiPage": "Sokaisunmestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Siirtäjämestari",
@@ -5096,15 +5744,19 @@
       "Tele Mage",
       "Siirtajamestari"
     ],
+    "wikiPage": "Siirtäjämestari",
     "order": 115,
     "images": [
       "assets/enemies/master_of_teleportation.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 350
+      },
       "height": {
         "min": 14,
-        "max": 18
+        "max": 16
       },
       "attacks": [
         "ranged"
@@ -5127,16 +5779,17 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 140
+      },
       "bleeds": [
         "teleportatium"
       ],
       "corpse": [
         "ethereal meat"
       ]
-    },
-    "wikiPage": "Siirtäjämestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Muodonmuutosmestari",
@@ -5144,15 +5797,19 @@
       "Master of Polymorphing",
       "Poly Mage"
     ],
+    "wikiPage": "Muodonmuutosmestari",
     "order": 116,
     "images": [
       "assets/enemies/muodonmuutosmestari.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 350
+      },
       "height": {
         "min": 15,
-        "max": 19
+        "max": 17
       },
       "attacks": [
         "ranged"
@@ -5173,16 +5830,17 @@
       "immunities": [
         "polymorph"
       ],
-      "gold": 160,
+      "gold": {
+        "min": 40,
+        "max": 140
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "stinky meat"
       ]
-    },
-    "wikiPage": "Muodonmuutosmestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Vaihdosmestari",
@@ -5190,15 +5848,19 @@
       "Master of Exchange",
       "Swapper Mage"
     ],
+    "wikiPage": "Vaihdosmestari",
     "order": 117,
     "images": [
       "assets/enemies/Vaihdosmestari.gif"
     ],
     "values": {
-      "hp": 100,
+      "hp": {
+        "min": 100,
+        "max": 100
+      },
       "height": {
         "min": 13,
-        "max": 17
+        "max": 15
       },
       "attacks": [
         "ranged"
@@ -5219,31 +5881,36 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 40
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "ambiguous meat"
       ]
-    },
-    "wikiPage": "Vaihdosmestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Maadoittajamestari",
     "aliases": [
       "Master of Grounding"
     ],
+    "wikiPage": "Maadoittajamestari",
     "order": 118,
     "images": [
       "assets/enemies/maadoittajamestari.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 350
+      },
       "height": {
         "min": 14,
-        "max": 18
+        "max": 16
       },
       "attacks": [
         "ranged"
@@ -5268,18 +5935,21 @@
         "fly"
       ],
       "immunities": [
+        "electric stun",
+        "freeze stun",
         "polymorph"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 140
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "ambiguous meat"
       ]
-    },
-    "wikiPage": "Maadoittajamestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Palauttajamestari",
@@ -5287,15 +5957,19 @@
       "Master of Returning",
       "Copy Mage"
     ],
+    "wikiPage": "Palauttajamestari",
     "order": 119,
     "images": [
       "assets/enemies/palauttajamestari.gif"
     ],
     "values": {
-      "hp": 175,
+      "hp": {
+        "min": 175,
+        "max": 475
+      },
       "height": {
         "min": 13,
-        "max": 17
+        "max": 15
       },
       "attacks": [
         "ranged"
@@ -5318,16 +5992,17 @@
       "immunities": [
         "explosion"
       ],
-      "gold": 70,
+      "gold": {
+        "min": 70,
+        "max": 190
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "ethereal meat"
       ]
-    },
-    "wikiPage": "Palauttajamestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Haavoittajamestari",
@@ -5335,15 +6010,19 @@
       "Master of Wounding",
       "Heart Mage"
     ],
+    "wikiPage": "Haavoittajamestari",
     "order": 120,
     "images": [
       "assets/enemies/haavoittajamestari.gif"
     ],
     "values": {
-      "hp": 300,
+      "hp": {
+        "min": 300,
+        "max": 300
+      },
       "height": {
         "min": 14,
-        "max": 18
+        "max": 16
       },
       "attacks": [
         "ranged"
@@ -5372,31 +6051,36 @@
         "explosion",
         "ice"
       ],
-      "gold": 120,
+      "gold": {
+        "min": 120,
+        "max": 120
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "ambiguous meat"
       ]
-    },
-    "wikiPage": "Haavoittajamestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kohdennusmestari",
     "aliases": [
       "Master of Homing"
     ],
+    "wikiPage": "Kohdennusmestari",
     "order": 121,
     "images": [
       "assets/enemies/kohdennusmestari.gif"
     ],
     "values": {
-      "hp": 300,
+      "hp": {
+        "min": 300,
+        "max": 300
+      },
       "height": {
         "min": 15,
-        "max": 19
+        "max": 17
       },
       "attacks": [
         "ranged"
@@ -5413,17 +6097,20 @@
         "walk",
         "fly"
       ],
-      "immunities": [],
-      "gold": 120,
+      "immunities": [
+        "freeze stun"
+      ],
+      "gold": {
+        "min": 120,
+        "max": 120
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Kohdennusmestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Turvattomuusmestari",
@@ -5431,15 +6118,19 @@
       "Weakening Mage",
       "Master of Vulnerability"
     ],
+    "wikiPage": "Turvattomuusmestari",
     "order": 122,
     "images": [
       "assets/enemies/turvattomuusmestari.gif"
     ],
     "values": {
-      "hp": 300,
+      "hp": {
+        "min": 300,
+        "max": 300
+      },
       "height": {
         "min": 14,
-        "max": 18
+        "max": 16
       },
       "attacks": [
         "ranged"
@@ -5460,17 +6151,20 @@
         "walk",
         "fly"
       ],
-      "immunities": [],
-      "gold": 120,
+      "immunities": [
+        "electric stun"
+      ],
+      "gold": {
+        "min": 120,
+        "max": 120
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Turvattomuusmestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Sätkymestari",
@@ -5478,15 +6172,19 @@
       "Master of Twitching",
       "Satkymestari"
     ],
+    "wikiPage": "Sätkymestari",
     "order": 123,
     "images": [
       "assets/enemies/master_of_twitching.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
         "min": 14,
-        "max": 19
+        "max": 16
       },
       "attacks": [
         "ranged"
@@ -5511,31 +6209,36 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "wobbly meat"
       ]
-    },
-    "wikiPage": "Sätkymestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Valaistunut alkemisti",
     "aliases": [
       "Enlightened Alchemist"
     ],
+    "wikiPage": "Valaistunut alkemisti",
     "order": 124,
     "images": [
       "assets/enemies/valaistunut_alkemisti.gif"
     ],
     "values": {
-      "hp": 200,
+      "hp": {
+        "min": 200,
+        "max": 600
+      },
       "height": {
         "min": 31,
-        "max": 34
+        "max": 33
       },
       "attacks": [
         "ranged"
@@ -5556,31 +6259,36 @@
       "immunities": [
         "suffocation"
       ],
-      "gold": 80,
+      "gold": {
+        "min": 80,
+        "max": 240
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "ambiguous meat"
       ]
-    },
-    "wikiPage": "Valaistunut alkemisti",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kadotettu alkemisti",
     "aliases": [
       "Damned Alchemist"
     ],
+    "wikiPage": "Kadotettu alkemisti",
     "order": 125,
     "images": [
       "assets/enemies/kadotettu_alkemisti.gif"
     ],
     "values": {
-      "hp": 200,
+      "hp": {
+        "min": 200,
+        "max": 400
+      },
       "height": {
-        "min": 23,
-        "max": 33
+        "min": 27,
+        "max": 29
       },
       "attacks": [
         "melee"
@@ -5600,19 +6308,20 @@
         "walk"
       ],
       "immunities": [
-        "fire",
+        "ignition",
         "suffocation"
       ],
-      "gold": 80,
+      "gold": {
+        "min": 80,
+        "max": 160
+      },
       "bleeds": [
         "bone dust"
       ],
       "corpse": [
         "bone"
       ]
-    },
-    "wikiPage": "Kadotettu alkemisti",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Epäalkemisti",
@@ -5621,12 +6330,16 @@
       "Failed Alchemist",
       "Epaalkemisti"
     ],
+    "wikiPage": "Epäalkemisti",
     "order": 126,
     "images": [
       "assets/enemies/non_alchemist.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 22,
         "max": 23
@@ -5649,16 +6362,17 @@
       "immunities": [
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Epäalkemisti",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hyypiö",
@@ -5666,12 +6380,16 @@
       "Creep",
       "Hyypio"
     ],
+    "wikiPage": "Hyypiö",
     "order": 127,
     "images": [
       "assets/enemies/creep.png"
     ],
     "values": {
-      "hp": 368.75,
+      "hp": {
+        "min": 368.75,
+        "max": 368.75
+      },
       "height": {
         "min": 18,
         "max": 20
@@ -5691,19 +6409,18 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 140,
+      "gold": {
+        "min": 140,
+        "max": 140
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "magical liquid"
       ]
-    },
-    "wikiPage": "Hyypiö",
-    "wikiNotes": {
-      "corpse": "The Noita wiki says: glowing matter"
     }
   },
   {
@@ -5713,12 +6430,16 @@
       "Lightning Creep",
       "Ukkoshyypio"
     ],
+    "wikiPage": "Ukkoshyypiö",
     "order": 128,
     "images": [
       "assets/enemies/thunder_creep.png"
     ],
     "values": {
-      "hp": 468.75,
+      "hp": {
+        "min": 468.75,
+        "max": 468.75
+      },
       "height": {
         "min": 12,
         "max": 12
@@ -5739,19 +6460,18 @@
       ],
       "immunities": [
         "electric",
-        "fire"
+        "ignition"
       ],
-      "gold": 180,
+      "gold": {
+        "min": 180,
+        "max": 180
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "magical liquid"
       ]
-    },
-    "wikiPage": "Ukkoshyypiö",
-    "wikiNotes": {
-      "corpse": "The Noita wiki says: glowing matter"
     }
   },
   {
@@ -5760,12 +6480,16 @@
       "Glowing Creep",
       "Hohtava hyypio"
     ],
+    "wikiPage": "Hohtava hyypiö",
     "order": 129,
     "images": [
       "assets/enemies/glowing_creep.png"
     ],
     "values": {
-      "hp": 368.75,
+      "hp": {
+        "min": 368.75,
+        "max": 368.75
+      },
       "height": {
         "min": 12,
         "max": 12
@@ -5788,31 +6512,36 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "ignition"
       ],
-      "gold": 140,
+      "gold": {
+        "min": 140,
+        "max": 140
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": []
-    },
-    "wikiPage": "Hohtava hyypiö",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Patsas",
     "aliases": [
       "Statue"
     ],
+    "wikiPage": "Patsas",
     "order": 130,
     "images": [
       "assets/enemies/patsas.gif"
     ],
     "values": {
-      "hp": 175,
+      "hp": {
+        "min": 175,
+        "max": 175
+      },
       "height": {
         "min": 14,
-        "max": 18
+        "max": 16
       },
       "attacks": [
         "melee"
@@ -5833,29 +6562,36 @@
         "explosion",
         "fire",
         "ice",
+        "ignition",
         "projectile",
-        "slice"
+        "slice",
+        "suffocation"
       ],
-      "gold": 70,
+      "gold": {
+        "min": 70,
+        "max": 70
+      },
       "bleeds": [],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Patsas",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hohtonaamio",
     "aliases": [
       "Glowing Mask"
     ],
+    "wikiPage": "Hohtonaamio",
     "order": 131,
     "images": [
       "assets/enemies/hohtonaamio.png"
     ],
     "values": {
-      "hp": 150,
+      "hp": {
+        "min": 150,
+        "max": 150
+      },
       "height": {
         "min": 21,
         "max": 21
@@ -5876,33 +6612,41 @@
       "immunities": [
         "electric",
         "fire",
+        "glue",
+        "ignition",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 60,
+      "gold": {
+        "min": 60,
+        "max": 60
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "rock"
       ]
-    },
-    "wikiPage": "Hohtonaamio",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Haamukivi",
     "aliases": [
       "Ghost Crystal"
     ],
+    "wikiPage": "Haamukivi",
     "order": 132,
     "images": [
       "assets/enemies/haamukivi.gif"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 500
+      },
       "height": {
         "min": 23,
-        "max": 23
+        "max": 24
       },
       "attacks": [
         "other"
@@ -5916,34 +6660,43 @@
       ],
       "movement": [],
       "immunities": [
-        "fire",
-        "ice"
+        "glue",
+        "ice",
+        "ignition",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blue sand"
       ],
       "corpse": [
         "ice"
       ]
-    },
-    "wikiPage": "Haamukivi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Elvytyskristalli",
     "aliases": [
       "Recovery Crystal"
     ],
+    "wikiPage": "Elvytyskristalli",
     "order": 133,
     "images": [
       "assets/enemies/elvytyskristalli.png"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 500
+      },
       "height": {
-        "min": 23,
-        "max": 23
+        "min": 22,
+        "max": 24
       },
       "attacks": [],
       "spawn": [
@@ -5958,19 +6711,23 @@
       "movement": [],
       "immunities": [
         "electric",
-        "fire",
-        "slice"
+        "ignition",
+        "kinetic hits",
+        "resurrection",
+        "slice",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blue sand"
       ],
       "corpse": [
         "ice"
       ]
-    },
-    "wikiPage": "Elvytyskristalli",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Crystal",
@@ -5979,12 +6736,16 @@
       "Homing Ghost Crystal",
       "Amoeba Crystal"
     ],
+    "wikiPage": "Houre",
     "order": 134,
     "images": [
       "assets/enemies/crystal.gif"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 500
+      },
       "height": {
         "min": 22,
         "max": 24
@@ -6000,31 +6761,38 @@
       ],
       "movement": [],
       "immunities": [
-        "fire",
+        "ignition",
+        "kinetic hits",
+        "resurrection",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blue sand"
       ],
       "corpse": [
         "ice"
       ]
-    },
-    "wikiPage": "Houre",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Taikasauva",
     "aliases": [
       "Magic Wand"
     ],
+    "wikiPage": "Taikasauva",
     "order": 135,
     "images": [
       "assets/enemies/taikasauva.png"
     ],
     "values": {
-      "hp": 37.5,
+      "hp": {
+        "min": 37.5,
+        "max": 37.5
+      },
       "height": {
         "min": 3,
         "max": 13
@@ -6043,18 +6811,22 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "fire",
+        "glue",
+        "ignition",
+        "suffocation"
       ],
-      "gold": 10,
+      "gold": {
+        "min": 10,
+        "max": 10
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "crystal"
       ]
-    },
-    "wikiPage": "Taikasauva",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Olematon",
@@ -6062,12 +6834,16 @@
       "Non-Existent",
       "Invisible Skull"
     ],
+    "wikiPage": "Olematon",
     "order": 136,
     "images": [
       "assets/enemies/olematon.gif"
     ],
     "values": {
-      "hp": 387.5,
+      "hp": {
+        "min": 387.5,
+        "max": 387.5
+      },
       "height": {
         "min": 12,
         "max": 38
@@ -6089,22 +6865,25 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "projectile",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Olematon",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kummitus",
@@ -6112,15 +6891,19 @@
       "Ghost",
       "Player Ghost"
     ],
+    "wikiPage": "Kummitus",
     "order": 137,
     "images": [
       "assets/enemies/kummitus.gif"
     ],
     "values": {
-      "hp": 250,
+      "hp": {
+        "min": 250,
+        "max": 250
+      },
       "height": {
         "min": 14,
-        "max": 17
+        "max": 16
       },
       "attacks": [
         "melee"
@@ -6147,15 +6930,16 @@
         "fly"
       ],
       "immunities": [
-        "ice"
+        "glue",
+        "ice",
+        "ignition"
       ],
-      "gold": 500,
+      "gold": {
+        "min": 500,
+        "max": 500
+      },
       "bleeds": [],
       "corpse": []
-    },
-    "wikiPage": "Kummitus",
-    "wikiNotes": {
-      "gold": "The Noita wiki says: 100 (500 for its 1250 HP version)"
     }
   },
   {
@@ -6163,12 +6947,16 @@
     "aliases": [
       "Spiral Phantom"
     ],
+    "wikiPage": "Spiraalikalma",
     "order": 138,
     "images": [
       "assets/enemies/spiraalikalma.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 300
+      },
       "height": {
         "min": 17,
         "max": 20
@@ -6193,35 +6981,42 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 120
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Spiraalikalma",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kiukkukalma",
     "aliases": [
       "Angry Phantom"
     ],
+    "wikiPage": "Kiukkukalma",
     "order": 139,
     "images": [
       "assets/enemies/kiukkukalma.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 300
+      },
       "height": {
         "min": 13,
-        "max": 18
+        "max": 17
       },
       "attacks": [
         "melee",
@@ -6243,32 +7038,39 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 120
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Kiukkukalma",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Utu-Aave",
     "aliases": [
       "Fog Spirit"
     ],
+    "wikiPage": "Aave",
     "order": 140,
     "images": [
       "assets/enemies/utu_aave.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -6289,30 +7091,37 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": []
-    },
-    "wikiPage": "Aave",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Viha-Aave",
     "aliases": [
       "Anger Spirit"
     ],
+    "wikiPage": "Aave",
     "order": 141,
     "images": [
       "assets/enemies/viha_aave.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -6332,30 +7141,37 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": []
-    },
-    "wikiPage": "Aave",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kaamo-Aave",
     "aliases": [
       "Depression Spirit"
     ],
+    "wikiPage": "Aave",
     "order": 142,
     "images": [
       "assets/enemies/kaamo_aave.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -6374,30 +7190,37 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": []
-    },
-    "wikiPage": "Aave",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Neva-Aave",
     "aliases": [
       "Bog Spirit"
     ],
+    "wikiPage": "Aave",
     "order": 143,
     "images": [
       "assets/enemies/neva_aave.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -6418,32 +7241,39 @@
       ],
       "immunities": [
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": []
-    },
-    "wikiPage": "Aave",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hahmonvaihtaja",
     "aliases": [
       "Shapechanger"
     ],
+    "wikiPage": "Hahmonvaihtaja",
     "order": 144,
     "images": [
       "assets/enemies/hahmonvaihtaja.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 425
+      },
       "height": {
-        "min": 21,
+        "min": 24,
         "max": 27
       },
       "attacks": [
@@ -6467,31 +7297,36 @@
         "polymorph",
         "suffocation"
       ],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 170
+      },
       "bleeds": [
         "bone dust"
       ],
       "corpse": [
         "cursed meat"
       ]
-    },
-    "wikiPage": "Hahmonvaihtaja",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Helvetinkatse",
     "aliases": [
       "Hell Gazer"
     ],
+    "wikiPage": "Helvetinkatse",
     "order": 145,
     "images": [
       "assets/enemies/helvetinkatse.gif"
     ],
     "values": {
-      "hp": 1500,
+      "hp": {
+        "min": 225,
+        "max": 1500
+      },
       "height": {
         "min": 28,
-        "max": 28
+        "max": 29
       },
       "attacks": [
         "ranged"
@@ -6507,33 +7342,39 @@
         "fly"
       ],
       "immunities": [
-        "fire"
+        "fire",
+        "ignition"
       ],
-      "gold": 600,
+      "gold": {
+        "min": 90,
+        "max": 600
+      },
       "bleeds": [
         "lava"
       ],
       "corpse": [
         "slimy cursed meat"
       ]
-    },
-    "wikiPage": "Helvetinkatse",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Taivaankatse",
     "aliases": [
       "Sky Gazer"
     ],
+    "wikiPage": "Taivaankatse",
     "order": 146,
     "images": [
       "assets/enemies/taivaankatse.gif"
     ],
     "values": {
-      "hp": 250,
+      "hp": {
+        "min": 1500,
+        "max": 1500
+      },
       "height": {
         "min": 28,
-        "max": 28
+        "max": 29
       },
       "attacks": [
         "ranged"
@@ -6549,18 +7390,20 @@
       ],
       "immunities": [
         "fire",
+        "ignition",
         "polymorph"
       ],
-      "gold": 100,
+      "gold": {
+        "min": 600,
+        "max": 600
+      },
       "bleeds": [
         "chaotic polymorphine"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Taivaankatse",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Helvetin sylkijä",
@@ -6568,15 +7411,19 @@
       "Hell Spitter",
       "Helvetin sylkija"
     ],
+    "wikiPage": "Helvetin sylkijä",
     "order": 147,
     "images": [
       "assets/enemies/hell_spitter.gif"
     ],
     "values": {
-      "hp": 1500,
+      "hp": {
+        "min": 1500,
+        "max": 1500
+      },
       "height": {
-        "min": 19,
-        "max": 23
+        "min": 20,
+        "max": 22
       },
       "attacks": [
         "ranged"
@@ -6592,19 +7439,19 @@
         "walk"
       ],
       "immunities": [
-        "fire"
+        "fire",
+        "ignition"
       ],
-      "gold": 600,
+      "gold": {
+        "min": 600,
+        "max": 600
+      },
       "bleeds": [
         "hell slime"
       ],
       "corpse": [
         "slimy cursed meat"
       ]
-    },
-    "wikiPage": "Helvetin sylkijä",
-    "wikiNotes": {
-      "corpse": "The Noita wiki says: slime"
     }
   },
   {
@@ -6612,12 +7459,16 @@
     "aliases": [
       "Cursed Crystal"
     ],
+    "wikiPage": "Kirottu kristalli",
     "order": 148,
     "images": [
       "assets/enemies/kirottu_kristalli.gif"
     ],
     "values": {
-      "hp": 200,
+      "hp": {
+        "min": 200,
+        "max": 600
+      },
       "height": {
         "min": 16,
         "max": 16
@@ -6637,30 +7488,37 @@
       ],
       "immunities": [
         "fire",
+        "glue",
+        "ignition",
         "suffocation"
       ],
-      "gold": 80,
+      "gold": {
+        "min": 80,
+        "max": 240
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "purple crystal"
       ]
-    },
-    "wikiPage": "Kirottu kristalli",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Verikristalli",
     "aliases": [
       "Blood Crystal"
     ],
+    "wikiPage": "Verikristalli",
     "order": 149,
     "images": [
       "assets/enemies/verikristalli.png"
     ],
     "values": {
-      "hp": 1000,
+      "hp": {
+        "min": 100,
+        "max": 1000
+      },
       "height": {
         "min": 20,
         "max": 20
@@ -6681,30 +7539,37 @@
       ],
       "immunities": [
         "fire",
+        "glue",
+        "ignition",
         "suffocation"
       ],
-      "gold": 400,
+      "gold": {
+        "min": 40,
+        "max": 400
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "purple crystal"
       ]
-    },
-    "wikiPage": "Verikristalli",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Taivaskristalli",
     "aliases": [
       "Celestial Crystal"
     ],
+    "wikiPage": "Taivaskristalli",
     "order": 150,
     "images": [
       "assets/enemies/taivaskristalli.png"
     ],
     "values": {
-      "hp": 400,
+      "hp": {
+        "min": 400,
+        "max": 1500
+      },
       "height": {
         "min": 14,
         "max": 14
@@ -6725,33 +7590,40 @@
       ],
       "immunities": [
         "fire",
+        "glue",
+        "ignition",
         "suffocation"
       ],
-      "gold": 160,
+      "gold": {
+        "min": 160,
+        "max": 600
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "gem"
       ]
-    },
-    "wikiPage": "Taivaskristalli",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Matkija",
     "aliases": [
       "Mimic"
     ],
+    "wikiPage": "Matkija",
     "order": 151,
     "images": [
       "assets/enemies/matkija.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
-        "min": 12,
-        "max": 18
+        "min": 13,
+        "max": 13
       },
       "attacks": [
         "melee"
@@ -6764,26 +7636,31 @@
       ],
       "movement": [],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [],
       "corpse": [
         "wood"
       ]
-    },
-    "wikiPage": "Matkija",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Jalkamatkatavara",
     "aliases": [
       "Leggy Mimic"
     ],
+    "wikiPage": "Matkija",
     "order": 152,
     "images": [
       "assets/enemies/jalkamatkatavara.png"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 13,
         "max": 13
@@ -6801,16 +7678,19 @@
         "walk"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [],
       "corpse": [
         "wood"
       ]
-    },
-    "wikiPage": "Matkija",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hornantappurahiisi",
@@ -6818,12 +7698,16 @@
       "Hell Miner Hiisi",
       "Hell TNT thrower"
     ],
+    "wikiPage": "Tappurahiisi",
     "order": 153,
     "images": [
       "assets/enemies/hornantappurahiisi.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -6843,32 +7727,38 @@
       ],
       "immunities": [
         "fire",
-        "ice"
+        "ice",
+        "ignition"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "liquid fire"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Tappurahiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hornahiisi",
     "aliases": [
       "Hell Shotgun Hiisi"
     ],
+    "wikiPage": "Haulikkohiisi",
     "order": 154,
     "images": [
       "assets/enemies/hornahiisi.gif"
     ],
     "values": {
-      "hp": 72.5,
+      "hp": {
+        "min": 72.5,
+        "max": 72.5
+      },
       "height": {
-        "min": 13,
+        "min": 14,
         "max": 15
       },
       "attacks": [
@@ -6886,30 +7776,36 @@
       ],
       "immunities": [
         "fire",
-        "ice"
+        "ice",
+        "ignition"
       ],
-      "gold": 20,
+      "gold": {
+        "min": 20,
+        "max": 20
+      },
       "bleeds": [
         "liquid fire"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Haulikkohiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hornasnipuhiisi",
     "aliases": [
       "Hell Hiisi Sniper"
     ],
+    "wikiPage": "Snipuhiisi",
     "order": 155,
     "images": [
       "assets/enemies/hornasnipuhiisi.gif"
     ],
     "values": {
-      "hp": 120,
+      "hp": {
+        "min": 120,
+        "max": 120
+      },
       "height": {
         "min": 14,
         "max": 16
@@ -6929,18 +7825,20 @@
       ],
       "immunities": [
         "fire",
-        "ice"
+        "ice",
+        "ignition"
       ],
-      "gold": 40,
+      "gold": {
+        "min": 40,
+        "max": 40
+      },
       "bleeds": [
         "liquid fire"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Snipuhiisi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Pahan muisto",
@@ -6948,15 +7846,19 @@
       "Memory of Evil",
       "Heart Mimic"
     ],
+    "wikiPage": "Pahan muisto",
     "order": 156,
     "images": [
       "assets/enemies/pahan_muisto.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
-        "min": 14,
-        "max": 19
+        "min": 15,
+        "max": 16
       },
       "attacks": [
         "melee"
@@ -6970,14 +7872,15 @@
       ],
       "movement": [],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [],
       "corpse": [
         "wood"
       ]
-    },
-    "wikiPage": "Pahan muisto",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Valhe",
@@ -6985,15 +7888,19 @@
       "Lie",
       "Spell Refresh Mimic"
     ],
+    "wikiPage": "Valhe",
     "order": 157,
     "images": [
       "assets/enemies/valhe.gif"
     ],
     "values": {
-      "hp": 75,
+      "hp": {
+        "min": 75,
+        "max": 75
+      },
       "height": {
-        "min": 15,
-        "max": 20
+        "min": 18,
+        "max": 18
       },
       "attacks": [
         "melee"
@@ -7007,14 +7914,15 @@
       ],
       "movement": [],
       "immunities": [],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [],
       "corpse": [
         "wood"
       ]
-    },
-    "wikiPage": "Valhe",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Stevari",
@@ -7022,14 +7930,18 @@
       "Guard",
       "Steve"
     ],
+    "wikiPage": "Stevari",
     "order": 158,
     "images": [
       "assets/enemies/stevari.gif"
     ],
     "values": {
-      "hp": 600,
+      "hp": {
+        "min": 600,
+        "max": 600
+      },
       "height": {
-        "min": 22,
+        "min": 23,
         "max": 25
       },
       "attacks": [
@@ -7046,20 +7958,19 @@
         "fly"
       ],
       "immunities": [
-        "fire",
+        "ignition",
         "suffocation"
       ],
-      "gold": 240,
+      "gold": {
+        "min": 240,
+        "max": 240
+      },
       "bleeds": [
         "bone dust"
       ],
       "corpse": [
         "cursed meat"
       ]
-    },
-    "wikiPage": "Stevari",
-    "wikiNotes": {
-      "spawn": "The Noita wiki also lists: The Tower"
     }
   },
   {
@@ -7069,15 +7980,19 @@
       "Scott",
       "Big Steve"
     ],
+    "wikiPage": "Skoude",
     "order": 159,
     "images": [
       "assets/enemies/skoude.gif"
     ],
     "values": {
-      "hp": 900,
+      "hp": {
+        "min": 900,
+        "max": 900
+      },
       "height": {
         "min": 35,
-        "max": 47
+        "max": 38
       },
       "attacks": [
         "melee",
@@ -7091,38 +8006,44 @@
         "mage"
       ],
       "movement": [
-        "fly"
+        "fly",
+        "burrow"
       ],
       "immunities": [
         "electric",
-        "fire",
         "holy",
         "ice",
+        "ignition",
         "polymorph",
         "suffocation"
       ],
-      "gold": 360,
+      "gold": {
+        "min": 360,
+        "max": 360
+      },
       "bleeds": [
         "bone dust"
       ],
       "corpse": [
         "cursed meat"
       ]
-    },
-    "wikiPage": "Skoude",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Suomuhauki",
     "aliases": [
       "Dragon"
     ],
+    "wikiPage": "Suomuhauki",
     "order": 160,
     "images": [
       "assets/enemies/suomuhauki.png"
     ],
     "values": {
-      "hp": 3000,
+      "hp": {
+        "min": 3000,
+        "max": 3000
+      },
       "height": {
         "min": 26,
         "max": 26
@@ -7141,21 +8062,24 @@
         "burrow"
       ],
       "immunities": [
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "resurrection",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Suomuhauki",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kolmisilmän Koipi",
@@ -7164,15 +8088,19 @@
       "Kolmisilman Koipi",
       "Pyramid Boss"
     ],
+    "wikiPage": "Kolmisilmän koipi",
     "order": 161,
     "images": [
       "assets/enemies/kolmisilman_koipi.gif"
     ],
     "values": {
-      "hp": 750,
+      "hp": {
+        "min": 750,
+        "max": 750
+      },
       "height": {
         "min": 38,
-        "max": 38
+        "max": 40
       },
       "attacks": [
         "melee",
@@ -7190,22 +8118,24 @@
       ],
       "immunities": [
         "drill",
-        "fire",
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "resurrection",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Kolmisilmän koipi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kolmisilmän sydän",
@@ -7214,12 +8144,16 @@
       "Kolmisilman sydan",
       "Meatball Boss"
     ],
+    "wikiPage": "Kolmisilmän sydän",
     "order": 162,
     "images": [
       "assets/enemies/kolmisilman_sydan.gif"
     ],
     "values": {
-      "hp": 1000,
+      "hp": {
+        "min": 1000,
+        "max": 1000
+      },
       "height": {
         "min": 44,
         "max": 44
@@ -7240,34 +8174,42 @@
       ],
       "immunities": [
         "electric",
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
-        "resurrection"
+        "resurrection",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat"
       ]
-    },
-    "wikiPage": "Kolmisilmän sydän",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Ylialkemisti",
     "aliases": [
       "High Alchemist"
     ],
+    "wikiPage": "Ylialkemisti",
     "order": 163,
     "images": [
       "assets/enemies/ylialkemisti.gif"
     ],
     "values": {
-      "hp": 1000,
+      "hp": {
+        "min": 1000,
+        "max": 1000
+      },
       "height": {
-        "min": 65,
+        "min": 66,
         "max": 68
       },
       "attacks": [
@@ -7284,6 +8226,10 @@
         "burrow"
       ],
       "immunities": [
+        "electric stun",
+        "freeze stun",
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "resurrection",
@@ -7292,16 +8238,17 @@
         "touch of spells",
         "venomous curse"
       ],
-      "gold": 400,
+      "gold": {
+        "min": 400,
+        "max": 400
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Ylialkemisti",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Alkemistin Varjo",
@@ -7309,14 +8256,18 @@
       "Alchemist's Shadow",
       "Parallel World Alchemist"
     ],
+    "wikiPage": "Ylialkemisti",
     "order": 164,
     "images": [
       "assets/enemies/alkemistin_varjo.gif"
     ],
     "values": {
-      "hp": 1000,
+      "hp": {
+        "min": 1000,
+        "max": 1000
+      },
       "height": {
-        "min": 65,
+        "min": 66,
         "max": 68
       },
       "attacks": [
@@ -7335,21 +8286,23 @@
       "immunities": [
         "electric",
         "ice",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "suffocation",
         "touch of spells"
       ],
-      "gold": 800,
+      "gold": {
+        "min": 800,
+        "max": 800
+      },
       "bleeds": [
         "slime"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Ylialkemisti",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Unohdettu",
@@ -7357,12 +8310,16 @@
       "The Forgotten",
       "Ghost Boss"
     ],
+    "wikiPage": "Unohdettu",
     "order": 165,
     "images": [
       "assets/enemies/unohdettu.png"
     ],
     "values": {
-      "hp": 1012,
+      "hp": {
+        "min": 1012,
+        "max": 1012
+      },
       "height": {
         "min": 62,
         "max": 62
@@ -7382,24 +8339,29 @@
         "burrow"
       ],
       "immunities": [
+        "electric stun",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "projectile",
         "resurrection",
+        "suffocation",
         "touch of spells",
         "venomous curse"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Unohdettu",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Häive",
@@ -7409,12 +8371,16 @@
       "Ghost Boss Minion",
       "Haive"
     ],
+    "wikiPage": "Unohdettu#Häive",
     "order": 166,
     "images": [
       "assets/enemies/fade.png"
     ],
     "values": {
-      "hp": 37.5,
+      "hp": {
+        "min": 37.5,
+        "max": 37.5
+      },
       "height": {
         "min": 16,
         "max": 16
@@ -7432,16 +8398,19 @@
         "fly",
         "burrow"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "ignition",
+        "kinetic hits",
+        "suffocation"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "acid"
       ],
       "corpse": []
-    },
-    "wikiPage": "Unohdettu#Häive",
-    "wikiNotes": {
-      "spawn": "The Noita wiki also lists: Forgotten Cave"
     }
   },
   {
@@ -7450,12 +8419,16 @@
       "Deer Boss",
       "Island Boss"
     ],
+    "wikiPage": "Tapion vasalli",
     "order": 167,
     "images": [
       "assets/enemies/tapion_vasalli.gif"
     ],
     "values": {
-      "hp": 600,
+      "hp": {
+        "min": 600,
+        "max": 600
+      },
       "height": {
         "min": 28,
         "max": 30
@@ -7476,7 +8449,11 @@
         "fly"
       ],
       "immunities": [
+        "electric stun",
+        "freeze stun",
+        "glue",
         "holy",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "projectile",
@@ -7486,16 +8463,17 @@
         "touch of spells",
         "venomous curse"
       ],
-      "gold": 600,
+      "gold": {
+        "min": 240,
+        "max": 240
+      },
       "bleeds": [
         "spark"
       ],
       "corpse": [
         "spark"
       ]
-    },
-    "wikiPage": "Tapion vasalli",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Sauvojen tuntija",
@@ -7503,12 +8481,16 @@
       "Connoisseur of Wands",
       "Bridge Boss"
     ],
+    "wikiPage": "Sauvojen tuntija",
     "order": 168,
     "images": [
       "assets/enemies/sauvojen_tuntija.png"
     ],
     "values": {
-      "hp": 800,
+      "hp": {
+        "min": 800,
+        "max": 800
+      },
       "height": {
         "min": 36,
         "max": 36
@@ -7529,7 +8511,10 @@
       ],
       "immunities": [
         "drill",
-        "fire",
+        "electric stun",
+        "freeze stun",
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "resurrection",
@@ -7537,17 +8522,16 @@
         "touch of spells",
         "venomous curse"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Sauvojen tuntija",
-    "wikiNotes": {
-      "corpse": "The Noita wiki says: green slimy meat"
     }
   },
   {
@@ -7557,12 +8541,16 @@
       "Kolmisilman silma",
       "Mecha Kolmisilma"
     ],
+    "wikiPage": "Kolmisilmän silmä",
     "order": 169,
     "images": [
       "assets/enemies/kolmisilman_silma.png"
     ],
     "values": {
-      "hp": 1250,
+      "hp": {
+        "min": 1250,
+        "max": 1250
+      },
       "height": {
         "min": 37,
         "max": 37
@@ -7583,6 +8571,8 @@
       "immunities": [
         "explosion",
         "fire",
+        "glue",
+        "ignition",
         "kinetic hits",
         "melee",
         "polymorph",
@@ -7590,16 +8580,17 @@
         "resurrection",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "liquid fire"
       ],
       "corpse": [
         "steel"
       ]
-    },
-    "wikiPage": "Kolmisilmän silmä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Syväolento",
@@ -7608,12 +8599,16 @@
       "Leviathan",
       "Syvaolento"
     ],
+    "wikiPage": "Syväolento",
     "order": 170,
     "images": [
       "assets/enemies/leviathan.gif"
     ],
     "values": {
-      "hp": 7500,
+      "hp": {
+        "min": 7500,
+        "max": 7500
+      },
       "height": {
         "min": 343,
         "max": 343
@@ -7631,8 +8626,12 @@
       "immunities": [
         "drill",
         "electric",
+        "electric stun",
         "fire",
+        "freeze stun",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "projectile",
@@ -7642,14 +8641,15 @@
         "toxic",
         "venomous curse"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": []
-    },
-    "wikiPage": "Syväolento",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Limatoukka",
@@ -7657,12 +8657,16 @@
       "Slime Maggot",
       "Tiny"
     ],
+    "wikiPage": "Limatoukka",
     "order": 171,
     "images": [
       "assets/enemies/limatoukka.png"
     ],
     "values": {
-      "hp": 6000,
+      "hp": {
+        "min": 6000,
+        "max": 6000
+      },
       "height": {
         "min": 84,
         "max": 84
@@ -7681,6 +8685,10 @@
         "burrow"
       ],
       "immunities": [
+        "electric stun",
+        "freeze stun",
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "projectile",
@@ -7688,16 +8696,17 @@
         "suffocation",
         "touch of spells"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "ominous liquid"
       ],
       "corpse": [
         "ominous liquid"
       ]
-    },
-    "wikiPage": "Limatoukka",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kolmisilmän Kätyri",
@@ -7706,12 +8715,16 @@
       "Parallel World Bridge Boss",
       "Kolmisilman Katyri"
     ],
+    "wikiPage": "Sauvojen tuntija",
     "order": 172,
     "images": [
       "assets/enemies/parallel_world_bridge_boss.png"
     ],
     "values": {
-      "hp": 800,
+      "hp": {
+        "min": 800,
+        "max": 800
+      },
       "height": {
         "min": 36,
         "max": 36
@@ -7733,25 +8746,24 @@
       "immunities": [
         "drill",
         "electric",
-        "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "suffocation",
         "touch of spells"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "glowing matter"
       ]
-    },
-    "wikiPage": "Sauvojen tuntija",
-    "wikiNotes": {
-      "bleeds": "The Noita wiki says: smoke",
-      "corpse": "The Noita wiki says: green slimy meat"
     }
   },
   {
@@ -7761,12 +8773,16 @@
       "Super Necrobot Minion",
       "Pienkatyri"
     ],
+    "wikiPage": "Marraskone",
     "order": 173,
     "images": [
       "assets/enemies/tiny_minion.png"
     ],
     "values": {
-      "hp": 400,
+      "hp": {
+        "min": 400,
+        "max": 400
+      },
       "height": {
         "min": 14,
         "max": 14
@@ -7785,19 +8801,21 @@
         "burrow"
       ],
       "immunities": [
-        "fire"
+        "fire",
+        "glue",
+        "ignition",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Marraskone",
-    "wikiNotes": {
-      "gold": "The Noita wiki says: 160"
     }
   },
   {
@@ -7806,12 +8824,16 @@
       "Goalkeeper (Middle)",
       "Door Boss (Middle)"
     ],
+    "wikiPage": "Gate Guardian",
     "order": 174,
     "images": [
       "assets/enemies/veska.png"
     ],
     "values": {
-      "hp": 2000,
+      "hp": {
+        "min": 2000,
+        "max": 2000
+      },
       "height": {
         "min": 64,
         "max": 64
@@ -7832,22 +8854,25 @@
       "immunities": [
         "electric",
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "resurrection",
         "suffocation",
         "toxic"
       ],
-      "gold": 800,
+      "gold": {
+        "min": 800,
+        "max": 800
+      },
       "bleeds": [
         "spark"
       ],
       "corpse": [
         "dense rock"
       ]
-    },
-    "wikiPage": "Gate Guardian",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Molari",
@@ -7855,13 +8880,17 @@
       "Goalkeeper (Left)",
       "Door Boss (Left)"
     ],
+    "wikiPage": "Gate Guardian",
     "order": 175,
     "images": [
       "assets/enemies/molari.png",
       "assets/enemies/mokke.png"
     ],
     "values": {
-      "hp": 2000,
+      "hp": {
+        "min": 2000,
+        "max": 2000
+      },
       "height": {
         "min": 69,
         "max": 69
@@ -7882,22 +8911,25 @@
       "immunities": [
         "electric",
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "resurrection",
         "suffocation",
         "toxic"
       ],
-      "gold": 800,
+      "gold": {
+        "min": 800,
+        "max": 800
+      },
       "bleeds": [
         "spark"
       ],
       "corpse": [
         "dense rock"
       ]
-    },
-    "wikiPage": "Gate Guardian",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Mokke",
@@ -7905,13 +8937,17 @@
       "Goalkeeper (Right)",
       "Door Boss (Right)"
     ],
+    "wikiPage": "Gate Guardian",
     "order": 176,
     "images": [
       "assets/enemies/molari.png",
       "assets/enemies/mokke.png"
     ],
     "values": {
-      "hp": 2000,
+      "hp": {
+        "min": 2000,
+        "max": 2000
+      },
       "height": {
         "min": 69,
         "max": 69
@@ -7932,22 +8968,25 @@
       "immunities": [
         "electric",
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "resurrection",
         "suffocation",
         "toxic"
       ],
-      "gold": 800,
+      "gold": {
+        "min": 800,
+        "max": 800
+      },
       "bleeds": [
         "spark"
       ],
       "corpse": [
         "dense rock"
       ]
-    },
-    "wikiPage": "Gate Guardian",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Seula",
@@ -7955,12 +8994,16 @@
       "Sieve",
       "Door Boss (Tip)"
     ],
+    "wikiPage": "Gate Guardian",
     "order": 177,
     "images": [
       "assets/enemies/seula.png"
     ],
     "values": {
-      "hp": 2000,
+      "hp": {
+        "min": 2000,
+        "max": 2000
+      },
       "height": {
         "min": 53,
         "max": 53
@@ -7981,37 +9024,44 @@
       "immunities": [
         "electric",
         "fire",
+        "glue",
         "ice",
+        "ignition",
         "kinetic hits",
         "resurrection",
         "suffocation",
         "toxic"
       ],
-      "gold": 800,
+      "gold": {
+        "min": 800,
+        "max": 800
+      },
       "bleeds": [
         "spark"
       ],
       "corpse": [
         "dense rock"
       ]
-    },
-    "wikiPage": "Gate Guardian",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Mestarien mestari",
     "aliases": [
       "Master of Masters"
     ],
+    "wikiPage": "Mestarien mestari",
     "order": 178,
     "images": [
       "assets/enemies/mestarien_mestari.gif"
     ],
     "values": {
-      "hp": 1500,
+      "hp": {
+        "min": 1500,
+        "max": 1500
+      },
       "height": {
         "min": 43,
-        "max": 53
+        "max": 47
       },
       "attacks": [
         "melee",
@@ -8028,21 +9078,26 @@
         "fly"
       ],
       "immunities": [
+        "electric stun",
+        "freeze stun",
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "resurrection",
         "touch of spells"
       ],
-      "gold": 600,
+      "gold": {
+        "min": 600,
+        "max": 600
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "blood"
       ]
-    },
-    "wikiPage": "Mestarien mestari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kolmisilmä",
@@ -8050,12 +9105,16 @@
       "Three-Eye",
       "Kolmisilma"
     ],
+    "wikiPage": "Kolmisilmä",
     "order": 179,
     "images": [
       "assets/enemies/three_eye.gif"
     ],
     "values": {
-      "hp": 1211,
+      "hp": {
+        "min": 1211,
+        "max": 1211
+      },
       "height": {
         "min": 80,
         "max": 80
@@ -8074,21 +9133,24 @@
         "burrow"
       ],
       "immunities": [
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "resurrection",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "green slime"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Kolmisilmä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kauhuhirviö",
@@ -8098,14 +9160,18 @@
       "Kauhuhirvio",
       "Lil Bro"
     ],
+    "wikiPage": "Kauhuhirviö",
     "order": 180,
     "images": [
       "assets/enemies/horror_monster.gif"
     ],
     "values": {
-      "hp": 87.5,
+      "hp": {
+        "min": 87.5,
+        "max": 87.5
+      },
       "height": {
-        "min": 6,
+        "min": 7,
         "max": 8
       },
       "attacks": [
@@ -8127,31 +9193,36 @@
         "holy",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Kauhuhirviö",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Toveri",
     "aliases": [
       "Friend"
     ],
+    "wikiPage": "Toveri",
     "order": 181,
     "images": [
       "assets/enemies/toveri.gif"
     ],
     "values": {
-      "hp": 762.5,
+      "hp": {
+        "min": 762.5,
+        "max": 762.5
+      },
       "height": {
-        "min": 17,
-        "max": 25
+        "min": 22,
+        "max": 23
       },
       "attacks": [
         "melee",
@@ -8169,24 +9240,26 @@
         "burrow"
       ],
       "immunities": [
-        "kinetic hits"
+        "ignition"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": [
         "meat of an innocent creature"
       ]
-    },
-    "wikiPage": "Toveri",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kivi",
     "aliases": [
       "Stone"
     ],
+    "wikiPage": "Kivi",
     "order": 182,
     "images": [
       "assets/enemies/kivi.png"
@@ -8210,20 +9283,23 @@
         "walk"
       ],
       "immunities": [
+        "glue",
+        "ignition",
         "kinetic hits",
         "polymorph",
         "resurrection",
         "suffocation",
         "touch of spells"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [],
       "corpse": [
         "rock"
       ]
-    },
-    "wikiPage": "Kivi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Mätäryömijä",
@@ -8231,12 +9307,16 @@
       "Putrid Crawler",
       "Mataryomija"
     ],
+    "wikiPage": "Mätäryömijä",
     "order": 183,
     "images": [
       "assets/enemies/putrid_crawler.png"
     ],
     "values": {
-      "hp": 87.5,
+      "hp": {
+        "min": 87.5,
+        "max": 87.5
+      },
       "height": {
         "min": 9,
         "max": 9
@@ -8254,18 +9334,21 @@
         "burrow"
       ],
       "immunities": [
+        "glue",
+        "kinetic hits",
         "suffocation"
       ],
-      "gold": 30,
+      "gold": {
+        "min": 30,
+        "max": 30
+      },
       "bleeds": [
         "worm blood"
       ],
       "corpse": [
         "worm meat"
       ]
-    },
-    "wikiPage": "Mätäryömijä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Henkevä potu",
@@ -8273,12 +9356,16 @@
       "Potion Mimic",
       "Henkeva potu"
     ],
+    "wikiPage": "Henkevä potu",
     "order": 184,
     "images": [
       "assets/enemies/potion_mimic.png"
     ],
     "values": {
-      "hp": 25,
+      "hp": {
+        "min": 25,
+        "max": 25
+      },
       "height": {
         "min": 8,
         "max": 8
@@ -8295,24 +9382,31 @@
         "walk"
       ],
       "immunities": [
+        "glue",
+        "ignition",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [],
       "corpse": []
-    },
-    "wikiPage": "Henkevä potu",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Arrow Trap",
     "aliases": [],
+    "wikiPage": "Traps#Wall Traps",
     "order": 185,
     "images": [
       "assets/enemies/arrow_trap.png"
     ],
     "values": {
-      "hp": 37.5,
+      "hp": {
+        "min": 37.5,
+        "max": 37.5
+      },
       "height": {
         "min": 10,
         "max": 10
@@ -8332,30 +9426,40 @@
       ],
       "movement": [],
       "immunities": [
-        "electric",
+        "electric stun",
         "fire",
-        "ice"
+        "freeze stun",
+        "glue",
+        "ignition",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "sand"
       ],
       "corpse": [
         "plastic"
       ]
-    },
-    "wikiPage": "Traps#Wall Traps",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Fire Trap",
     "aliases": [],
+    "wikiPage": "Traps#Wall Traps",
     "order": 186,
     "images": [
       "assets/enemies/fire_trap.png"
     ],
     "values": {
-      "hp": 112.5,
+      "hp": {
+        "min": 112.5,
+        "max": 112.5
+      },
       "height": {
         "min": 10,
         "max": 10
@@ -8373,31 +9477,38 @@
       "movement": [],
       "immunities": [
         "electric",
-        "fire",
-        "ice"
+        "ignition",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "sand"
       ],
       "corpse": [
         "plastic"
       ]
-    },
-    "wikiPage": "Traps#Wall Traps",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Thunder Trap",
     "aliases": [
       "Lightning Trap"
     ],
+    "wikiPage": "Traps#Wall Traps",
     "order": 187,
     "images": [
       "assets/enemies/thunder_trap.png"
     ],
     "values": {
-      "hp": 137.5,
+      "hp": {
+        "min": 137.5,
+        "max": 137.5
+      },
       "height": {
         "min": 10,
         "max": 10
@@ -8415,29 +9526,36 @@
       "movement": [],
       "immunities": [
         "electric",
-        "fire",
-        "ice"
+        "ignition",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "sand"
       ],
       "corpse": [
         "plastic"
       ]
-    },
-    "wikiPage": "Traps#Wall Traps",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Acid Trap",
     "aliases": [],
+    "wikiPage": "Traps#Wall Traps",
     "order": 188,
     "images": [
       "assets/enemies/acid_trap.png"
     ],
     "values": {
-      "hp": 87.5,
+      "hp": {
+        "min": 87.5,
+        "max": 87.5
+      },
       "height": {
         "min": 10,
         "max": 10
@@ -8455,31 +9573,38 @@
       "movement": [],
       "immunities": [
         "electric",
-        "fire",
-        "ice"
+        "ignition",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "sand"
       ],
       "corpse": [
         "plastic"
       ]
-    },
-    "wikiPage": "Traps#Wall Traps",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Hämis Nest",
     "aliases": [
       "Hamis Nest"
     ],
+    "wikiPage": "Hämis",
     "order": 189,
     "images": [
       "assets/enemies/hamis_nest.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
         "min": 19,
         "max": 21
@@ -8495,27 +9620,37 @@
         "nest"
       ],
       "movement": [],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "glue",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [],
       "corpse": [
         "nest"
       ]
-    },
-    "wikiPage": "Hämis",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Amppari Nest",
     "aliases": [
       "Amppari Hive"
     ],
+    "wikiPage": "Amppari",
     "order": 190,
     "images": [
       "assets/enemies/amppari_hive.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
         "min": 20,
         "max": 23
@@ -8532,27 +9667,37 @@
         "nest"
       ],
       "movement": [],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "glue",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [],
       "corpse": [
         "nest"
       ]
-    },
-    "wikiPage": "Amppari",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Firefly Nest",
     "aliases": [
       "Firefly Hive"
     ],
+    "wikiPage": "Tulikärpänen",
     "order": 191,
     "images": [
       "assets/enemies/firefly_hive.gif"
     ],
     "values": {
-      "hp": 125,
+      "hp": {
+        "min": 125,
+        "max": 125
+      },
       "height": {
         "min": 28,
         "max": 30
@@ -8567,17 +9712,24 @@
         "nest"
       ],
       "movement": [],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "glue",
+        "ignition",
+        "kinetic hits",
+        "resurrection",
+        "suffocation"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "lava"
       ],
       "corpse": [
         "nest"
       ]
-    },
-    "wikiPage": "Tulikärpänen",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Kolmisilmän apuri",
@@ -8586,12 +9738,16 @@
       "Kolmisilma Minion",
       "Kolmisilman apuri"
     ],
+    "wikiPage": "Kolmisilmä",
     "order": 192,
     "images": [
       "assets/enemies/kolmisilman_apuri.gif"
     ],
     "values": {
-      "hp": 200,
+      "hp": {
+        "min": 200,
+        "max": 200
+      },
       "height": {
         "min": 9,
         "max": 12
@@ -8610,18 +9766,21 @@
       ],
       "immunities": [
         "fire",
+        "glue",
+        "ignition",
         "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "slimy meat"
       ]
-    },
-    "wikiPage": "Kolmisilmä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Äitilimanuljaska",
@@ -8630,12 +9789,16 @@
       "Aitilimanuljaska",
       "Pyramid Boss Minion"
     ],
+    "wikiPage": "Kolmisilmän koipi",
     "order": 193,
     "images": [
       "assets/enemies/guardian_slime.gif"
     ],
     "values": {
-      "hp": 142.5,
+      "hp": {
+        "min": 142.5,
+        "max": 142.5
+      },
       "height": {
         "min": 13,
         "max": 15
@@ -8655,28 +9818,33 @@
         "fly"
       ],
       "immunities": [],
-      "gold": 50,
+      "gold": {
+        "min": 50,
+        "max": 50
+      },
       "bleeds": [
         "toxic sludge"
       ],
       "corpse": [
         "green slimy meat"
       ]
-    },
-    "wikiPage": "Kolmisilmän koipi",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Innocent Spirit",
     "aliases": [
       "Deer Boss ghost"
     ],
+    "wikiPage": "Tapion vasalli",
     "order": 194,
     "images": [
       "assets/enemies/innocent_spirit.gif"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 500
+      },
       "height": {
         "min": 8,
         "max": 8
@@ -8696,8 +9864,11 @@
         "electric",
         "explosion",
         "fire",
+        "glue",
         "holy",
         "ice",
+        "ignition",
+        "kinetic hits",
         "melee",
         "projectile",
         "resurrection",
@@ -8705,16 +9876,17 @@
         "suffocation",
         "venomous curse"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "magical liquid"
       ],
       "corpse": [
         "spark"
       ]
-    },
-    "wikiPage": "Tapion vasalli",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Myrkkynääpikkä",
@@ -8724,12 +9896,16 @@
       "small yellow fungus",
       "small yellow mushroom"
     ],
+    "wikiPage": "Myrkkynääpikkä",
     "order": 195,
     "images": [
       "assets/enemies/funeral_bell.gif"
     ],
     "values": {
-      "hp": 40,
+      "hp": {
+        "min": 40,
+        "max": 40
+      },
       "height": {
         "min": 10,
         "max": 12
@@ -8746,17 +9922,20 @@
       "movement": [
         "walk"
       ],
-      "immunities": [],
-      "gold": 0,
+      "immunities": [
+        "suffocation"
+      ],
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "fungus blood"
       ],
       "corpse": [
         "weird fungus"
       ]
-    },
-    "wikiPage": "Myrkkynääpikkä",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Houre",
@@ -8765,12 +9944,16 @@
       "Amoeba",
       "Tick"
     ],
+    "wikiPage": "Houre",
     "order": 196,
     "images": [
       "assets/enemies/houre.gif"
     ],
     "values": {
-      "hp": 500,
+      "hp": {
+        "min": 500,
+        "max": 500
+      },
       "height": {
         "min": 38,
         "max": 39
@@ -8795,34 +9978,43 @@
         "electric",
         "explosion",
         "fire",
+        "glue",
         "holy",
         "ice",
+        "ignition",
+        "kinetic hits",
         "melee",
         "projectile",
-        "slice"
+        "slice",
+        "suffocation"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "worm blood"
       ],
       "corpse": [
         "worm meat"
       ]
-    },
-    "wikiPage": "Houre",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Wall Eye",
     "aliases": [
       "Meat Realm Eye"
     ],
+    "wikiPage": "Meat Realm",
     "order": 197,
     "images": [
       "assets/enemies/wall_eye.gif"
     ],
     "values": {
-      "hp": 12.5,
+      "hp": {
+        "min": 12.5,
+        "max": 12.5
+      },
       "height": {
         "min": 5,
         "max": 13
@@ -8838,30 +10030,41 @@
       ],
       "movement": [],
       "immunities": [
+        "electric stun",
+        "freeze stun",
+        "glue",
+        "ignition",
         "polymorph",
         "projectile",
-        "suffocation"
+        "resurrection",
+        "suffocation",
+        "venomous curse"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": []
-    },
-    "wikiPage": "Meat Realm",
-    "wikiNotes": {}
+    }
   },
   {
     "name": "Wall Mouth",
     "aliases": [
       "Meat Realm Mouth"
     ],
+    "wikiPage": "Meat Realm",
     "order": 198,
     "images": [
       "assets/enemies/wall_mouth.gif"
     ],
     "values": {
-      "hp": 12.5,
+      "hp": {
+        "min": 12.5,
+        "max": 12.5
+      },
       "height": {
         "min": 6,
         "max": 13
@@ -8877,17 +10080,24 @@
       ],
       "movement": [],
       "immunities": [
+        "electric stun",
+        "freeze stun",
+        "glue",
+        "ignition",
         "polymorph",
         "projectile",
-        "suffocation"
+        "resurrection",
+        "suffocation",
+        "venomous curse"
       ],
-      "gold": 0,
+      "gold": {
+        "min": 0,
+        "max": 0
+      },
       "bleeds": [
         "blood"
       ],
       "corpse": []
-    },
-    "wikiPage": "Meat Realm",
-    "wikiNotes": {}
+    }
   }
 ]

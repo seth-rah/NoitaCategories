@@ -5,7 +5,7 @@ import { SORTABLE_COLUMNS, sortEnemies } from '../domain/sort.js';
 import { wikiUrl } from '../domain/wiki.js';
 import { cycleSort } from '../state/actions.js';
 import { h, replaceChildren } from './dom.js';
-/** @import { AppState, Category, Enemy, Sort } from '../domain/types.js' */
+/** @import { AppState, Enemy, Sort } from '../domain/types.js' */
 /** @import { Store } from './store.js' */
 
 const SPRITE_SIZE = 48;
@@ -147,28 +147,6 @@ function spriteOf(enemy) {
 }
 
 /**
- * A "?" that reveals what the Noita wiki states where it differs from noitadle.
- * @param {Category} category
- * @param {string | undefined} note
- * @returns {HTMLButtonElement | null}
- */
-function wikiNoteButton(category, note) {
-  if (note === undefined) {
-    return null;
-  }
-  return h(
-    'button',
-    {
-      type: 'button',
-      class: 'wiki-note',
-      'aria-label': `What the Noita wiki says about ${category.label}`,
-      dataset: { tooltip: note },
-    },
-    '?',
-  );
-}
-
-/**
  * @param {Enemy} enemy
  * @returns {{ row: HTMLElement, cells: HTMLElement[] }}
  */
@@ -178,7 +156,6 @@ function createRow(enemy) {
       'div',
       { class: 'cell value', role: 'cell', dataset: { label: category.label } },
       h('span', { class: 'value-text' }, formatValue(category, enemy.values[category.key])),
-      wikiNoteButton(category, enemy.wikiNotes[category.key]),
     ),
   );
   const row = h(

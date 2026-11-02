@@ -15,11 +15,11 @@ export const SORTABLE_COLUMNS = Object.freeze([
   ...CATEGORIES.map(({ key, label }) => Object.freeze({ key, label })),
 ]);
 
-/** @typedef {number | string | readonly number[] | null} SortValue  `null` (unknown) always sorts last. */
+/** @typedef {string | readonly number[] | null} SortValue  `null` (unknown) always sorts last. */
 
 /**
- * Orders enemies by one column. Numbers compare numerically, heights by their lowest
- * value (then their highest), and lists by their displayed text, with empty lists first.
+ * Orders enemies by one column. HP, Height and Gold compare by their lowest value, then
+ * their highest; lists compare by their displayed text, with empty lists first.
  * Unknown values stay last in both directions, and ties keep noitadle's order.
  * @param {readonly Enemy[]} enemies
  * @param {Sort | null} sort  `null` keeps the given order.
@@ -55,8 +55,8 @@ function sortValueFor(key) {
   }
   return (enemy) => {
     const value = enemy.values[category.key] ?? null;
-    if (value === null || typeof value === 'number') {
-      return value;
+    if (value === null) {
+      return null;
     }
     if (isRange(value)) {
       return [value.min, value.max];
@@ -71,9 +71,6 @@ function sortValueFor(key) {
  * @returns {number}
  */
 function compare(x, y) {
-  if (typeof x === 'number' && typeof y === 'number') {
-    return x - y;
-  }
   if (Array.isArray(x) && Array.isArray(y)) {
     return x[0] - y[0] || x[1] - y[1];
   }

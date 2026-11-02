@@ -34,6 +34,12 @@ describe('Disclaimer', () => {
     assert.equal(hasAcceptedDisclaimer(storage), true);
   });
 
+  it('visitors who accepted an earlier version of the disclaimer are asked again', () => {
+    const storage = browserMemory();
+    storage.setItem('noita-categories:disclaimer-accepted', '1');
+    assert.equal(hasAcceptedDisclaimer(storage), false);
+  });
+
   it('when the browser blocks storage, the disclaimer is shown again instead of failing', () => {
     const storage = blockedStorage();
     assert.equal(recordDisclaimerAcceptance(storage), false);

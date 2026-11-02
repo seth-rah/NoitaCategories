@@ -1,9 +1,15 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { NONE, categoryByKey } from '../../site/src/domain/categories.js';
-import { applyFilters, optionsFor, selectedBlocks } from '../../site/src/domain/filter.js';
+import {
+  applyFilters,
+  matchStrength,
+  optionsFor,
+  selectedBlocks,
+} from '../../site/src/domain/filter.js';
 import { INITIAL_STATE, toggleBlockValue } from '../../site/src/state/actions.js';
-import { ENEMIES, names } from './fixtures.js';
+import { ENEMIES, HAULIKKOHIISI, SUHISEVA_LAMMAS, names } from './fixtures.js';
+/** @import { Enemy } from '../../site/src/domain/types.js' */
 
 /**
  * @param {string} key
@@ -19,7 +25,23 @@ function offered(key) {
   return optionsFor(categoryByKey(key), ENEMIES).map((option) => option.value);
 }
 
+/**
+ * @param {Enemy} enemy
+ * @param {string} key
+ * @param {string[]} selected
+ */
+function highlight(enemy, key, selected) {
+  return matchStrength(categoryByKey(key), enemy.values[key], new Set(selected));
+}
+
 describe('Block filters', () => {
+  it("a block match is green only when the selection is exactly the enemy's values", () => {
+    assert.equal(highlight(HAULIKKOHIISI, 'attacks', ['melee']), 'partial');
+    assert.equal(highlight(HAULIKKOHIISI, 'attacks', ['melee', 'projectile']), 'full');
+    assert.equal(highlight(HAULIKKOHIISI, 'faction', ['orcs']), 'full');
+    assert.equal(highlight(SUHISEVA_LAMMAS, 'attacks', [NONE]), 'full');
+  });
+
   it('selecting several attacks shows only enemies with all of them', () => {
     assert.deepEqual(withBlocks('attacks', ['melee', 'projectile']), ['Haulikkohiisi']);
   });

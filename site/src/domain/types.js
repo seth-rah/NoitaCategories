@@ -1,6 +1,8 @@
 /**
- * @typedef {'decimal' | 'integer' | 'range' | 'allOf' | 'oneOf'} Kind
- * How a category's values are parsed, filtered and edited.
+ * @typedef {'decimal' | 'integer' | 'allOf' | 'oneOf'} Kind
+ * How a category's values are filtered and edited. `decimal` and `integer` are numbers
+ * (one decimal place or whole) compared by exactly / range / more than / less than;
+ * `allOf` and `oneOf` are block lists taking many values or a single one.
  */
 
 /**
@@ -11,12 +13,16 @@
  */
 
 /**
+ * A number that can vary, e.g. HP 25-50; a fixed number has `min` equal to `max`.
  * @typedef {object} Range
  * @property {number} min
  * @property {number} max
  */
 
-/** @typedef {number | Range | string[] | null} Value  `null` means unknown. */
+/**
+ * `Range` for HP, Height and Gold, a list for block categories, `null` when unknown.
+ * @typedef {Range | string[] | null} Value
+ */
 
 /**
  * @typedef {object} Enemy
@@ -24,26 +30,21 @@
  * @property {string[]} aliases
  * @property {string | null} wikiPage    Noita wiki page title, with `#Section` when the enemy
  *   has its own section; `null` when the wiki has no page for it.
- * @property {Readonly<Record<string, string>>} wikiNotes  Keyed by category key: what the
- *   Noita wiki states where it differs from noitadle.
  * @property {number} order                  noitadle's display order.
  * @property {string[]} images               Sprite paths relative to the site root.
  * @property {Record<string, Value>} values  Keyed by {@link Category.key}.
  */
 
 /**
- * @typedef {object} NumberFilter
- * @property {'=' | '>' | '<'} op
- * @property {number} value
- */
-
-/**
- * @typedef {{ mode: 'exact', value: number } | { mode: 'range', from: number, to: number }} RangeFilter
+ * Exactly, more than or less than a value, or a lowest-highest range, all inclusive of
+ * the bounds the user typed.
+ * @typedef {{ mode: 'exact' | 'above' | 'below', value: number }
+ *   | { mode: 'range', from: number, to: number }} NumberFilter
  */
 
 /** @typedef {ReadonlySet<string>} BlockFilter */
 
-/** @typedef {NumberFilter | RangeFilter | BlockFilter} Filter */
+/** @typedef {NumberFilter | BlockFilter} Filter */
 
 /** @typedef {Readonly<Record<string, Filter>>} FilterState  Absent key = inactive. */
 
@@ -56,9 +57,9 @@
  */
 
 /**
- * How strongly a shown enemy's value satisfies its category's filter:
- * `full` is an exact answer, `partial` an answer that only covers the filter
- * (e.g. a 12-18 height for an exact height of 14).
+ * How strongly a shown enemy's value satisfies its category's filter: `full` when the
+ * filter equals the enemy's value exactly (e.g. exactly 10 for gold 10, range 25-50 for
+ * HP 25-50, or every one of its attacks), `partial` for any other match.
  * @typedef {'full' | 'partial'} MatchStrength
  */
 

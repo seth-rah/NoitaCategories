@@ -5,7 +5,6 @@ export const KIND = Object.freeze(
   /** @type {const} */ ({
     DECIMAL: 'decimal',
     INTEGER: 'integer',
-    RANGE: 'range',
     ALL_OF: 'allOf',
     ONE_OF: 'oneOf',
   }),
@@ -25,7 +24,7 @@ export const UNKNOWN = '?';
 export const CATEGORIES = Object.freeze(
   [
     { key: 'hp', label: 'HP', kind: KIND.DECIMAL },
-    { key: 'height', label: 'Height px', kind: KIND.RANGE },
+    { key: 'height', label: 'Height px', kind: KIND.INTEGER },
     { key: 'attacks', label: 'Attacks', kind: KIND.ALL_OF },
     { key: 'spawn', label: 'Spawn', kind: KIND.ALL_OF },
     { key: 'faction', label: 'Faction', kind: KIND.ONE_OF },

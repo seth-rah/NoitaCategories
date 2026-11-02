@@ -2,7 +2,7 @@ import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { CATEGORIES, categoryByKey } from '../../site/src/domain/categories.js';
 import { formatValue, summarizeFilter } from '../../site/src/domain/format.js';
-import { PIKKUMATO, SUHISEVA_LAMMAS, UNKNOWN_ENEMY } from './fixtures.js';
+import { PIKKUMATO, SUHISEVA_LAMMAS, UNKNOWN_ENEMY, fixed } from './fixtures.js';
 /** @import { Enemy } from '../../site/src/domain/types.js' */
 
 /** @param {Enemy} enemy */
@@ -22,6 +22,12 @@ describe('Displayed values', () => {
     assert.equal(formatValue(categoryByKey('height'), PIKKUMATO.values.height), '8');
   });
 
+  it('shows HP and Gold ranges as noitadle does', () => {
+    assert.equal(formatValue(categoryByKey('hp'), { min: 18.75, max: 112.5 }), '18.75-112.5');
+    assert.equal(formatValue(categoryByKey('gold'), { min: 10, max: 20 }), '10-20');
+    assert.equal(formatValue(categoryByKey('gold'), fixed(0)), '0');
+  });
+
   it('shows burrow movement as "burrow / phasing"', () => {
     assert.equal(
       formatValue(categoryByKey('movement'), PIKKUMATO.values.movement),
@@ -34,9 +40,10 @@ describe('Displayed values', () => {
   });
 
   it('summarizes each active filter in the sidebar', () => {
-    assert.equal(summarizeFilter(categoryByKey('gold'), { op: '>', value: 10 }), '> 10');
-    assert.equal(summarizeFilter(categoryByKey('hp'), { op: '=', value: 2.5 }), '= 2.5');
-    assert.equal(summarizeFilter(categoryByKey('height'), { mode: 'exact', value: 12 }), '12');
+    assert.equal(summarizeFilter(categoryByKey('gold'), { mode: 'above', value: 10 }), '> 10');
+    assert.equal(summarizeFilter(categoryByKey('gold'), { mode: 'below', value: 5 }), '< 5');
+    assert.equal(summarizeFilter(categoryByKey('hp'), { mode: 'exact', value: 2.5 }), '= 2.5');
+    assert.equal(summarizeFilter(categoryByKey('height'), { mode: 'exact', value: 12 }), '= 12');
     assert.equal(
       summarizeFilter(categoryByKey('height'), { mode: 'range', from: 12, to: 18 }),
       '12–18',

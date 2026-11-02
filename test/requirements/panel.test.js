@@ -30,7 +30,7 @@ describe('Category panel', () => {
     let state = toggleCategory(INITIAL_STATE, 'immunities');
     state = toggleBlockValue(state, 'immunities', 'fire');
     state = toggleBlockValue(state, 'immunities', 'melee');
-    state = setFilter(state, 'gold', { op: '>', value: 10 });
+    state = setFilter(state, 'gold', { mode: 'above', value: 10 });
 
     assert.equal(state.openKey, 'immunities');
   });

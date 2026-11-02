@@ -1,6 +1,6 @@
 import { CATEGORIES, KIND, NONE, isBlockKind } from './categories.js';
 import { isRange } from './values.js';
-/** @import { BlockFilter, Category, Enemy, Filter, FilterState, MatchStrength, NumberFilter, Range, RangeFilter, Value } from './types.js' */
+/** @import { BlockFilter, Category, Enemy, Filter, FilterState, MatchStrength, NumberFilter, Range, Value } from './types.js' */
 
 /** @type {BlockFilter} */
 const NO_BLOCKS = new Set();
@@ -55,21 +55,18 @@ export function applyFilters(enemies, state) {
 }
 
 /**
- * How strongly a value that passes its filter matches it. An exact height that
- * only falls inside an enemy's height range is partial; everything else is full.
+ * How strongly a value that passes its filter matches it: full only when the filter
+ * equals the enemy's value exactly, partial otherwise.
  * @param {Category} category
  * @param {Value} value  A value that satisfies `filter`.
  * @param {Filter} filter
  * @returns {MatchStrength}
  */
 export function matchStrength(category, value, filter) {
-  const range = /** @type {RangeFilter} */ (filter);
-  const isPartialHeight =
-    category.kind === KIND.RANGE &&
-    range.mode === 'exact' &&
-    isRange(value) &&
-    value.min !== value.max;
-  return isPartialHeight ? 'partial' : 'full';
+  const exact = isBlockKind(category)
+    ? Array.isArray(value) && isExactSelection(category, value, /** @type {BlockFilter} */ (filter))
+    : isRange(value) && isExactNumber(value, /** @type {NumberFilter} */ (filter));
+  return exact ? 'full' : 'partial';
 }
 
 /**
@@ -108,56 +105,60 @@ export function optionsFor(category, enemies) {
  * @returns {boolean}
  */
 function satisfies(category, value, filter) {
-  if (value === null) {
-    return false;
-  }
-  if (category.kind === KIND.RANGE) {
-    return isRange(value) && satisfiesRange(value, /** @type {RangeFilter} */ (filter));
-  }
   if (isBlockKind(category)) {
     return Array.isArray(value) && satisfiesBlocks(value, /** @type {BlockFilter} */ (filter));
   }
-  return typeof value === 'number' && satisfiesNumber(value, /** @type {NumberFilter} */ (filter));
+  return isRange(value) && satisfiesNumber(value, /** @type {NumberFilter} */ (filter));
 }
 
 /**
- * @param {number} value
+ * Whether the enemy's value can satisfy the filter: exactly when the value lies within
+ * its range, more or less than when any part of its range does, and a range when its
+ * whole range fits inside the bounds. All bounds are inclusive.
+ * @param {Range} range
  * @param {NumberFilter} filter
  * @returns {boolean}
  */
-function satisfiesNumber(value, filter) {
-  const actual = toDisplayedPrecision(value);
-  const target = toDisplayedPrecision(filter.value);
-  switch (filter.op) {
-    case '=':
-      return actual === target;
-    case '>':
-      return actual > target;
-    case '<':
-      return actual < target;
+function satisfiesNumber(range, filter) {
+  const min = scaled(range.min);
+  const max = scaled(range.max);
+  switch (filter.mode) {
+    case 'exact':
+      return min <= scaled(filter.value) && scaled(filter.value) <= max;
+    case 'above':
+      return max > scaled(filter.value);
+    case 'below':
+      return min < scaled(filter.value);
+    case 'range':
+      return scaled(filter.from) <= min && max <= scaled(filter.to);
+  }
+}
+
+/**
+ * @param {Range} range
+ * @param {NumberFilter} filter
+ * @returns {boolean} Whether the filter names exactly the enemy's value.
+ */
+function isExactNumber(range, filter) {
+  const min = scaled(range.min);
+  const max = scaled(range.max);
+  switch (filter.mode) {
+    case 'exact':
+      return min === scaled(filter.value) && max === scaled(filter.value);
+    case 'range':
+      return min === scaled(filter.from) && max === scaled(filter.to);
+    case 'above':
+    case 'below':
+      return false;
   }
 }
 
 /**
  * @param {number} value
- * @returns {number} The value scaled to a whole number at the precision noitadle displays.
+ * @returns {number} The value as a whole number at the precision noitadle displays.
  */
-function toDisplayedPrecision(value) {
+function scaled(value) {
   return Math.round(value * 10 ** DISPLAYED_DECIMAL_PLACES);
-}
-
-/**
- * Inclusive at both ends. An exact height must lie within the enemy's range; a
- * filter range (lowest to highest) must contain the enemy's whole range.
- * @param {Range} range
- * @param {RangeFilter} filter
- * @returns {boolean}
- */
-function satisfiesRange(range, filter) {
-  if (filter.mode === 'exact') {
-    return range.min <= filter.value && filter.value <= range.max;
-  }
-  return filter.from <= range.min && range.max <= filter.to;
 }
 
 /**
@@ -171,4 +172,20 @@ function satisfiesBlocks(values, selected) {
   return [...selected].every((item) =>
     item === NONE ? values.length === 0 : values.includes(item),
   );
+}
+
+/**
+ * @param {Category} category
+ * @param {string[]} values
+ * @param {BlockFilter} selected
+ * @returns {boolean} Whether the selection is exactly the enemy's values.
+ */
+function isExactSelection(category, values, selected) {
+  if (category.kind === KIND.ONE_OF) {
+    return true;
+  }
+  if (selected.has(NONE)) {
+    return selected.size === 1 && values.length === 0;
+  }
+  return selected.size === values.length && values.every((value) => selected.has(value));
 }

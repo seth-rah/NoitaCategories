@@ -1,8 +1,10 @@
-import { KIND, NONE, UNKNOWN, isBlockKind } from './categories.js';
-import { isRange } from './values.js';
-/** @import { BlockFilter, Category, Filter, NumberFilter, RangeFilter, Value } from './types.js' */
+import { NONE, UNKNOWN, isBlockKind } from './categories.js';
+/** @import { BlockFilter, Category, Filter, NumberFilter, Value } from './types.js' */
 
 const LIST_SEPARATOR = ', ';
+
+/** @type {Readonly<Record<'exact' | 'above' | 'below', string>>} */
+const COMPARISON_SYMBOLS = Object.freeze({ exact: '=', above: '>', below: '<' });
 
 /**
  * Item labels that noitadle words differently from its raw data, per category.
@@ -37,17 +39,14 @@ export function formatValue(category, value) {
       ? NONE
       : value.map((item) => formatItem(category, item)).join(LIST_SEPARATOR);
   }
-  if (isRange(value)) {
-    return value.min === value.max ? String(value.min) : `${value.min}-${value.max}`;
-  }
-  return String(value);
+  return value.min === value.max ? String(value.min) : `${value.min}-${value.max}`;
 }
 
 /**
  * A compact description of an active filter, for the sidebar.
  * @param {Category} category
  * @param {Filter} filter
- * @returns {string} e.g. `'> 10'`, `'12–18'`, `'blood +2'`.
+ * @returns {string} e.g. `'= 10'`, `'> 10'`, `'12–18'`, `'blood +2'`.
  */
 export function summarizeFilter(category, filter) {
   if (isBlockKind(category)) {
@@ -55,10 +54,8 @@ export function summarizeFilter(category, filter) {
     const label = first === undefined ? '' : formatItem(category, first);
     return rest.length > 0 ? `${label} +${rest.length}` : label;
   }
-  if (category.kind === KIND.RANGE) {
-    const range = /** @type {RangeFilter} */ (filter);
-    return range.mode === 'exact' ? String(range.value) : `${range.from}–${range.to}`;
-  }
   const number = /** @type {NumberFilter} */ (filter);
-  return `${number.op} ${number.value}`;
+  return number.mode === 'range'
+    ? `${number.from}–${number.to}`
+    : `${COMPARISON_SYMBOLS[number.mode]} ${number.value}`;
 }
